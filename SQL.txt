@@ -1,0 +1,153 @@
+
+
+CREATE VIEW accidents_culled AS
+    SELECT *
+      FROM accidents
+     WHERE (accident_year > 2004 AND 
+            accident_year < 2018);
+
+CREATE VIEW vehicles_culled AS
+    SELECT *
+      FROM vehicles
+     WHERE (accident_year > 2004 AND 
+            accident_year < 2018);
+
+CREATE VIEW casualties_culled AS
+    SELECT *
+      FROM casualties
+     WHERE (accident_year > 2004 AND 
+            accident_year < 2018);
+
+
+CREATE VIEW alg_data AS
+    SELECT casualties_culled.accident_index AS accident_index,
+           casualties_culled.vehicle_reference AS vehicle_reference,
+           casualties_culled.casualty_reference AS casualty_reference,
+           casualties_culled.casualty_class AS casualty_class,
+           casualties_culled.sex_of_casualty AS sex_of_casualty,
+           casualties_culled.age_band_of_casualty AS age_band_of_casualty,
+           casualties_culled.casualty_severity AS casualty_severity,
+           casualties_culled.casualty_type AS casualty_type,
+           casualties_culled.casualty_home_area_type AS casualty_home_area_type,
+           accidents_culled.accident_severity AS accident_severity,
+           accidents_culled.day_of_week AS day_of_week,
+           accidents_culled.time AS time,
+           accidents_culled.road_type AS road_type,
+           accidents_culled.speed_limit AS speed_limit,
+           accidents_culled.junction_detail AS junction_detail,
+           accidents_culled.junction_control AS junction_control,
+           accidents_culled.pedestrian_crossing_human_control AS pedestrian_crossing_human_control,
+           accidents_culled.pedestrian_crossing_physical_facilities AS pedestrian_crossing_physical_facilities,
+           accidents_culled.light_conditions AS light_conditions,
+           accidents_culled.weather_conditions AS weather_conditions,
+           accidents_culled.road_surface_conditions AS road_surface_conditions,
+           accidents_culled.special_conditions_at_site AS special_conditions_at_site,
+           accidents_culled.carriageway_hazards AS carriageway_hazards,
+           accidents_culled.urban_or_rural_area AS urban_or_rural_area,
+           vehicles_culled.vehicle_type AS vehicle_type,
+           vehicles_culled.vehicle_manoeuvre AS vehicle_manoeuvre,
+           vehicles_culled.vehicle_location_restricted_lane AS vehicle_location_restricted_lane,
+           vehicles_culled.junction_location AS junction_location,
+           vehicles_culled.hit_object_in_carriageway AS hit_object_in_carriageway,
+           vehicles_culled.hit_object_off_carriageway AS hit_object_off_carriageway,
+           vehicles_culled.first_point_of_impact AS first_point_of_impact,
+           vehicles_culled.journey_purpose_of_driver AS journey_purpose_of_driver,
+           vehicles_culled.sex_of_driver AS sex_of_driver,
+           vehicles_culled.age_band_of_driver AS age_band_of_driver,
+           vehicles_culled.age_of_vehicle AS age_of_vehicle,
+           vehicles_culled.driver_home_area_type AS driver_home_area_type
+      FROM casualties_culled
+           JOIN
+           accidents_culled ON casualties_culled.accident_index = accidents_culled.accident_index
+           JOIN
+           vehicles_culled ON casualties_culled.accident_index = vehicles_culled.accident_index AND 
+                              casualties_culled.vehicle_reference = vehicles_culled.vehicle_reference;
+
+At this point I exported the view as a csv file and added it to a new db alg_data.sqlite and cleaned whith the following 
+
+
+UPDATE alg_data
+   SET journey_purpose_of_driver = -1
+ WHERE journey_purpose_of_driver = 6;
+
+UPDATE alg_data
+   SET road_type = -1
+ WHERE road_type = 9;
+
+UPDATE alg_data
+   SET junction_control = -1
+ WHERE junction_control = 9;
+
+UPDATE alg_data
+   SET pedestrian_crossing_human_control = -1
+ WHERE pedestrian_crossing_human_control = 9;
+
+UPDATE alg_data
+   SET pedestrian_crossing_physical_facilities = -1
+ WHERE pedestrian_crossing_physical_facilities = 9;
+
+UPDATE alg_data
+   SET weather_conditions = -1
+ WHERE weather_conditions = 9;
+
+UPDATE alg_data
+   SET road_surface_conditions = -1
+ WHERE road_surface_conditions = 9;
+
+UPDATE alg_data
+   SET special_conditions_at_site = -1
+ WHERE special_conditions_at_site = 9;
+
+UPDATE alg_data
+   SET carriageway_hazards = -1
+ WHERE carriageway_hazards = 9;
+
+UPDATE alg_data
+   SET junction_location = -1
+ WHERE junction_location = 9;
+
+UPDATE alg_data
+   SET sex_of_casualty = 3
+ WHERE sex_of_casualty = 9;
+
+UPDATE alg_data
+   SET journey_purpose_of_driver = -1
+ WHERE journey_purpose_of_driver = 15;
+
+UPDATE alg_data
+   SET speed_limit = -1
+ WHERE speed_limit = 99;
+
+UPDATE alg_data
+   SET junction_detail = -1
+ WHERE junction_detail = 99;
+
+UPDATE alg_data
+   SET vehicle_type = -1
+ WHERE vehicle_type = 99;
+
+UPDATE alg_data
+   SET vehicle_manoeuvre = -1
+ WHERE vehicle_manoeuvre = 99;
+
+UPDATE alg_data
+   SET vehicle_location_restricted_lane = -1
+ WHERE vehicle_location_restricted_lane = 99;
+
+UPDATE alg_data
+   SET hit_object_in_carriageway = -1
+ WHERE hit_object_in_carriageway = 99;
+
+UPDATE alg_data
+   SET hit_object_off_carriageway = -1
+ WHERE hit_object_off_carriageway = 99;
+
+
+SELECT *
+  FROM alg_data
+ WHERE id IN (
+           SELECT id
+             FROM alg_data
+            ORDER BY RANDOM() 
+            LIMIT 1000
+       )
