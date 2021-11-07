@@ -5,7 +5,7 @@ from numpy import ndarray
 
 
 class TreeNode:
-    def __init__(self, index: int, bin_index_vals: Set[int], verbose_name: str):
+    def __init__(self, index: int, bin_index_vals: Set[int], verbose_name: str, tree):
         """
         :param index: the index of this node in the parent array
         :param bin_index_vals: the set of bits in the 256 bit string that corresponds to this node
@@ -15,6 +15,7 @@ class TreeNode:
         This bit array can be ANDed later on to see if typle x contains this item
         """
         self.count = 0
+        self.tree = tree
         self.index = index
         self.verbose_name = verbose_name
         self.bin_index_vals = bin_index_vals
@@ -31,12 +32,15 @@ class TreeNode:
         self.bin_index_vals.update(indicies)
         self.update_bit_string()
 
+    def add_count(self, delta):
+        self.count += delta
+
 
 class Tree:
     def __init__(self, branch_factor: int, verbose_name: str, levels: int = 2):
         self.branching_factor = branch_factor
         self.node_list: List[Optional[TreeNode]] = [None] * ((branch_factor ** (levels-1)) + 1)
-        self.node_list[0] = TreeNode(index=0, bin_index_vals=set(), verbose_name="ALL" + verbose_name)
+        self.node_list[0] = TreeNode(index=0, bin_index_vals=set(), verbose_name="ALL" + verbose_name, tree=self)
         self.next_node = 1
 
     def remove_node(self, to_remove: TreeNode):
@@ -46,7 +50,7 @@ class Tree:
         return self.set_node(self.next_node, bin_index_vals, verbose_name)
 
     def set_node(self, index: int, bin_index_vals: Set[int], verbose_name: str) -> TreeNode:
-        new_node = TreeNode(index, bin_index_vals, verbose_name)
+        new_node = TreeNode(index, bin_index_vals, verbose_name, tree=self)
         self.node_list[index] = new_node
         # update parent binary lists
         curr = self.get_parent_node(new_node)
