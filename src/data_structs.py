@@ -5,6 +5,14 @@ import numpy as np
 
 class TreeNode:
     def __init__(self, index: int, bin_index_vals: Set[int], verbose_name: str):
+        """
+        :param index: the index of this node in the parent array
+        :param bin_index_vals: the set of bits in the 256 bit string that corresponds to this node
+        :param verbose_name: the human-friendly name
+        sets bit_array to essentially a bitstring 000...1...0 where there is a 1 at each index
+        in bin_index_vals.
+        This bit array can be ANDed later on to see if typle x contains this item
+        """
         self.count = 0
         self.index = index
         self.verbose_name = verbose_name
