@@ -1,3 +1,4 @@
+import time
 from typing import List
 
 import numpy as np
@@ -35,7 +36,6 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
         while curr:
             curr.add_count(sup)
             curr = curr.tree.get_parent_node(curr)
-        print(sup)
 
     ### Pre-part two -- create a list containing every ALL_x item
     all_alls = np.empty(len(trees), dtype=object)
@@ -53,7 +53,7 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
                     # TODO prune node
                     pass
                 else:
-                    print(f'{node.verbose_name} is frequent')
+                    print(f'{node.verbose_name} is frequent, sup: {node.count}')
                     itemset = np.copy(all_alls)
                     itemset[i] = node
                     L1.append(itemset)
@@ -61,7 +61,6 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
 
 
 
-a = np.load("./test.npy")
+a = np.load("./data_uint.npy")
 trees, bit_index_table = create_trees()
-print(a)
 algorithm_one(a, trees, bit_index_table)

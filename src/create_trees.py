@@ -21,7 +21,7 @@ def create_trees() -> Tuple[List[Tree], ndarray]:
         curr: str = ""
         curr_tuples = []
         for i, row in enumerate(reader):
-            print(f"{i} : {row[1]}")
+            # print(f"{i} : {row[1]}")
             # TODO create special trees for number/time of day
             if curr != row[1]:  # if we're already looking at that data type
                 # finish old tree
