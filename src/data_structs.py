@@ -67,6 +67,9 @@ class Tree:
             return self.node_list[parent_index]
         return None
 
+    def get_root_node(self):
+        return self.node_list[0]
+
     def get_children(self, curr: TreeNode) -> List[TreeNode]:
         first_child_index = (curr.index * self.branching_factor) + 1
         last_child_index = (curr.index * self.branching_factor) + (self.branching_factor - 1)

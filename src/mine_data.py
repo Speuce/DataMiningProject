@@ -6,8 +6,11 @@ from numpy import ndarray
 from src.create_trees import create_trees
 from src.data_structs import Tree, TreeNode
 
+MINSUP = 1
+
 
 def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
+    ### PART ONE -- Compute individual item counts
     curr_slice_num = -1
     curr_slice = None
     i: int
@@ -33,6 +36,28 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
             curr.add_count(sup)
             curr = curr.tree.get_parent_node(curr)
         print(sup)
+
+    ### Pre-part two -- create a list containing every ALL_x item
+    all_alls = np.empty(len(trees), dtype=object)
+    tree: Tree
+    for i, tree in enumerate(trees):
+        all_alls[i] = tree.get_root_node()
+
+    ### PART TWO -- COMPUTE L1/PRUNE INFREQUENT NODES
+    L1 = []
+    tree: Tree
+    for i, tree in enumerate(trees):
+        for node in tree.all_nodes():
+            if node.index != 0:  # don't know if we should be pruning root nodes (ALL_x)
+                if node.count < MINSUP:
+                    # TODO prune node
+                    pass
+                else:
+                    print(f'{node.verbose_name} is frequent')
+                    itemset = np.copy(all_alls)
+                    itemset[i] = node
+                    L1.append(itemset)
+
 
 
 a = np.load("./test.npy")
