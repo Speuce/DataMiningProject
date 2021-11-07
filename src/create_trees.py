@@ -37,4 +37,3 @@ def create_trees() -> Tuple[List[Tree], ndarray]:
 
 
 trees, index = create_trees()
-print(trees)
