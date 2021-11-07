@@ -1,6 +1,7 @@
 from typing import List, Set, Optional, Tuple
 
 import numpy as np
+from numpy import ndarray
 
 
 class TreeNode:
@@ -41,10 +42,10 @@ class Tree:
     def remove_node(self, to_remove: TreeNode):
         pass
 
-    def add_node(self, bin_index_vals: Set[int], verbose_name: str):
-        self.set_node(self.next_node, bin_index_vals, verbose_name)
+    def add_node(self, bin_index_vals: Set[int], verbose_name: str) -> TreeNode:
+        return self.set_node(self.next_node, bin_index_vals, verbose_name)
 
-    def set_node(self, index: int, bin_index_vals: Set[int], verbose_name: str):
+    def set_node(self, index: int, bin_index_vals: Set[int], verbose_name: str) -> TreeNode:
         new_node = TreeNode(index, bin_index_vals, verbose_name)
         self.node_list[index] = new_node
         # update parent binary lists
@@ -54,6 +55,7 @@ class Tree:
             curr = self.get_parent_node(curr)
         if index >= self.next_node:
             self.next_node = index+1
+        return new_node
 
     def get_parent_node(self, curr: TreeNode) -> Optional[TreeNode]:
         parent_index = (curr.index - 1) // self.branching_factor
@@ -72,13 +74,16 @@ class Tree:
     def __str__(self):
         return self.node_list[0].verbose_name[3:] + " Tree"
 
+    def all_nodes(self) -> List[TreeNode]:
+        return [x for x in self.node_list if x]
 
-def create_basic_tree(values: List[Tuple[int, str]], verbose_name: str) -> Tree:
+
+def create_basic_tree(values: List[Tuple[int, str]], verbose_name: str, binary_index_table: ndarray) -> Tree:
     """
     Creates a very basic 2 level tree with 1 ALL_x node at the top,
     and all other nodes (indicated by the list of tuples provided) in the second level
     """
     the_tree = Tree(len(values), verbose_name)
     for i, (binary_index, name) in enumerate(values):
-        the_tree.add_node({binary_index}, verbose_name + "_" + name)
+        binary_index_table[binary_index] = the_tree.add_node({binary_index}, verbose_name + "_" + name)
     return the_tree
