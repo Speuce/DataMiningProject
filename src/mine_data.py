@@ -57,6 +57,7 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
                     itemset = np.copy(all_alls)
                     itemset[i] = node
                     L1.append(itemset)
+    # TODO run algo2
 
 
 
