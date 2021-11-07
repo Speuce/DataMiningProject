@@ -229,3 +229,4 @@ CE21,casualty_type,Goods vehicle (unknown weight) occupant
 CF1,casualty_home_area_type,Urban area
 CF2,casualty_home_area_type,Small town
 CF3,casualty_home_area_type,Rural
+END,END,END
