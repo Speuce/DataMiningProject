@@ -1,11 +1,10 @@
-import time
 from typing import List
 
 import numpy as np
 from numpy import ndarray
 
-from src.create_trees import create_trees
-from src.data_structs import Tree, TreeNode
+from create_trees import create_trees
+from data_structs import TreeNode, Tree
 
 MINSUP = 1
 
@@ -53,7 +52,7 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
                     # TODO prune node
                     pass
                 else:
-                    print(f'{node.verbose_name} is frequent, sup: {node.count}')
+                    print(f'{node.verbose_name}, sup: {node.count}')
                     itemset = np.copy(all_alls)
                     itemset[i] = node
                     L1.append(itemset)

@@ -1,10 +1,10 @@
 import csv
-from typing import List, Optional, Tuple
+from typing import List, Tuple
 
 import numpy as np
 from numpy import ndarray
 
-from src.data_structs import Tree, create_basic_tree
+from data_structs import Tree, create_basic_tree
 
 
 def create_trees() -> Tuple[List[Tree], ndarray]:
