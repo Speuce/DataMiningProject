@@ -60,6 +60,6 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
 
 
 
-a = np.load("./data_uint.npy")
+a = np.load("src/data_uint.npy")
 trees, bit_index_table = create_trees()
 algorithm_one(a, trees, bit_index_table)
