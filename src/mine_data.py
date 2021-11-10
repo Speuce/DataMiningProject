@@ -58,6 +58,21 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
                     L1.append(itemset)
     # TODO run algo2
 
+def get_rec_maf_seq(set_a, minsup, block_set, MAFS):
+    cand = generated_set(a) #we've already pruned infrequent nodes from the tree, so we don't have to check if the dimensions are individually frequent
+    freq = []#TODO remove all elements of cand that aren't frequent (how to check the frequencies?)
+    if len(freq) == 0:
+        #if for every set a' in MAFS a is not more specific than a' (double check)
+            #then, add a to MAFS
+    else:
+        for alpha in freq:
+            #get the set of all tuples c in the block_set where c.DA is more specific than alpha
+            sigma_blockset = [] #??? TODO
+            get_rec_maf_seq(alpha,minsup,sigma_blockset, MAFS)
+
+
+
+
 def generated_set(input_set):
     # first we get p(a)  , which is the last dimension that isn't an ALL.
     #The lowest p(a) can be is -1, but this gives the same behaviour as p(a) = 0, so we set p(a) = 0 as the minimum
