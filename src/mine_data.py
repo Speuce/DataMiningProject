@@ -52,14 +52,56 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
                     # TODO prune node
                     pass
                 else:
-                    print(f'{node.verbose_name}, sup: {node.count}')
+                    #print(f'{node.verbose_name}, sup: {node.count}')
                     itemset = np.copy(all_alls)
                     itemset[i] = node
                     L1.append(itemset)
     # TODO run algo2
 
+def get_rec_maf_seq(set_a, minsup, block_set, MAFS):
+    cand = generated_set(a) #we've already pruned infrequent nodes from the tree, so we don't have to check if the dimensions are individually frequent
+    freq = []#TODO remove all elements of cand that aren't frequent (how to check the frequencies?)
+    if len(freq) == 0:
+        #if for every set a' in MAFS a is not more specific than a' (double check)
+            #then, add a to MAFS
+    else:
+        for alpha in freq:
+            #get the set of all tuples c in the block_set where c.DA is more specific than alpha
+            sigma_blockset = [] #??? TODO
+            get_rec_maf_seq(alpha,minsup,sigma_blockset, MAFS)
 
 
-a = np.load("./data_uint.npy")
+
+
+def generated_set(input_set):
+    # first we get p(a)  , which is the last dimension that isn't an ALL.
+    #The lowest p(a) can be is -1, but this gives the same behaviour as p(a) = 0, so we set p(a) = 0 as the minimum
+    p = input_set.size-1
+    while(input_set[p].index == 0 and p > 0): #the node at p is an all category if its index (on the tree) is 0
+        p -= 1
+
+    #now we actually create gen(a)
+
+    gen = []
+    for i in range(p,input_set.size):
+	    gen = gen + down_set(input_set,i)
+    return gen
+
+def down_set(in_array, index):
+    #NOTE input is an array of tree nodes
+    old_node = in_array[index]
+    down_nodes = old_node.tree.get_children(old_node)
+    print(len(down_nodes))
+    if len(down_nodes) == 0:
+	    return []
+    else:
+        down_set = []
+	    #create a set for every value in down(delta(i)), where delta(i) in a is replaced
+	    #with that value from down(delta(i))
+        for down_node in down_nodes:
+            down_set.append([down_node if i==index else in_array[i] for i in range(len(in_array))])
+        return down_set
+
+a = np.load("src/data_uint.npy")
 trees, bit_index_table = create_trees()
 algorithm_one(a, trees, bit_index_table)
