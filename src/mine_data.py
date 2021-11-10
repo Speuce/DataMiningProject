@@ -52,13 +52,40 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
                     # TODO prune node
                     pass
                 else:
-                    print(f'{node.verbose_name}, sup: {node.count}')
+                    #print(f'{node.verbose_name}, sup: {node.count}')
                     itemset = np.copy(all_alls)
                     itemset[i] = node
                     L1.append(itemset)
     # TODO run algo2
 
+def generated_set(input_set):
+    # first we get p(a)  , which is the last dimension that isn't an ALL.
+    #The lowest p(a) can be is -1, but this gives the same behaviour as p(a) = 0, so we set p(a) = 0 as the minimum
+    p = input_set.size-1
+    while(input_set[p].index == 0 and p > 0): #the node at p is an all category if its index (on the tree) is 0
+        p -= 1
 
+    #now we actually create gen(a)
+
+    gen = []
+    for i in range(p,input_set.size):
+	    gen = gen + down_set(input_set,i)
+    return gen
+
+def down_set(in_array, index):
+    #NOTE input is an array of tree nodes
+    old_node = in_array[index]
+    down_nodes = old_node.tree.get_children(old_node)
+    print(len(down_nodes))
+    if len(down_nodes) == 0:
+	    return []
+    else:
+        down_set = []
+	    #create a set for every value in down(delta(i)), where delta(i) in a is replaced
+	    #with that value from down(delta(i))
+        for down_node in down_nodes:
+            down_set.append([down_node if i==index else in_array[i] for i in range(len(in_array))])
+        return down_set
 
 a = np.load("src/data_uint.npy")
 trees, bit_index_table = create_trees()
