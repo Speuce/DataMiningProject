@@ -15,7 +15,7 @@ def create_trees() -> Tuple[List[Tree], ndarray]:
     """
     trees = []
     binary_index_table = np.empty(256, dtype=object)
-    with open('bitmap_column_details.csv', newline='') as csvfile:
+    with open('../bitmap_column_details.csv', newline='') as csvfile:
         next(csvfile)
         reader = csv.reader(csvfile, delimiter=',', quotechar='|')
         curr: str = ""

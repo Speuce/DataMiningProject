@@ -39,12 +39,16 @@ class TreeNode:
 class Tree:
     def __init__(self, branch_factor: int, verbose_name: str, levels: int = 2):
         self.branching_factor = branch_factor
-        self.node_list: List[Optional[TreeNode]] = [None] * ((branch_factor ** (levels-1)) + 1)
+        self.node_list: List[Optional[TreeNode]] = [None] * ((branch_factor ** (levels - 1)) + 1)
         self.node_list[0] = TreeNode(index=0, bin_index_vals=set(), verbose_name="ALL" + verbose_name, tree=self)
         self.next_node = 1
 
     def remove_node(self, to_remove: TreeNode):
-        pass
+        # default behaviour: remove node = remove children
+        for node in self.get_children(to_remove):
+            self.remove_node(node)
+        self.node_list[to_remove.index] = None
+        to_remove.index = -1
 
     def add_node(self, bin_index_vals: Set[int], verbose_name: str) -> TreeNode:
         return self.set_node(self.next_node, bin_index_vals, verbose_name)
@@ -58,7 +62,7 @@ class Tree:
             curr.add_binary_indicies(new_node.bin_index_vals)
             curr = self.get_parent_node(curr)
         if index >= self.next_node:
-            self.next_node = index+1
+            self.next_node = index + 1
         return new_node
 
     def get_parent_node(self, curr: TreeNode) -> Optional[TreeNode]:
@@ -92,5 +96,5 @@ def create_basic_tree(values: List[Tuple[int, str]], verbose_name: str, binary_i
     """
     the_tree = Tree(len(values), verbose_name)
     for i, (binary_index, name) in enumerate(values):
-        binary_index_table[binary_index] = the_tree.add_node({binary_index}, verbose_name + "_" + name)
+        binary_index_table[binary_index] = the_tree.add_node({binary_index}, verbose_name + ":" + name)
     return the_tree

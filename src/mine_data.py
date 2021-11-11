@@ -1,12 +1,15 @@
+import logging
+import threading
 from typing import List
 
 import numpy as np
 from numpy import ndarray
 
+
 from create_trees import create_trees
 from data_structs import TreeNode, Tree
 
-MINSUP = 1
+MINSUP = 100000
 
 
 def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
@@ -47,61 +50,127 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
     tree: Tree
     for i, tree in enumerate(trees):
         for node in tree.all_nodes():
-            if node.index != 0:  # don't know if we should be pruning root nodes (ALL_x)
+            if node.index > 0:  # don't know if we should be pruning root nodes (ALL_x)
                 if node.count < MINSUP:
-                    # TODO prune node
-                    pass
+                    node.tree.remove_node(node)
                 else:
-                    #print(f'{node.verbose_name}, sup: {node.count}')
+                    # print(f'{node.verbose_name}, sup: {node.count}')
                     itemset = np.copy(all_alls)
                     itemset[i] = node
-                    L1.append(itemset)
-    # TODO run algo2
+                    L1.append((itemset, node.count))
+    sum = 0
+    for tree in trees:
+        sum += len(tree.all_nodes())
 
-def get_rec_maf_seq(set_a, minsup, block_set, MAFS):
-    cand = generated_set(a) #we've already pruned infrequent nodes from the tree, so we don't have to check if the dimensions are individually frequent
-    freq = []#TODO remove all elements of cand that aren't frequent (how to check the frequencies?)
+    print(sum)
+
+    MAFS = []
+    threads = []
+    i = 0
+    for a in L1:
+        x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, True))
+        threads.append(x)
+
+    for thread in threads:
+        thread.start()
+
+    for thread in threads:
+        thread.join()
+
+    # for a in L1:
+    #     i += 1
+
+    #     if i > 1:
+    #         break
+    # TODO run algo2
+    np.save('temp_result.npy', np.array(MAFS))
+
+
+def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False):
+    set_a, sup_a = a
+    cand = generated_set(set_a)
+    # we've already pruned infrequent nodes from the tree, so we don't have to check if the dimensions are individually frequent
+    freq = []
+    for ax in cand:
+        sup = compute_support(block_set, ax)
+        if sup >= minsup:
+            freq.append((ax, sup))
+
     if len(freq) == 0:
-        #if for every set a' in MAFS a is not more specific than a' (double check)
-            #then, add a to MAFS
+        # TODO if for every set a' in MAFS a is not more specific than a' (double check)
+        print_tree_list(set_a, sup_a)
     else:
         for alpha in freq:
-            #get the set of all tuples c in the block_set where c.DA is more specific than alpha
-            sigma_blockset = [] #??? TODO
-            get_rec_maf_seq(alpha,minsup,sigma_blockset, MAFS)
+            # #get the set of all tuples c in the block_set where c.DA is more specific than alpha
+            # sigma_blockset = [] #??? TODO
+            get_rec_maf_seq(alpha, minsup, block_set, MAFS)
 
 
+def compute_support(block_set: ndarray, search_tuple: List[TreeNode]) -> int:
+    query = compute_query_param(search_tuple)
+    res = np.bitwise_and(block_set, query[:, None])
+    sup = np.sum(np.transpose(res.any(axis=2)).all(axis=1))
+    return sup
 
 
-def generated_set(input_set):
+def compute_query_param(tupl: List[TreeNode]) -> ndarray:
+    return np.array([item.select_array for item in tupl if item.index > 0])
+
+
+def generated_set(input_set: List[TreeNode]):
     # first we get p(a)  , which is the last dimension that isn't an ALL.
-    #The lowest p(a) can be is -1, but this gives the same behaviour as p(a) = 0, so we set p(a) = 0 as the minimum
-    p = input_set.size-1
-    while(input_set[p].index == 0 and p > 0): #the node at p is an all category if its index (on the tree) is 0
-        p -= 1
+    # The lowest p(a) can be is -1, but this gives the same behaviour as p(a) = 0, so we set p(a) = 0 as the minimum
+    p = len(input_set) - 1
+    try:
+        while (input_set[p].index == 0 and p > 0):  # the node at p is an all category if its index (on the tree) is 0
+            p -= 1
+    except:
+        print("error :(")
 
-    #now we actually create gen(a)
+    # now we actually create gen(a)
 
     gen = []
-    for i in range(p,input_set.size):
-	    gen = gen + down_set(input_set,i)
+    for i in range(p, len(input_set)):
+        next = down_set(input_set, i)
+        # for n in next:
+        #     print_tree_list(n)
+        gen += next
     return gen
 
-def down_set(in_array, index):
-    #NOTE input is an array of tree nodes
+
+def down_set(in_array: List[TreeNode], index):
+    # NOTE input is an array of tree nodes
     old_node = in_array[index]
     down_nodes = old_node.tree.get_children(old_node)
-    print(len(down_nodes))
+    # print(len(down_nodes))
     if len(down_nodes) == 0:
-	    return []
+        return []
     else:
         down_set = []
-	    #create a set for every value in down(delta(i)), where delta(i) in a is replaced
-	    #with that value from down(delta(i))
+        # create a set for every value in down(delta(i)), where delta(i) in a is replaced
+        # with that value from down(delta(i))
         for down_node in down_nodes:
-            down_set.append([down_node if i==index else in_array[i] for i in range(len(in_array))])
+            down_set.append([down_node if i == index else in_array[i] for i in range(len(in_array))])
         return down_set
 
-a = np.load("src/data_uint.npy")
+
+def print_tree_list(lis: List[TreeNode], sup: int):
+    str_1 = ''
+    for node in lis:
+        if node.index != 0:
+            str_1+=node.verbose_name + ", "
+    logger.info(f'{str_1}|{sup}')
+
+
+logpath = "./log.log"
+logger = logging.getLogger('log')
+
+logger.setLevel(logging.INFO)
+ch = logging.FileHandler(logpath, mode='w')
+ch.setFormatter(logging.Formatter('%(message)s'))
+logger.addHandler(ch)
+
+
+a = np.load("data_uint.npy")
 trees, bit_index_table = create_trees()
 algorithm_one(a, trees, bit_index_table)
