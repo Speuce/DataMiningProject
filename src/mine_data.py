@@ -9,7 +9,7 @@ from numpy import ndarray
 from create_trees import create_trees
 from data_structs import TreeNode, Tree
 
-MINSUP = 100000
+MINSUP = 50
 
 
 def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
@@ -58,6 +58,7 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
                     itemset = np.copy(all_alls)
                     itemset[i] = node
                     L1.append((itemset, node.count))
+                    print(f'{node.verbose_name}||{node.count}')
     sum = 0
     for tree in trees:
         sum += len(tree.all_nodes())
@@ -68,14 +69,15 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
     threads = []
     i = 0
     for a in L1:
-        x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, True))
-        threads.append(x)
-
-    for thread in threads:
-        thread.start()
-
-    for thread in threads:
-        thread.join()
+        get_rec_maf_seq(a, MINSUP, blocks, MAFS, True)
+    #     x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, True))
+    #     threads.append(x)
+    #
+    # for thread in threads:
+    #     thread.start()
+    #
+    # for thread in threads:
+    #     thread.join()
 
     # for a in L1:
     #     i += 1
@@ -97,7 +99,7 @@ def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False):
             freq.append((ax, sup))
 
     if len(freq) == 0:
-        # TODO if for every set a' in MAFS a is not more specific than a' (double check)
+        # TODO if for every set a' in MAFS a is not more specific than a' (double check) (not necessary)
         print_tree_list(set_a, sup_a)
     else:
         for alpha in freq:
@@ -107,10 +109,12 @@ def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False):
 
 
 def compute_support(block_set: ndarray, search_tuple: List[TreeNode]) -> int:
+
     query = compute_query_param(search_tuple)
     res = np.bitwise_and(block_set, query[:, None])
     sup = np.sum(np.transpose(res.any(axis=2)).all(axis=1))
-    return sup
+    print_tree_list(search_tuple, int(sup))
+    return int(sup)
 
 
 def compute_query_param(tupl: List[TreeNode]) -> ndarray:
@@ -154,12 +158,12 @@ def down_set(in_array: List[TreeNode], index):
         return down_set
 
 
-def print_tree_list(lis: List[TreeNode], sup: int):
+def print_tree_list(lis: List[TreeNode], sup: int = -1):
     str_1 = ''
     for node in lis:
         if node.index != 0:
             str_1+=node.verbose_name + ", "
-    logger.info(f'{str_1}|{sup}')
+    print(f'{str_1}|{sup}')
 
 
 logpath = "./log.log"
@@ -171,6 +175,6 @@ ch.setFormatter(logging.Formatter('%(message)s'))
 logger.addHandler(ch)
 
 
-a = np.load("data_uint.npy")
+a = np.load("data_uint.npy")[:100, :]
 trees, bit_index_table = create_trees()
 algorithm_one(a, trees, bit_index_table)

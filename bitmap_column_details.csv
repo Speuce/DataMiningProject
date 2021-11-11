@@ -181,7 +181,6 @@ VJ8,age_band_of_driver,46 - 55
 VJ8,age_band_of_driver,56 - 65
 VJ10,age_band_of_driver,66 - 75
 VJ11,age_band_of_driver,Over 75
-VK,age_of_vehicle,
 VL1,driver_home_area_type,Urban area
 VL2,driver_home_area_type,Small town
 VL3,driver_home_area_type,Rural
