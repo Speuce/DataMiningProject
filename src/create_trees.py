@@ -26,7 +26,12 @@ def create_trees() -> Tuple[List[Tree], ndarray]:
             if curr != row[1]:  # if we're already looking at that data type
                 # finish old tree
                 if curr_tuples:
-                    trees.append(create_basic_tree(curr_tuples, curr, binary_index_table))
+                    if curr == 'vehicle_type' or curr == 'casualty_type':
+                        trees.append(create_vehicle_type_tree(curr_tuples, curr, binary_index_table))
+                    elif curr == 'age_band_of_casualty' or curr == 'age_band_of_driver':
+                        trees.append(create_age_band_tree(curr_tuples, curr, binary_index_table))
+                    else:
+                        trees.append(create_basic_tree(curr_tuples, curr, binary_index_table))
 
                 # create new tree
                 curr = row[1]
@@ -36,4 +41,51 @@ def create_trees() -> Tuple[List[Tree], ndarray]:
     return trees, binary_index_table
 
 
+def create_vehicle_type_tree(tuples, name: str, binary_index_table) -> Tree:
+    ret = Tree(branch_factor=6, verbose_name=name, levels=3)
+    keywords_dict = {
+        'Motorcycle': ['otorcycle'],
+        'Car': ['Car', 'Taxi'],
+        'Van/Truck': ['Van', 'Goods'],
+        'Public Transport': ['Bus', 'Minibus', 'Tram'],
+        'Sidewalk User': ['Cyclist', 'Pedal', 'Pedestrian', 'Mobility'],
+        'Other': ['Agri', 'orse', 'Other', ],
+    }
+    treenode_dict = {ret.add_node(set(), name + ":" + keyword): values for (keyword, values) in keywords_dict.items()}
+    for (bin_index, verbose_name) in tuples:
+        found = False
+        for (key, values) in treenode_dict.items():
+            for keyword in values:
+                if keyword in verbose_name:  # MATCH Found!
+                    binary_index_table[bin_index] = ret.add_child_node({bin_index}, name + ":" + verbose_name, key)
+                    found = True
+                    break
+            if found:
+                break
+        else:
+            print(f'Could not match with item {verbose_name}!')
+            raise Exception
+    return ret
+
+
+def create_age_band_tree(tuples, name: str, binary_index_table) -> Tree:
+    ret = Tree(branch_factor=4, verbose_name=name, levels=3)
+    # ASSUMING TUPLES ARE ORDERED BY AGE BAND
+    treenodes = [ret.add_node(set(), name + ":" + keyword) for keyword in ['Child', 'Youth', 'Adult', 'Senior']]
+    for i, (bin_index, verbose_name) in enumerate(tuples):
+        parent = None
+        if i <= 2:
+            parent = treenodes[0]
+        elif i <= 4:
+            parent = treenodes[1]
+        elif i <= 7:
+            parent = treenodes[2]
+        else:
+            parent = treenodes[3]
+
+        binary_index_table[bin_index] = ret.add_child_node({bin_index}, name + ":" + verbose_name, parent)
+    return ret
+
+
 trees, index = create_trees()
+print(f'done!')
