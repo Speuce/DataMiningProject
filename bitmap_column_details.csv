@@ -1,4 +1,4 @@
-code,column_name,value
+﻿code,column_name,value
 AA1,accident_severity,Fatal
 AA2,accident_severity,Serious
 AA3,accident_severity,Slight
@@ -9,6 +9,13 @@ AB4,day_of_week,Wednesday
 AB5,day_of_week,Thursday
 AB6,day_of_week,Friday
 AB7,day_of_week,Saturday
+AC1,time,morning early
+AC2,time,morning rush
+AC3,time,morning other
+AC4,time,afternoon
+AC5,time,afternoon rush
+AC6,time,evening
+AC7,time,night
 AD1,road_type,Roundabout
 AD2,road_type,One way street
 AD3,road_type,Dual carriageway
@@ -181,6 +188,16 @@ VJ8,age_band_of_driver,46 - 55
 VJ8,age_band_of_driver,56 - 65
 VJ10,age_band_of_driver,66 - 75
 VJ11,age_band_of_driver,Over 75
+VK1,age_of_vehicle,0-1
+VK2,age_of_vehicle,2-3
+VK3,age_of_vehicle,4-5
+VK4,age_of_vehicle,6-7
+VK5,age_of_vehicle,8-9
+VK6,age_of_vehicle,10-14
+VK7,age_of_vehicle,15-19
+VK8,age_of_vehicle,20-49
+VK9,age_of_vehicle,50-100
+VK10,age_of_vehicle,100+
 VL1,driver_home_area_type,Urban area
 VL2,driver_home_area_type,Small town
 VL3,driver_home_area_type,Rural
@@ -228,4 +245,3 @@ CE21,casualty_type,Goods vehicle (unknown weight) occupant
 CF1,casualty_home_area_type,Urban area
 CF2,casualty_home_area_type,Small town
 CF3,casualty_home_area_type,Rural
-END,END,END
