@@ -103,12 +103,12 @@ def create_age_of_vehicle_tree(tuples, name: str, binary_index_table) -> Tree:
 
     parent = ret.get_root_node()
     add_to_tree(ret, tuples[-1], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":0-100", parent)
+    parent = ret.add_child_node(set(), name + ":<100", parent)
     add_to_tree(ret, tuples[-2], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":0-49", parent)
+    parent = ret.add_child_node(set(), name + ":<49", parent)
     add_to_tree(ret, tuples[-3], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":0-19", parent)
-    parent_1 = ret.add_child_node(set(), name + ":0-9", parent)
+    parent = ret.add_child_node(set(), name + ":<19", parent)
+    parent_1 = ret.add_child_node(set(), name + ":<9", parent)
 
     parent_2 = ret.add_child_node(set(), name + ":10-19", parent)
     add_to_tree(ret, tuples[-5], name, binary_index_table, parent_2)
@@ -117,11 +117,11 @@ def create_age_of_vehicle_tree(tuples, name: str, binary_index_table) -> Tree:
     parent = parent_1
 
     add_to_tree(ret, tuples[-6], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":0-7", parent)
+    parent = ret.add_child_node(set(), name + ":<7", parent)
     add_to_tree(ret, tuples[-7], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":0-5", parent)
+    parent = ret.add_child_node(set(), name + ":<5", parent)
     add_to_tree(ret, tuples[-8], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":0-3", parent)
+    parent = ret.add_child_node(set(), name + ":<3", parent)
     add_to_tree(ret, tuples[-9], name, binary_index_table, parent)
     add_to_tree(ret, tuples[-10], name, binary_index_table, parent)
 
@@ -147,4 +147,3 @@ def create_speed_limit_tree(tuples, name: str, binary_index_table) -> Tree:
 
 
 trees, index = create_trees()
-print(f'done!')
