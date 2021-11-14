@@ -5,11 +5,10 @@ from typing import List
 import numpy as np
 from numpy import ndarray
 
-
 from create_trees import create_trees
 from data_structs import TreeNode, Tree
 
-MINSUP = 50
+MINSUP = 100000
 
 
 def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
@@ -69,21 +68,20 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
     threads = []
     i = 0
     for a in L1:
-        get_rec_maf_seq(a, MINSUP, blocks, MAFS, True)
-    #     x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, True))
-    #     threads.append(x)
-    #
-    # for thread in threads:
-    #     thread.start()
-    #
-    # for thread in threads:
-    #     thread.join()
+        x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, True))
+        threads.append(x)
 
-    # for a in L1:
-    #     i += 1
+    for thread in threads:
+        thread.start()
 
-    #     if i > 1:
-    #         break
+    for thread in threads:
+        thread.join()
+
+    for a in L1:
+        i += 1
+
+        if i > 1:
+            break
     # TODO run algo2
     np.save('temp_result.npy', np.array(MAFS))
 
@@ -106,14 +104,16 @@ def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False):
             # #get the set of all tuples c in the block_set where c.DA is more specific than alpha
             # sigma_blockset = [] #??? TODO
             get_rec_maf_seq(alpha, minsup, block_set, MAFS)
+    if stuff:
+        print('thread finished. ')
 
 
 def compute_support(block_set: ndarray, search_tuple: List[TreeNode]) -> int:
-
     query = compute_query_param(search_tuple)
     res = np.bitwise_and(block_set, query[:, None])
     sup = np.sum(np.transpose(res.any(axis=2)).all(axis=1))
-    print_tree_list(search_tuple, int(sup))
+    if sup >= MINSUP:
+        print_tree_list(search_tuple, int(sup))
     return int(sup)
 
 
@@ -162,8 +162,8 @@ def print_tree_list(lis: List[TreeNode], sup: int = -1):
     str_1 = ''
     for node in lis:
         if node.index != 0:
-            str_1+=node.verbose_name + ", "
-    print(f'{str_1}|{sup}')
+            str_1 += node.verbose_name + ", "
+    logger.info(f'{str_1}|{sup}')
 
 
 logpath = "./log.log"
@@ -174,7 +174,6 @@ ch = logging.FileHandler(logpath, mode='w')
 ch.setFormatter(logging.Formatter('%(message)s'))
 logger.addHandler(ch)
 
-
-a = np.load("data_uint.npy")[:100, :]
+a = np.load("data_uint32.npy")
 trees, bit_index_table = create_trees()
 algorithm_one(a, trees, bit_index_table)
