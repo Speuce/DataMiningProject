@@ -38,6 +38,9 @@ class TreeNode:
     def add_count(self, delta):
         self.count += delta
 
+    def is_root(self):
+        return self.index == 0
+
 
 class Tree:
     def __init__(self, branch_factor: int, verbose_name: str, levels: int = 2):
@@ -68,6 +71,14 @@ class Tree:
         print(f'NO SPACE FOUND FOR {verbose_name}')
         raise Exception
 
+    def get_all_parents(self, node: TreeNode):
+        parents = []
+        curr = self.get_parent_node(node)
+        while curr:
+            parents.append(curr)
+            curr = self.get_parent_node(curr)
+        return parents
+
     def set_node(self, index: int, bin_index_vals: Set[int], verbose_name: str) -> TreeNode:
         new_node = TreeNode(index, bin_index_vals, verbose_name, tree=self)
         self.node_list[index] = new_node
@@ -96,6 +107,7 @@ class Tree:
             return []
         else:
             return [x for x in self.node_list[first_child_index: last_child_index + 1] if x]
+
 
     def __str__(self):
         return self.node_list[0].verbose_name[3:] + " Tree"

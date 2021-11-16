@@ -8,10 +8,11 @@ from numpy import ndarray
 from create_trees import create_trees
 from data_structs import TreeNode, Tree
 
-MINSUP = 100000
-
+MINSUP = 826586
+THREAD= 0
 
 def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
+    global THREAD
     ### PART ONE -- Compute individual item counts
     curr_slice_num = -1
     curr_slice = None
@@ -57,36 +58,35 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
                     itemset = np.copy(all_alls)
                     itemset[i] = node
                     L1.append((itemset, node.count))
-                    print(f'{node.verbose_name}||{node.count}')
+                    # print(f'{node.verbose_name}||{node.count}')
     sum = 0
     for tree in trees:
         sum += len(tree.all_nodes())
 
-    print(sum)
+    print(f'Running algo on: {sum} nodes.')
 
     MAFS = []
     threads = []
-    i = 0
-    for a in L1:
-        x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, True))
-        threads.append(x)
 
+    for i, a in enumerate(L1):
+        # get_rec_maf_seq(a, MINSUP, blocks, MAFS, False)
+        if i > 5:
+            THREAD += 1
+            x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, False, None, THREAD))
+            threads.append(x)
+        else:
+            get_rec_maf_seq(a, MINSUP, blocks, MAFS, True, threads)
+
+    print(f'starting {THREAD} threads...')
     for thread in threads:
         thread.start()
 
     for thread in threads:
         thread.join()
-
-    for a in L1:
-        i += 1
-
-        if i > 1:
-            break
-    # TODO run algo2
-    np.save('temp_result.npy', np.array(MAFS))
+    print('done.')
 
 
-def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False):
+def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False, threads=None, thread_num=-1):
     set_a, sup_a = a
     cand = generated_set(set_a)
     # we've already pruned infrequent nodes from the tree, so we don't have to check if the dimensions are individually frequent
@@ -98,22 +98,46 @@ def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False):
 
     if len(freq) == 0:
         # TODO if for every set a' in MAFS a is not more specific than a' (double check) (not necessary)
+        # for aprime, _ in MAFS:
+        #     dim: TreeNode
+        #     onediff = False
+        #     for i, dim in enumerate(set_a):
+        #
+        #         if aprime[i] != dim:
+        #             onediff = True
+        #             if aprime[i] not in dim.tree.get_all_parents(dim):
+        #                 ## found one difference in a and a', break the loop
+        #                 break
+        #             else:
+        #                 print('yoooo')
+        #     else:
+        #         if onediff:
+        #             # no break executed, (a' and a are too similar),
+        #             print('ignored: -------')
+        #             print_tree_list_2(aprime)
+        #             print_tree_list_2(set_a)
+        #         break
+        # else:
         print_tree_list(set_a, sup_a)
+        # MAFS.append(a)
     else:
-        for alpha in freq:
+        for i, alpha in enumerate(freq):
             # #get the set of all tuples c in the block_set where c.DA is more specific than alpha
             # sigma_blockset = [] #??? TODO
-            get_rec_maf_seq(alpha, minsup, block_set, MAFS)
-    if stuff:
-        print('thread finished. ')
+            if stuff:
+                global THREAD
+                THREAD += 1
+                threads.append(threading.Thread(target=get_rec_maf_seq, args=(alpha, MINSUP, block_set, MAFS, False, THREAD)))
+            else:
+                get_rec_maf_seq(alpha, minsup, block_set, MAFS)
+    if thread_num != -1:
+        print(f'thread finished: {thread_num}')
 
 
 def compute_support(block_set: ndarray, search_tuple: List[TreeNode]) -> int:
     query = compute_query_param(search_tuple)
     res = np.bitwise_and(block_set, query[:, None])
     sup = np.sum(np.transpose(res.any(axis=2)).all(axis=1))
-    if sup >= MINSUP:
-        print_tree_list(search_tuple, int(sup))
     return int(sup)
 
 
@@ -162,8 +186,16 @@ def print_tree_list(lis: List[TreeNode], sup: int = -1):
     str_1 = ''
     for node in lis:
         if node.index != 0:
-            str_1 += node.verbose_name + ", "
+            str_1 += node.verbose_name + ","
     logger.info(f'{str_1}|{sup}')
+
+
+def print_tree_list_2(lis: List[TreeNode], sup: int = -1):
+    str_1 = ''
+    for node in lis:
+        if node.index != 0:
+            str_1 += node.verbose_name + ","
+    print(f'{str_1}|{sup}')
 
 
 logpath = "./log.log"
