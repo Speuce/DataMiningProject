@@ -1,0 +1,920 @@
+casualty_type:Motorcycle,|268383
+casualty_type:Car occupant,|1680008
+casualty_type:Pedestrian,|347281
+casualty_type:Cyclist,|234171
+casualty_type:Car occupant,|1680008
+day_of_week:Sunday,casualty_type:Car occupant,|219092
+accident_severity:Slight,casualty_type:Car occupant,|1456810
+day_of_week:Saturday,casualty_type:Car occupant,|250396
+day_of_week:Tuesday,casualty_type:Car occupant,|233940
+day_of_week:Wednesday,casualty_type:Car occupant,|236572
+day_of_week:Monday,casualty_type:Car occupant,|230659
+casualty_type:Pedestrian,|347281
+day_of_week:Thursday,casualty_type:Car occupant,|237822
+casualty_type:Cyclist,|234171
+day_of_week:Friday,casualty_type:Car occupant,|271527
+time:morning rush,casualty_type:Car occupant,|245973
+accident_severity:Slight,casualty_type:Pedestrian,|264745
+casualty_severity:Serious,|319828
+casualty_severity:Slight,casualty_type:Car occupant,|1544976
+accident_severity:Serious,casualty_severity:Serious,|311353
+time:morning other,casualty_severity:Slight,|236177
+age_band_of_casualty:56 - 65,|201207
+day_of_week:Tuesday,casualty_severity:Slight,casualty_type:Car occupant,|216905
+day_of_week:Friday,casualty_severity:Slight,casualty_type:Car occupant,|250581
+day_of_week:Monday,casualty_severity:Slight,casualty_type:Car occupant,|213141
+day_of_week:Thursday,casualty_severity:Slight,casualty_type:Car occupant,|219847
+day_of_week:Sunday,casualty_severity:Slight,casualty_type:Car,|204415
+time:morning rush,casualty_severity:Slight,casualty_type:Car occupant,|230218
+day_of_week:Saturday,casualty_severity:Slight,casualty_type:Car occupant,|227295
+day_of_week:Wednesday,casualty_severity:Slight,casualty_type:Car occupant,|219360
+casualty_severity:Slight,casualty_type:Pedestrian,|268206
+accident_severity:Slight,casualty_severity:Slight,casualty_type:Car occupant,|1456810
+accident_severity:Slight,casualty_severity:Slight,casualty_type:Pedestrian,|264745
+age_band_of_casualty:Child,casualty_severity:Slight,|223970
+age_band_of_casualty:46 - 55,casualty_severity:Slight,|292516
+age_band_of_casualty:56 - 65,|201207
+day_of_week:Friday,age_band_of_casualty:Adult,|212244
+age_band_of_casualty:46 - 55,casualty_type:Car occupant,|204284
+age_band_of_casualty:36 - 45,casualty_severity:Slight,casualty_type:Car occupant,|254433
+age_band_of_casualty:21 - 25,casualty_severity:Slight,casualty_type:Car occupant,|218298
+age_band_of_casualty:26 - 35,casualty_severity:Slight,casualty_type:Car occupant,|311379
+age_band_of_casualty:16 - 20,casualty_severity:Slight,casualty_type:Car occupant,|223038
+age_band_of_casualty:36 - 45,casualty_type:Car occupant,|271648
+age_band_of_casualty:21 - 25,casualty_type:Car occupant,|238025
+age_band_of_casualty:26 - 35,casualty_type:Car occupant,|334330
+age_band_of_casualty:16 - 20,casualty_type:Car occupant,|246481
+day_of_week:Monday,sex_of_casualty:Male,|223758
+accident_severity:Slight,age_band_of_casualty:Child,casualty_severity:Slight,|212515
+day_of_week:Tuesday,sex_of_casualty:Male,|232433
+driver_home_area_type:Small town,|225105
+day_of_week:Saturday,sex_of_casualty:Male,|227675
+age_band_of_casualty:Senior,casualty_severity:Slight,casualty_type:Car occupant,|226120
+accident_severity:Serious,casualty_class:Driver or rider,|244272
+accident_severity:Slight,age_band_of_casualty:Senior,casualty_severity:Slight,casualty_type:Car occupant,|211666
+time:morning rush,age_band_of_casualty:Adult,casualty_severity:Slight,|210822
+day_of_week:Saturday,casualty_class:Driver or rider,|222467
+age_band_of_casualty:16 - 20,casualty_severity:Slight,casualty_type:Car occupant,|223038
+age_band_of_casualty:Senior,casualty_type:Car occupant,|256551
+age_band_of_casualty:26 - 35,casualty_severity:Slight,casualty_type:Car occupant,|311379
+age_band_of_driver:56 - 65,|224486
+age_band_of_casualty:16 - 20,casualty_type:Car occupant,|246481
+accident_severity:Slight,age_band_of_casualty:Senior,casualty_type:Car occupant,|211666
+driver_home_area_type:Rural,casualty_severity:Slight,|241109
+casualty_class:Pedestrian,casualty_severity:Slight,casualty_type:Pedestrian,|268206
+age_band_of_casualty:26 - 35,casualty_type:Car occupant,|334330
+driver_home_area_type:Rural,casualty_type:Car occupant,|210681
+accident_severity:Serious,sex_of_casualty:Male,casualty_severity:Serious,|216097
+day_of_week:Friday,sex_of_casualty:Male,casualty_severity:Slight,|222869
+time:morning rush,sex_of_casualty:Male,casualty_severity:Slight,|212319
+day_of_week:Thursday,sex_of_casualty:Male,casualty_severity:Slight,|202057
+day_of_week:Wednesday,sex_of_casualty:Male,casualty_severity:Slight,|200919
+casualty_class:Pedestrian,casualty_type:Pedestrian,|347281
+accident_severity:Serious,driver_home_area_type:Urban area,|263311
+day_of_week:Sunday,driver_home_area_type:Urban area,|221508
+age_of_vehicle:0-1,casualty_severity:Slight,|225729
+day_of_week:Thursday,casualty_class:Driver or rider,casualty_severity:Slight,|235265
+day_of_week:Tuesday,casualty_class:Driver or rider,casualty_severity:Slight,|234972
+day_of_week:Wednesday,casualty_class:Driver or rider,casualty_severity:Slight,|236328
+time:morning rush,casualty_class:Driver or rider,casualty_severity:Slight,|281813
+day_of_week:Monday,casualty_class:Driver or rider,casualty_severity:Slight,|221741
+day_of_week:Friday,casualty_class:Driver or rider,casualty_severity:Slight,|250944
+time:morning rush,casualty_class:Driver or rider,casualty_type:Car,|200075
+accident_severity:Slight,age_band_of_casualty:16 - 20,casualty_severity:Slight,casualty_type:Car occupant,|206854
+accident_severity:Slight,age_band_of_casualty:26 - 35,casualty_severity:Slight,casualty_type:Car occupant,|296581
+accident_severity:Slight,casualty_class:Pedestrian,casualty_severity:Slight,casualty_type:Pedestrian,|264745
+accident_severity:Slight,age_band_of_casualty:16 - 20,casualty_type:Car occupant,|206854
+sex_of_casualty:Female,age_band_of_casualty:Youth,casualty_severity:Slight,casualty_type:Car occupant,|215543
+day_of_week:Tuesday,driver_home_area_type:Urban area,casualty_severity:Slight,|242804
+day_of_week:Friday,driver_home_area_type:Urban area,casualty_severity:Slight,|269018
+accident_severity:Slight,driver_home_area_type:Rural,casualty_severity:Slight,|224122
+day_of_week:Wednesday,driver_home_area_type:Urban area,casualty_severity:Slight,|243862
+day_of_week:Thursday,driver_home_area_type:Urban area,casualty_severity:Slight,|244518
+day_of_week:Monday,driver_home_area_type:Urban area,casualty_severity:Slight,|232756
+day_of_week:Saturday,driver_home_area_type:Urban area,casualty_severity:Slight,|227870
+accident_severity:Slight,age_band_of_casualty:26 - 35,casualty_type:Car occupant,|296581
+sex_of_casualty:Female,age_band_of_casualty:Youth,casualty_type:Car occupant,|230291
+age_band_of_casualty:21 - 25,casualty_severity:Slight,casualty_type:Car occupant,|218298
+accident_severity:Slight,casualty_class:Pedestrian,casualty_type:Pedestrian,|264745
+age_band_of_casualty:36 - 45,casualty_severity:Slight,casualty_type:Car occupant,|254433
+age_band_of_casualty:21 - 25,casualty_type:Car occupant,|238025
+day_of_week:Tuesday,age_band_of_driver:Adult,|224775
+accident_severity:Serious,age_band_of_driver:Adult,|213805
+day_of_week:Saturday,age_band_of_driver:Adult,|209086
+day_of_week:Monday,age_band_of_driver:Adult,|214762
+age_band_of_casualty:36 - 45,casualty_type:Car occupant,|271648
+day_of_week:Sunday,sex_of_driver:Male,|229623
+sex_of_casualty:Male,age_band_of_casualty:16 - 20,casualty_severity:Slight,|200354
+casualty_class:Passenger,sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Car,|202951
+casualty_class:Passenger,sex_of_casualty:Male,casualty_type:Car occupant,|215759
+vehicle_manoeuvre:Waiting to go - held up,casualty_severity:Slight,|203649
+day_of_week:Thursday,age_band_of_driver:Adult,casualty_severity:Slight,|201732
+age_band_of_driver:56 - 65,|224486
+age_band_of_casualty:Youth,casualty_severity:Slight,casualty_type:Car occupant,|441336
+day_of_week:Wednesday,age_band_of_driver:Adult,casualty_severity:Slight,|201555
+day_of_week:Friday,age_band_of_driver:Adult,casualty_severity:Slight,|221303
+accident_severity:Slight,sex_of_casualty:Female,age_band_of_casualty:Youth,casualty_severity:Slight,casualty_type:Car occupant,|205097
+age_band_of_casualty:Youth,casualty_type:Car occupant,|484506
+accident_severity:Slight,sex_of_casualty:Male,age_band_of_casualty:Youth,casualty_severity:Slight,casualty_type:Car occupant,|207986
+accident_severity:Serious,first_point_of_impact:Front,|252389
+time:morning rush,first_point_of_impact:Front,|208017
+age_of_vehicle:6-7,driver_home_area_type:Urban area,|214142
+age_of_vehicle:2-3,driver_home_area_type:Urban area,|202601
+day_of_week:Friday,first_point_of_impact:Front,|217951
+age_of_vehicle:4-5,driver_home_area_type:Urban area,|209340
+accident_severity:Slight,sex_of_casualty:Female,age_band_of_casualty:Youth,casualty_type:Car occupant,|205097
+accident_severity:Slight,sex_of_casualty:Male,age_band_of_casualty:Youth,casualty_type:Car occupant,|207986
+age_band_of_casualty:46 - 55,casualty_severity:Slight,|292516
+sex_of_casualty:Male,age_band_of_casualty:21 - 25,|207290
+accident_severity:Slight,journey_purpose_of_driver:Commuting to/from work,casualty_severity:Slight,|228462
+age_band_of_casualty:46 - 55,casualty_type:Car occupant,|204284
+accident_severity:Slight,age_band_of_casualty:21 - 25,casualty_severity:Slight,casualty_type:Car occupant,|206266
+accident_severity:Slight,casualty_class:Passenger,sex_of_casualty:Male,casualty_severity:Slight,|218064
+age_of_vehicle:6-7,casualty_severity:Slight,|267388
+age_of_vehicle:2-3,casualty_severity:Slight,|258690
+age_of_vehicle:4-5,casualty_severity:Slight,|263153
+accident_severity:Slight,age_band_of_casualty:36 - 45,casualty_severity:Slight,casualty_type:Car occupant,|242616
+age_of_vehicle:6-7,casualty_type:Car occupant,|207364
+time:morning rush,driver_home_area_type:Urban area,casualty_class:Driver or rider,|215405
+accident_severity:Slight,age_band_of_casualty:21 - 25,casualty_type:Car occupant,|206266
+age_of_vehicle:4-5,casualty_type:Car,|202540
+age_of_vehicle:10-14,driver_home_area_type:Urban area,casualty_severity:Slight,|234059
+accident_severity:Slight,age_band_of_casualty:36 - 45,casualty_type:Car occupant,|242616
+time:morning rush,age_band_of_driver:Adult,age_band_of_casualty:Adult,|221145
+age_of_vehicle:10-14,driver_home_area_type:Urban area,casualty_type:Car,|202063
+accident_severity:Serious,vehicle_manoeuvre:Going ahead other,|242299
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|210362
+casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Youth,casualty_severity:Slight,|259881
+sex_of_casualty:Female,age_band_of_casualty:26 - 35,|210337
+day_of_week:Wednesday,vehicle_manoeuvre:Going ahead other,|208664
+day_of_week:Thursday,vehicle_manoeuvre:Going ahead other,|209467
+day_of_week:Saturday,vehicle_manoeuvre:Going ahead other,|201420
+day_of_week:Friday,vehicle_manoeuvre:Going ahead other,|230871
+day_of_week:Tuesday,vehicle_manoeuvre:Going ahead other,|206364
+time:morning rush,vehicle_manoeuvre:Going ahead other,|219568
+age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|755725
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_type:Car occupant,|225225
+age_band_of_casualty:Adult,casualty_type:Car occupant,|810262
+sex_of_casualty:Male,age_band_of_casualty:Youth,casualty_severity:Slight,casualty_type:Car occupant,|225754
+time:morning rush,driver_home_area_type:Urban area,casualty_severity:Slight,|261145
+time:morning rush,sex_of_driver:Male,sex_of_casualty:Male,|223980
+day_of_week:Monday,sex_of_driver:Male,sex_of_casualty:Male,|203224
+day_of_week:Wednesday,sex_of_driver:Male,sex_of_casualty:Male,|212943
+sex_of_casualty:Male,age_band_of_casualty:Youth,casualty_type:Car occupant,|254174
+day_of_week:Tuesday,sex_of_driver:Male,sex_of_casualty:Male,|211607
+age_band_of_casualty:Adult,casualty_type:Sidewalk User,|234121
+day_of_week:Thursday,sex_of_driver:Male,sex_of_casualty:Male,|214829
+time:morning rush,age_band_of_driver:Adult,casualty_severity:Slight,|239302
+accident_severity:Slight,age_band_of_casualty:Youth,casualty_severity:Slight,casualty_type:Car occupant,|413120
+accident_severity:Slight,vehicle_manoeuvre:Waiting to go - held up,casualty_severity:Slight,|200112
+vehicle_type:Pedal cycle,casualty_class:Driver or rider,casualty_type:Cyclist,|232927
+accident_severity:Serious,urban_or_rural_area:Urban,|213737
+accident_severity:Slight,age_band_of_casualty:Youth,casualty_type:Car occupant,|413120
+vehicle_type:Pedal cycle,casualty_type:Cyclist,|234171
+sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|390444
+age_of_vehicle:4-5,driver_home_area_type:Urban area,|209340
+time:morning rush,sex_of_driver:Male,casualty_severity:Slight,|228603
+age_of_vehicle:6-7,driver_home_area_type:Urban area,|214142
+casualty_class:Passenger,sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|292516
+day_of_week:Monday,sex_of_driver:Male,casualty_severity:Slight,|216135
+day_of_week:Wednesday,sex_of_driver:Male,casualty_severity:Slight,|224633
+age_of_vehicle:2-3,driver_home_area_type:Urban area,|202601
+day_of_week:Tuesday,sex_of_driver:Male,casualty_severity:Slight,|223432
+sex_of_driver:Female,age_band_of_driver:Youth,casualty_severity:Slight,|203316
+first_point_of_impact:Nearside,sex_of_driver:Male,|235769
+sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_type:Car occupant,|412038
+day_of_week:Thursday,sex_of_driver:Male,casualty_severity:Slight,|226384
+day_of_week:Sunday,road_surface_conditions:Dry,|224502
+casualty_class:Passenger,sex_of_casualty:Female,casualty_type:Car occupant,|316431
+accident_severity:Slight,age_band_of_casualty:46 - 55,casualty_severity:Slight,|279573
+day_of_week:Wednesday,urban_or_rural_area:Urban,casualty_severity:Slight,|226088
+day_of_week:Saturday,urban_or_rural_area:Urban,casualty_severity:Slight,|204946
+day_of_week:Tuesday,urban_or_rural_area:Urban,casualty_severity:Slight,|224261
+time:morning other,weather_conditions:Fine no high winds,|221791
+day_of_week:Thursday,urban_or_rural_area:Urban,casualty_severity:Slight,|225945
+day_of_week:Monday,urban_or_rural_area:Urban,casualty_severity:Slight,|211820
+time:morning rush,urban_or_rural_area:Urban,casualty_severity:Slight,|225894
+age_of_vehicle:4-5,casualty_severity:Slight,|263153
+age_of_vehicle:6-7,casualty_severity:Slight,|267388
+age_of_vehicle:2-3,casualty_severity:Slight,|258690
+age_of_vehicle:4-5,casualty_type:Car,|202540
+age_of_vehicle:6-7,casualty_type:Car occupant,|207364
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Youth,casualty_severity:Slight,|249428
+age_of_vehicle:10-14,driver_home_area_type:Urban area,casualty_severity:Slight,|234059
+age_of_vehicle:10-14,casualty_class:Driver or rider,|224113
+sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|787652
+day_of_week:Sunday,light_conditions:Daylight,|217012
+day_of_week:Tuesday,road_surface_conditions:Dry,casualty_severity:Slight,|239258
+day_of_week:Monday,road_surface_conditions:Dry,casualty_severity:Slight,|228373
+time:morning rush,road_surface_conditions:Dry,casualty_severity:Slight,|237143
+age_of_vehicle:10-14,driver_home_area_type:Urban area,casualty_type:Car,|202063
+sex_of_casualty:Female,casualty_type:Car occupant,|842785
+accident_severity:Slight,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|375142
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|210362
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_type:Car occupant,|225225
+accident_severity:Slight,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_type:Car occupant,|375142
+accident_severity:Slight,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|719817
+casualty_class:Passenger,age_band_of_casualty:Youth,|205673
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Youth,|209452
+accident_severity:Slight,age_band_of_casualty:Adult,casualty_type:Car occupant,|719817
+accident_severity:Slight,casualty_class:Passenger,sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|271932
+accident_severity:Slight,sex_of_casualty:Male,age_band_of_casualty:26 - 35,casualty_severity:Slight,|260409
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|200938
+accident_severity:Slight,casualty_class:Passenger,sex_of_casualty:Female,casualty_type:Car occupant,|271932
+accident_severity:Slight,sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|750560
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_type:Car occupant,|217642
+first_point_of_impact:Offside,sex_of_driver:Male,sex_of_casualty:Male,|202595
+sex_of_casualty:Male,age_band_of_casualty:26 - 35,casualty_severity:Slight,|272759
+accident_severity:Slight,sex_of_casualty:Female,casualty_type:Car occupant,|750560
+age_of_vehicle:10-14,sex_of_casualty:Male,|208943
+casualty_class:Passenger,age_band_of_casualty:Adult,|210264
+casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:26 - 35,casualty_severity:Slight,|216048
+age_of_vehicle:10-14,casualty_class:Driver or rider,|224113
+first_point_of_impact:Offside,sex_of_driver:Male,casualty_severity:Slight,|205929
+accident_severity:Slight,casualty_class:Passenger,casualty_severity:Slight,casualty_type:Car occupant,|447415
+time:morning other,age_of_vehicle:<19,|202398
+age_of_vehicle:0-1,casualty_severity:Slight,|225729
+age_of_vehicle:10-14,casualty_severity:Slight,casualty_type:Car occupant,|263491
+accident_severity:Slight,casualty_class:Passenger,casualty_type:Car occupant,|447415
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|210362
+age_of_vehicle:10-14,casualty_type:Car occupant,|289998
+casualty_class:Passenger,casualty_severity:Slight,casualty_type:Car occupant,|487926
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_type:Car occupant,|225225
+casualty_class:Passenger,casualty_type:Car occupant,|532423
+vehicle_type:Pedal cycle,casualty_class:Driver or rider,casualty_type:Cyclist,|232927
+day_of_week:Sunday,age_of_vehicle:<19,casualty_severity:Slight,|216669
+vehicle_type:Pedal cycle,casualty_type:Cyclist,|234171
+sex_of_casualty:Male,age_band_of_casualty:36 - 45,casualty_severity:Slight,|226513
+casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:36 - 45,|219730
+accident_severity:Slight,sex_of_casualty:Male,age_band_of_casualty:36 - 45,casualty_severity:Slight,|216536
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|200938
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_type:Car occupant,|217642
+day_of_week:Sunday,age_of_vehicle:<49,casualty_severity:Slight,|218921
+age_of_vehicle:10-14,sex_of_casualty:Male,|208943
+age_of_vehicle:8-9,sex_of_casualty:Male,casualty_severity:Slight,|200284
+sex_of_driver:Male,age_band_of_driver:16 - 20,sex_of_casualty:Male,|203732
+sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|365182
+first_point_of_impact:Back,sex_of_driver:Male,age_band_of_driver:Adult,|202441
+sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_type:Car occupant,|398123
+accident_severity:Serious,road_surface_conditions:Dry,sex_of_driver:Male,|213576
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|220997
+day_of_week:Sunday,age_of_vehicle:<100,casualty_severity:Slight,|219035
+age_of_vehicle:10-14,casualty_severity:Slight,casualty_type:Car occupant,|263491
+accident_severity:Slight,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|344584
+casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|310006
+age_of_vehicle:10-14,casualty_type:Car occupant,|289998
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|210362
+accident_severity:Slight,junction_location:Approaching junction or waiting/parked at junction approach,first_point_of_impact:Front,casualty_severity:Slight,|237880
+accident_severity:Slight,junction_location:Mid Junction - on roundabout or on main road,first_point_of_impact:Front,casualty_severity:Slight,|247421
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_type:Car occupant,|237498
+accident_severity:Slight,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_type:Car occupant,|344584
+casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_type:Car occupant,|337479
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_type:Car occupant,|225225
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:26 - 35,casualty_severity:Slight,|207617
+journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,age_band_of_driver:Adult,casualty_severity:Slight,|209086
+journey_purpose_of_driver:Commuting to/from work,age_of_vehicle:<19,|201946
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|210904
+sex_of_casualty:Male,age_band_of_casualty:Senior,|212949
+vehicle_type:Sidewalk User,casualty_class:Driver or rider,casualty_type:Cyclist,|232927
+age_of_vehicle:8-9,sex_of_casualty:Female,|203451
+day_of_week:Monday,age_of_vehicle:<9,|220569
+accident_severity:Serious,age_of_vehicle:<9,|223765
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_type:Car occupant,|210904
+day_of_week:Saturday,age_of_vehicle:<9,|225260
+vehicle_type:Sidewalk User,casualty_type:Cyclist,|234171
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|200938
+junction_location:Mid Junction - on roundabout or on main road,first_point_of_impact:Front,sex_of_driver:Male,|210846
+accident_severity:Slight,sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Car occupant,|705865
+casualty_class:Driver or rider,sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Car occupant,|561726
+casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Motorcycle,|236763
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_type:Car occupant,|217642
+first_point_of_impact:Offside,age_band_of_driver:Adult,|202197
+sex_of_casualty:Male,casualty_severity:Serious,|221502
+age_of_vehicle:8-9,sex_of_casualty:Male,casualty_severity:Slight,|200284
+casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|621035
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Car occupant,|384431
+accident_severity:Slight,vehicle_manoeuvre:Going ahead other,junction_location:Approaching junction or waiting/parked at junction approach,casualty_severity:Slight,|257143
+sex_of_driver:Female,age_band_of_driver:26 - 35,|203803
+age_of_vehicle:8-9,casualty_severity:Slight,casualty_type:Car occupant,|296972
+accident_severity:Slight,sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Sidewalk User,|304849
+day_of_week:Thursday,age_of_vehicle:<9,casualty_severity:Slight,|205656
+day_of_week:Wednesday,age_of_vehicle:<9,casualty_severity:Slight,|204668
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|418379
+day_of_week:Friday,age_of_vehicle:<9,casualty_severity:Slight,|230883
+time:morning rush,age_of_vehicle:<9,casualty_severity:Slight,|217602
+age_of_vehicle:8-9,casualty_type:Car occupant,|322180
+day_of_week:Tuesday,age_of_vehicle:<9,casualty_severity:Slight,|203384
+accident_severity:Serious,age_of_vehicle:<19,casualty_severity:Serious,|217640
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|294331
+accident_severity:Slight,sex_of_casualty:Male,casualty_type:Car occupant,|705865
+age_of_vehicle:4-5,driver_home_area_type:Urban area,|209340
+age_of_vehicle:2-3,driver_home_area_type:Urban area,|202601
+sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Car occupant,|756913
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_type:Car occupant,|294331
+vehicle_manoeuvre:Going ahead other,junction_location:Approaching junction or waiting/parked at junction approach,sex_of_driver:Male,|210033
+accident_severity:Slight,sex_of_casualty:Male,casualty_type:Sidewalk User,|304849
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|210362
+sex_of_driver:Male,age_band_of_driver:16 - 20,age_band_of_casualty:16 - 20,|205639
+junction_detail:Roundabout,pedestrian_crossing_human_control:None within 50 metres,casualty_severity:Slight,|206445
+age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_type:Car occupant,|225225
+sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Sidewalk User,|307610
+sex_of_casualty:Male,casualty_type:Motorcycle,|241108
+journey_purpose_of_driver:Commuting to/from work,casualty_class:Driver or rider,|221282
+age_of_vehicle:4-5,casualty_severity:Slight,|263153
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Car occupant,|365212
+age_of_vehicle:2-3,casualty_severity:Slight,|258690
+sex_of_casualty:Male,casualty_type:Car occupant,|836794
+age_of_vehicle:4-5,casualty_type:Car,|202540
+age_band_of_driver:16 - 20,age_of_vehicle:<19,age_band_of_casualty:16 - 20,|224112
+sex_of_casualty:Male,casualty_type:Sidewalk User,|387577
+speed_limit:40,pedestrian_crossing_human_control:None within 50 metres,casualty_severity:Slight,|210504
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|365212
+junction_detail:Roundabout,casualty_severity:Slight,|207637
+journey_purpose_of_driver:Commuting to/from work,casualty_severity:Slight,|235484
+age_of_vehicle:8-9,sex_of_casualty:Female,|203451
+age_band_of_driver:21 - 25,age_of_vehicle:<9,|205624
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|200938
+speed_limit:40,casualty_severity:Slight,|211710
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_severity:Slight,casualty_type:Car occupant,|530588
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_type:Car occupant,|217642
+day_of_week:Wednesday,road_surface_conditions:Dry,age_of_vehicle:<49,|200724
+age_band_of_driver:16 - 20,age_of_vehicle:<19,age_band_of_casualty:Youth,casualty_severity:Slight,|204331
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|530588
+age_of_vehicle:8-9,sex_of_casualty:Male,casualty_severity:Slight,|200284
+age_of_vehicle:8-9,casualty_severity:Slight,casualty_type:Car occupant,|296972
+age_of_vehicle:8-9,casualty_type:Car occupant,|322180
+age_band_of_driver:46 - 55,age_of_vehicle:<9,casualty_severity:Slight,|212135
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_severity:Slight,|215728
+day_of_week:Wednesday,road_surface_conditions:Dry,casualty_severity:Slight,|241306
+day_of_week:Sunday,weather_conditions:Fine no high winds,road_surface_conditions:Dry,|215818
+age_band_of_driver:16 - 20,age_of_vehicle:<19,casualty_severity:Slight,|226829
+day_of_week:Monday,age_of_vehicle:<19,driver_home_area_type:Urban area,|201340
+day_of_week:Saturday,age_of_vehicle:<19,driver_home_area_type:Urban area,|209586
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,junction_location:Mid Junction - on roundabout or on main road,|207058
+accident_severity:Slight,first_point_of_impact:Front,sex_of_driver:Male,age_band_of_driver:Youth,casualty_severity:Slight,|206551
+accident_severity:Serious,sex_of_driver:Male,age_of_vehicle:<19,|222361
+age_band_of_driver:16 - 20,age_of_vehicle:<19,age_band_of_casualty:16 - 20,|224112
+day_of_week:Saturday,sex_of_driver:Male,age_of_vehicle:<19,|203627
+day_of_week:Friday,sex_of_driver:Male,age_of_vehicle:<19,|217092
+day_of_week:Thursday,age_of_vehicle:<19,driver_home_area_type:Urban area,|210467
+time:morning other,light_conditions:Daylight,weather_conditions:Fine no high winds,|220778
+age_of_vehicle:0-1,casualty_severity:Slight,|225729
+day_of_week:Wednesday,age_of_vehicle:<19,driver_home_area_type:Urban area,|209038
+accident_severity:Serious,age_of_vehicle:<49,driver_home_area_type:Urban area,|201077
+day_of_week:Wednesday,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|231842
+time:morning rush,age_of_vehicle:<19,driver_home_area_type:Urban area,|212857
+day_of_week:Monday,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|219269
+day_of_week:Monday,age_of_vehicle:<19,casualty_severity:Slight,|255126
+day_of_week:Tuesday,age_of_vehicle:<19,driver_home_area_type:Urban area,|207894
+day_of_week:Saturday,light_conditions:Daylight,weather_conditions:Fine no high winds,|218905
+day_of_week:Saturday,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|218437
+day_of_week:Tuesday,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|229480
+time:morning rush,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|227541
+day_of_week:Thursday,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|235095
+age_of_vehicle:8-9,sex_of_casualty:Female,|203451
+age_of_vehicle:10-19,driver_home_area_type:Urban area,casualty_class:Driver or rider,|200187
+accident_severity:Slight,age_band_of_driver:Senior,age_of_vehicle:<19,casualty_severity:Slight,|254251
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|200938
+day_of_week:Saturday,age_of_vehicle:<19,casualty_severity:Slight,casualty_type:Car,|201189
+day_of_week:Sunday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,weather_conditions:Fine no high winds,|221963
+sex_of_driver:Male,age_band_of_driver:21 - 25,|228514
+age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_type:Car occupant,|217642
+day_of_week:Saturday,age_of_vehicle:<19,casualty_type:Car occupant,|214164
+age_of_vehicle:8-9,sex_of_casualty:Male,casualty_severity:Slight,|200284
+day_of_week:Thursday,age_of_vehicle:<19,casualty_severity:Slight,|266423
+day_of_week:Wednesday,age_of_vehicle:<19,casualty_severity:Slight,|265144
+accident_severity:Serious,age_of_vehicle:<49,casualty_severity:Serious,|222399
+day_of_week:Tuesday,age_of_vehicle:<19,casualty_severity:Slight,|262858
+age_band_of_driver:16 - 20,age_of_vehicle:<19,age_band_of_casualty:Youth,casualty_severity:Slight,|204331
+day_of_week:Saturday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,|221355
+time:morning other,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,|222644
+age_of_vehicle:8-9,casualty_severity:Slight,casualty_type:Car occupant,|296972
+day_of_week:Thursday,age_of_vehicle:<19,casualty_type:Car occupant,|202146
+day_of_week:Wednesday,age_of_vehicle:<19,casualty_type:Car occupant,|200774
+day_of_week:Friday,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_severity:Slight,|211274
+day_of_week:Tuesday,age_of_vehicle:<19,casualty_type:Car,|202611
+age_band_of_driver:Senior,age_of_vehicle:<9,casualty_severity:Slight,|210635
+age_of_vehicle:8-9,casualty_type:Car occupant,|322180
+casualty_class:Driver or rider,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|294297
+age_of_vehicle:<3,driver_home_area_type:Urban area,sex_of_casualty:Male,|218487
+age_of_vehicle:10-19,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|231078
+accident_severity:Slight,age_band_of_driver:Senior,age_of_vehicle:<49,casualty_severity:Slight,|257682
+casualty_class:Driver or rider,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_type:Car occupant,|309558
+age_of_vehicle:10-19,driver_home_area_type:Urban area,casualty_type:Car occupant,|251667
+accident_severity:Slight,first_point_of_impact:Offside,age_of_vehicle:<19,casualty_severity:Slight,|221441
+accident_severity:Slight,first_point_of_impact:Nearside,age_of_vehicle:<19,casualty_severity:Slight,|216272
+age_band_of_driver:21 - 25,age_of_vehicle:<19,driver_home_area_type:Urban area,|201582
+age_band_of_driver:16 - 20,age_of_vehicle:<19,casualty_severity:Slight,|226829
+day_of_week:Monday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,casualty_severity:Slight,|215281
+day_of_week:Friday,junction_control:Give way or uncontrolled,pedestrian_crossing_human_control:None within 50 metres,|212683
+age_band_of_driver:16 - 20,age_of_vehicle:<49,age_band_of_casualty:16 - 20,|226757
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|213808
+age_band_of_driver:36 - 45,age_of_vehicle:<7,casualty_severity:Slight,|215708
+day_of_week:Saturday,sex_of_driver:Male,sex_of_casualty:Male,|204616
+accident_severity:Slight,age_band_of_driver:Senior,age_of_vehicle:<100,casualty_severity:Slight,|257856
+accident_severity:Serious,junction_detail:Not at junction or within 20 metres,pedestrian_crossing_human_control:None within 50 metres,|202472
+age_band_of_driver:26 - 35,age_of_vehicle:<7,casualty_severity:Slight,|222584
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_type:Car occupant,|227086
+accident_severity:Slight,first_point_of_impact:Offside,age_of_vehicle:<49,casualty_severity:Slight,|223488
+casualty_class:Driver or rider,sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|495136
+age_band_of_driver:46 - 55,age_of_vehicle:<19,driver_home_area_type:Urban area,|216718
+age_of_vehicle:8-9,sex_of_casualty:Female,|203451
+accident_severity:Slight,first_point_of_impact:Nearside,age_of_vehicle:<49,casualty_severity:Slight,|218505
+day_of_week:Friday,urban_or_rural_area:Urban,age_of_vehicle:<19,|202240
+casualty_class:Driver or rider,sex_of_casualty:Female,casualty_type:Car occupant,|526354
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|204226
+time:morning rush,age_of_vehicle:<19,casualty_class:Driver or rider,|219570
+first_point_of_impact:Nearside,age_of_vehicle:<9,|201742
+day_of_week:Thursday,road_surface_conditions:Dry,age_of_vehicle:<19,|203585
+day_of_week:Saturday,sex_of_driver:Male,casualty_severity:Slight,|225436
+age_of_vehicle:8-9,sex_of_casualty:Male,casualty_severity:Slight,|200284
+age_band_of_driver:16 - 20,age_of_vehicle:<49,age_band_of_casualty:Youth,casualty_severity:Slight,|206451
+day_of_week:Saturday,road_surface_conditions:Dry,age_of_vehicle:<19,|201798
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_type:Car occupant,|212995
+accident_severity:Slight,junction_detail:Crossroads,pedestrian_crossing_human_control:None within 50 metres,casualty_severity:Slight,|234905
+age_of_vehicle:8-9,casualty_severity:Slight,casualty_type:Car occupant,|296972
+accident_severity:Slight,junction_detail:Roundabout,pedestrian_crossing_human_control:None within 50 metres,casualty_severity:Slight,|202791
+age_of_vehicle:8-9,casualty_type:Car occupant,|322180
+accident_severity:Slight,first_point_of_impact:Offside,age_of_vehicle:<100,casualty_severity:Slight,|223549
+accident_severity:Serious,sex_of_driver:Male,driver_home_area_type:Urban area,|203400
+accident_severity:Slight,first_point_of_impact:Nearside,age_of_vehicle:<100,casualty_severity:Slight,|218550
+day_of_week:Friday,sex_of_driver:Male,driver_home_area_type:Urban area,|205769
+day_of_week:Monday,age_of_vehicle:<49,driver_home_area_type:Urban area,|203331
+first_point_of_impact:Nearside,age_of_vehicle:<19,casualty_severity:Slight,|225662
+time:morning rush,age_of_vehicle:<19,casualty_severity:Slight,|278142
+day_of_week:Thursday,road_surface_conditions:Dry,casualty_severity:Slight,|245550
+accident_severity:Slight,age_band_of_driver:16 - 20,age_of_vehicle:<19,casualty_severity:Slight,|213775
+accident_severity:Slight,age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|200025
+age_band_of_driver:16 - 20,age_of_vehicle:<49,casualty_severity:Slight,|229105
+day_of_week:Friday,age_of_vehicle:<19,casualty_class:Driver or rider,|207465
+day_of_week:Saturday,road_surface_conditions:Dry,casualty_severity:Slight,|227791
+time:morning rush,age_of_vehicle:<19,casualty_type:Car occupant,|207965
+accident_severity:Slight,junction_detail:Roundabout,casualty_severity:Slight,|203946
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,junction_location:Mid Junction - on roundabout or on main road,|207058
+accident_severity:Slight,age_of_vehicle:8-9,driver_home_area_type:Urban area,casualty_type:Car occupant,|200025
+day_of_week:Saturday,age_of_vehicle:<49,driver_home_area_type:Urban area,|211712
+speed_limit:40,pedestrian_crossing_human_control:None within 50 metres,casualty_severity:Slight,|210504
+age_of_vehicle:2-3,driver_home_area_type:Urban area,|202601
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|333612
+junction_location:Approaching junction or waiting/parked at junction approach,first_point_of_impact:Front,age_of_vehicle:<19,|211397
+accident_severity:Serious,age_of_vehicle:<100,driver_home_area_type:Urban area,|201186
+day_of_week:Monday,age_of_vehicle:<49,casualty_severity:Slight,|257491
+first_point_of_impact:Nearside,age_of_vehicle:<49,casualty_severity:Slight,|228048
+age_band_of_driver:21 - 25,age_of_vehicle:<19,age_band_of_casualty:21 - 25,|210586
+day_of_week:Thursday,age_of_vehicle:<49,driver_home_area_type:Urban area,|212689
+age_band_of_driver:16 - 20,age_of_vehicle:<49,age_band_of_casualty:16 - 20,|226757
+age_of_vehicle:10-19,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|222773
+day_of_week:Wednesday,age_of_vehicle:<49,driver_home_area_type:Urban area,|211120
+day_of_week:Monday,age_of_vehicle:<49,casualty_type:Car,|200924
+day_of_week:Tuesday,age_of_vehicle:<49,driver_home_area_type:Urban area,|209892
+age_band_of_driver:Senior,age_of_vehicle:<19,driver_home_area_type:Urban area,|207702
+driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Female,casualty_type:Car occupant,|350705
+age_of_vehicle:8-9,sex_of_casualty:Female,|203451
+age_of_vehicle:10-19,casualty_class:Driver or rider,casualty_type:Car occupant,|246302
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|284663
+accident_severity:Slight,age_band_of_driver:16 - 20,age_of_vehicle:<49,casualty_severity:Slight,|215924
+age_band_of_driver:26 - 35,age_of_vehicle:<7,casualty_severity:Slight,|222584
+casualty_class:Driver or rider,age_band_of_casualty:16 - 20,|223407
+speed_limit:40,casualty_severity:Slight,|211710
+day_of_week:Friday,age_of_vehicle:<19,casualty_severity:Slight,casualty_type:Car occupant,|213734
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_severity:Slight,|225694
+age_of_vehicle:2-3,casualty_severity:Slight,|258690
+day_of_week:Friday,age_of_vehicle:<19,casualty_type:Car occupant,|231052
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Female,age_band_of_casualty:Adult,casualty_type:Car occupant,|284663
+day_of_week:Saturday,age_of_vehicle:<49,casualty_severity:Slight,casualty_type:Car,|202536
+accident_severity:Serious,age_of_vehicle:<100,casualty_severity:Serious,|222552
+junction_location:Approaching junction or waiting/parked at junction approach,first_point_of_impact:Front,casualty_severity:Slight,|249639
+first_point_of_impact:Nearside,age_of_vehicle:<100,casualty_severity:Slight,|228097
+day_of_week:Thursday,age_of_vehicle:<49,casualty_severity:Slight,|269074
+day_of_week:Saturday,age_of_vehicle:<49,casualty_type:Car occupant,|215755
+day_of_week:Wednesday,age_of_vehicle:<49,casualty_severity:Slight,|267652
+day_of_week:Tuesday,age_of_vehicle:<49,casualty_severity:Slight,|265268
+age_band_of_driver:21 - 25,age_of_vehicle:<19,age_band_of_casualty:Youth,casualty_severity:Slight,|204783
+day_of_week:Thursday,age_of_vehicle:<49,casualty_type:Car occupant,|203610
+age_band_of_driver:16 - 20,age_of_vehicle:<49,age_band_of_casualty:Youth,casualty_severity:Slight,|206451
+age_of_vehicle:8-9,casualty_severity:Slight,casualty_type:Car occupant,|296972
+age_band_of_driver:46 - 55,age_of_vehicle:<19,age_band_of_casualty:46 - 55,|204716
+day_of_week:Wednesday,age_of_vehicle:<49,casualty_type:Car occupant,|202164
+day_of_week:Tuesday,age_of_vehicle:<49,casualty_type:Car occupant,|200223
+age_of_vehicle:8-9,casualty_type:Car occupant,|322180
+accident_severity:Serious,sex_of_driver:Male,sex_of_casualty:Male,|251555
+accident_severity:Slight,age_band_of_driver:16 - 20,age_of_vehicle:<100,casualty_severity:Slight,|215929
+age_of_vehicle:6-7,driver_home_area_type:Urban area,|214142
+accident_severity:Serious,weather_conditions:Fine no high winds,road_surface_conditions:Dry,sex_of_driver:Male,|206659
+day_of_week:Friday,road_surface_conditions:Dry,vehicle_type:Car,|208169
+day_of_week:Friday,urban_or_rural_area:Urban,driver_home_area_type:Urban area,|214853
+age_band_of_driver:21 - 25,age_of_vehicle:<19,casualty_severity:Slight,|244559
+age_band_of_driver:16 - 20,age_of_vehicle:<49,casualty_severity:Slight,|229105
+age_of_vehicle:6-7,casualty_severity:Slight,|267388
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|478628
+junction_detail:Crossroads,pedestrian_crossing_human_control:None within 50 metres,weather_conditions:Fine no high winds,|221058
+age_band_of_driver:21 - 25,age_of_vehicle:<19,casualty_type:Car occupant,|208016
+accident_severity:Serious,sex_of_driver:Male,casualty_severity:Serious,|235835
+age_of_vehicle:6-7,casualty_type:Car occupant,|207364
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_severity:Slight,|215728
+casualty_class:Driver or rider,age_band_of_casualty:21 - 25,casualty_severity:Slight,|210834
+age_band_of_driver:46 - 55,age_of_vehicle:<19,age_band_of_casualty:Adult,casualty_severity:Slight,|205627
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|323805
+accident_severity:Slight,casualty_class:Driver or rider,sex_of_casualty:Female,casualty_type:Car occupant,|478628
+age_of_vehicle:<3,casualty_class:Driver or rider,sex_of_casualty:Male,|223077
+age_band_of_driver:16 - 20,age_of_vehicle:<100,age_band_of_casualty:16 - 20,|226767
+age_band_of_driver:36 - 45,age_of_vehicle:<9,driver_home_area_type:Urban area,casualty_severity:Slight,|213154
+accident_severity:Slight,age_band_of_driver:Senior,driver_home_area_type:Urban area,casualty_severity:Slight,|208625
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,sex_of_casualty:Female,casualty_type:Car occupant,|323805
+day_of_week:Friday,sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Slight,|201677
+day_of_week:Friday,urban_or_rural_area:Urban,casualty_severity:Slight,|246056
+vehicle_type:Motorcycle,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,|202225
+vehicle_type:Motorcycle,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Motorcycle,|202869
+age_band_of_driver:Senior,age_of_vehicle:<19,age_band_of_casualty:Senior,casualty_severity:Slight,|208355
+age_of_vehicle:10-19,sex_of_casualty:Male,casualty_severity:Slight,|232751
+age_band_of_driver:46 - 55,age_of_vehicle:<19,casualty_severity:Slight,|270747
+driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:Youth,casualty_severity:Slight,|277066
+age_band_of_driver:Senior,age_of_vehicle:<19,age_band_of_casualty:Senior,casualty_type:Car occupant,|200676
+time:morning rush,age_of_vehicle:<49,driver_home_area_type:Urban area,|215022
+age_band_of_driver:46 - 55,age_of_vehicle:<19,casualty_type:Car,|203471
+casualty_class:Driver or rider,age_band_of_casualty:Youth,casualty_severity:Slight,casualty_type:Car occupant,|278991
+driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:Youth,casualty_type:Car,|200404
+day_of_week:Friday,sex_of_driver:Male,casualty_severity:Slight,|253774
+age_of_vehicle:0-1,casualty_severity:Slight,|225729
+age_band_of_driver:16 - 20,age_of_vehicle:<100,age_band_of_casualty:Youth,casualty_severity:Slight,|206459
+casualty_class:Driver or rider,age_band_of_casualty:Youth,casualty_type:Car occupant,|304745
+accident_severity:Slight,age_of_vehicle:8-9,casualty_class:Driver or rider,casualty_severity:Slight,|223615
+accident_severity:Slight,junction_location:Approaching junction or waiting/parked at junction approach,sex_of_driver:Male,age_band_of_driver:Adult,casualty_severity:Slight,|201116
+accident_severity:Slight,first_point_of_impact:Offside,driver_home_area_type:Urban area,casualty_severity:Slight,|212105
+accident_severity:Slight,first_point_of_impact:Nearside,driver_home_area_type:Urban area,casualty_severity:Slight,|203254
+age_of_vehicle:6-7,driver_home_area_type:Urban area,|214142
+day_of_week:Monday,age_of_vehicle:<100,driver_home_area_type:Urban area,|203365
+age_band_of_driver:26 - 35,age_of_vehicle:<9,driver_home_area_type:Urban area,age_band_of_casualty:Adult,|201813
+accident_severity:Serious,road_surface_conditions:Dry,age_of_vehicle:<19,|202164
+age_band_of_driver:Senior,age_of_vehicle:<19,casualty_severity:Slight,casualty_type:Car occupant,|201233
+day_of_week:Sunday,vehicle_type:Car,age_of_vehicle:<19,|205989
+accident_severity:Serious,vehicle_type:Car,age_of_vehicle:<19,|206269
+age_band_of_driver:16 - 20,age_of_vehicle:<100,casualty_severity:Slight,|229113
+age_band_of_driver:Senior,age_of_vehicle:<19,casualty_type:Car occupant,|226787
+age_of_vehicle:<3,casualty_class:Driver or rider,age_band_of_casualty:Adult,|202576
+first_point_of_impact:Nearside,driver_home_area_type:Urban area,casualty_severity:Slight,|210589
+accident_severity:Slight,first_point_of_impact:Nearside,casualty_severity:Slight,|294184
+age_of_vehicle:6-7,casualty_severity:Slight,|267388
+age_of_vehicle:<3,driver_home_area_type:Urban area,sex_of_casualty:Male,|218487
+accident_severity:Slight,age_of_vehicle:8-9,casualty_severity:Slight,casualty_type:Car occupant,|280740
+age_of_vehicle:6-7,casualty_type:Car occupant,|207364
+age_of_vehicle:10-19,sex_of_casualty:Female,|210567
+day_of_week:Saturday,age_of_vehicle:<100,driver_home_area_type:Urban area,|211773
+day_of_week:Monday,age_of_vehicle:<100,casualty_severity:Slight,|257528
+accident_severity:Slight,age_of_vehicle:8-9,casualty_type:Car occupant,|280740
+accident_severity:Serious,road_surface_conditions:Dry,casualty_severity:Serious,|217701
+day_of_week:Thursday,age_of_vehicle:<100,driver_home_area_type:Urban area,|212714
+first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Slight,|237292
+day_of_week:Tuesday,weather_conditions:Fine no high winds,urban_or_rural_area:Urban,|204525
+day_of_week:Wednesday,weather_conditions:Fine no high winds,urban_or_rural_area:Urban,|205746
+day_of_week:Wednesday,age_of_vehicle:<100,driver_home_area_type:Urban area,|211148
+accident_severity:Slight,age_band_of_driver:Senior,age_band_of_casualty:Senior,casualty_severity:Slight,|246068
+day_of_week:Monday,age_of_vehicle:<100,casualty_type:Car,|200936
+day_of_week:Sunday,vehicle_type:Car,casualty_severity:Slight,|216732
+day_of_week:Tuesday,age_of_vehicle:<100,driver_home_area_type:Urban area,|209919
+time:morning rush,weather_conditions:Fine no high winds,urban_or_rural_area:Urban,|204435
+age_band_of_driver:16 - 20,age_of_vehicle:<100,age_band_of_casualty:16 - 20,|226767
+age_band_of_driver:26 - 35,age_of_vehicle:<9,driver_home_area_type:Urban area,casualty_severity:Slight,|236173
+day_of_week:Thursday,weather_conditions:Fine no high winds,urban_or_rural_area:Urban,|206732
+day_of_week:Tuesday,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Slight,|207313
+first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car,|202216
+day_of_week:Monday,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Slight,|202785
+day_of_week:Thursday,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Slight,|210660
+day_of_week:Sunday,vehicle_type:Car,casualty_type:Car occupant,|219091
+time:morning rush,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Slight,|217097
+day_of_week:Wednesday,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Slight,|209586
+day_of_week:Saturday,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Slight,|214803
+accident_severity:Slight,age_band_of_driver:16 - 20,age_band_of_casualty:16 - 20,casualty_severity:Slight,|237831
+age_of_vehicle:<3,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|218281
+day_of_week:Friday,age_of_vehicle:<49,driver_home_area_type:Urban area,casualty_severity:Slight,|213119
+day_of_week:Thursday,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|202146
+time:morning rush,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|207965
+junction_location:Mid Junction - on roundabout or on main road,first_point_of_impact:Front,age_of_vehicle:<19,|210554
+day_of_week:Wednesday,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|200774
+first_point_of_impact:Offside,age_of_vehicle:<9,|204372
+day_of_week:Saturday,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|214164
+age_of_vehicle:<3,casualty_class:Driver or rider,casualty_type:Car occupant,|233395
+day_of_week:Friday,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Slight,casualty_type:Car occupant,|213734
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|213808
+day_of_week:Thursday,age_of_vehicle:<100,casualty_severity:Slight,|269108
+age_band_of_driver:36 - 45,age_of_vehicle:<9,age_band_of_casualty:36 - 45,|217191
+day_of_week:Wednesday,age_of_vehicle:<100,casualty_severity:Slight,|267694
+day_of_week:Friday,weather_conditions:Fine no high winds,road_surface_conditions:Dry,vehicle_type:Car,|204854
+day_of_week:Tuesday,age_of_vehicle:<100,casualty_severity:Slight,|265294
+day_of_week:Saturday,age_of_vehicle:<100,casualty_severity:Slight,casualty_type:Car,|202563
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_type:Car occupant,|227086
+day_of_week:Thursday,age_of_vehicle:<100,casualty_type:Car occupant,|203628
+age_band_of_driver:21 - 25,age_of_vehicle:<49,driver_home_area_type:Urban area,|203398
+day_of_week:Friday,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|231052
+day_of_week:Wednesday,age_of_vehicle:<100,casualty_type:Car occupant,|202178
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:Youth,casualty_severity:Slight,|268000
+day_of_week:Tuesday,age_of_vehicle:<100,casualty_type:Car occupant,|200237
+age_band_of_driver:16 - 20,age_of_vehicle:<100,age_band_of_casualty:Youth,casualty_severity:Slight,|206459
+accident_severity:Slight,age_band_of_driver:Senior,casualty_severity:Slight,casualty_type:Car occupant,|216883
+day_of_week:Saturday,age_of_vehicle:<100,casualty_type:Car occupant,|215789
+age_of_vehicle:10-19,age_band_of_casualty:Adult,|217345
+day_of_week:Tuesday,vehicle_type:Car,age_of_vehicle:<49,casualty_severity:Slight,|208563
+accident_severity:Slight,journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Slight,|212105
+first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<49,casualty_severity:Slight,|239260
+day_of_week:Monday,vehicle_type:Car,age_of_vehicle:<49,casualty_severity:Slight,|204063
+accident_severity:Slight,age_band_of_driver:Senior,casualty_type:Car occupant,|216883
+age_of_vehicle:6-7,driver_home_area_type:Urban area,|214142
+accident_severity:Slight,age_band_of_driver:16 - 20,age_band_of_casualty:Youth,casualty_severity:Slight,|247031
+accident_severity:Slight,casualty_class:Driver or rider,age_band_of_casualty:21 - 25,casualty_severity:Slight,|203165
+first_point_of_impact:Offside,age_of_vehicle:<19,casualty_severity:Slight,|233722
+day_of_week:Tuesday,vehicle_type:Car,age_of_vehicle:<49,casualty_type:Car occupant,|200223
+first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<49,casualty_type:Car,|203565
+day_of_week:Thursday,vehicle_type:Car,age_of_vehicle:<49,casualty_severity:Slight,|212074
+time:morning rush,vehicle_type:Car,age_of_vehicle:<49,casualty_severity:Slight,|218362
+day_of_week:Wednesday,vehicle_type:Car,age_of_vehicle:<49,casualty_severity:Slight,|210906
+day_of_week:Saturday,vehicle_type:Car,age_of_vehicle:<49,casualty_severity:Slight,|216294
+age_band_of_driver:26 - 35,age_of_vehicle:<9,driver_home_area_type:Urban area,age_band_of_casualty:Adult,|201813
+accident_severity:Slight,first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Slight,|230462
+first_point_of_impact:Nearside,casualty_class:Driver or rider,|205522
+vehicle_manoeuvre:Going ahead other,junction_location:Approaching junction or waiting/parked at junction approach,age_of_vehicle:<19,|217743
+age_band_of_driver:36 - 45,age_of_vehicle:<9,age_band_of_casualty:Adult,casualty_severity:Slight,|218953
+day_of_week:Thursday,vehicle_type:Car,age_of_vehicle:<49,casualty_type:Car occupant,|203610
+time:morning rush,vehicle_type:Car,age_of_vehicle:<49,casualty_type:Car occupant,|209250
+age_band_of_driver:16 - 20,age_of_vehicle:<100,casualty_severity:Slight,|229113
+day_of_week:Wednesday,vehicle_type:Car,age_of_vehicle:<49,casualty_type:Car occupant,|202164
+age_of_vehicle:6-7,casualty_severity:Slight,|267388
+day_of_week:Saturday,vehicle_type:Car,age_of_vehicle:<49,casualty_type:Car occupant,|215755
+age_band_of_driver:46 - 55,age_of_vehicle:<49,driver_home_area_type:Urban area,|219581
+age_of_vehicle:10-19,casualty_severity:Slight,casualty_type:Car occupant,|333209
+age_of_vehicle:6-7,casualty_type:Car occupant,|207364
+casualty_class:Driver or rider,age_band_of_casualty:26 - 35,casualty_severity:Slight,casualty_type:Car occupant,|242392
+age_band_of_driver:16 - 20,driver_home_area_type:Urban area,|214205
+age_of_vehicle:10-19,casualty_type:Car occupant,|368780
+accident_severity:Slight,age_band_of_driver:16 - 20,casualty_severity:Slight,|272291
+time:morning rush,age_of_vehicle:<49,casualty_class:Driver or rider,casualty_severity:Slight,|201508
+first_point_of_impact:Offside,age_of_vehicle:<49,casualty_severity:Slight,|235891
+day_of_week:Monday,vehicle_type:Car,age_of_vehicle:<100,casualty_severity:Slight,|204070
+casualty_class:Driver or rider,age_band_of_casualty:26 - 35,casualty_type:Car occupant,|259769
+day_of_week:Friday,vehicle_type:Car,age_of_vehicle:<49,casualty_severity:Slight,casualty_type:Car occupant,|215153
+day_of_week:Friday,road_surface_conditions:Dry,sex_of_driver:Male,|203180
+accident_severity:Slight,vehicle_manoeuvre:Going ahead other,junction_location:Mid Junction - on roundabout or on main road,sex_of_driver:Male,casualty_severity:Slight,|207909
+accident_severity:Slight,journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,age_of_vehicle:<49,casualty_severity:Slight,|213511
+day_of_week:Tuesday,vehicle_type:Car,age_of_vehicle:<100,casualty_severity:Slight,|208574
+first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<100,casualty_severity:Slight,|239302
+accident_severity:Serious,weather_conditions:Fine no high winds,road_surface_conditions:Dry,age_of_vehicle:<100,|200076
+accident_severity:Slight,first_point_of_impact:Offside,casualty_class:Driver or rider,casualty_severity:Slight,|216654
+day_of_week:Friday,vehicle_type:Car,age_of_vehicle:<49,casualty_type:Car occupant,|232689
+age_band_of_driver:26 - 35,age_of_vehicle:<9,driver_home_area_type:Urban area,casualty_severity:Slight,|236173
+driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:26 - 35,casualty_severity:Slight,|260145
+day_of_week:Tuesday,vehicle_type:Car,age_of_vehicle:<100,casualty_type:Car occupant,|200237
+accident_severity:Slight,casualty_class:Driver or rider,age_band_of_casualty:Youth,casualty_severity:Slight,casualty_type:Car occupant,|266416
+first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<100,casualty_type:Car,|203592
+day_of_week:Thursday,vehicle_type:Car,age_of_vehicle:<100,casualty_severity:Slight,|212089
+age_band_of_driver:36 - 45,age_of_vehicle:<9,casualty_severity:Slight,casualty_type:Car occupant,|201030
+time:morning rush,vehicle_type:Car,age_of_vehicle:<100,casualty_severity:Slight,|218370
+accident_severity:Slight,first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<49,casualty_severity:Slight,|232364
+day_of_week:Wednesday,vehicle_type:Car,age_of_vehicle:<100,casualty_severity:Slight,|210921
+day_of_week:Saturday,vehicle_type:Car,age_of_vehicle:<100,casualty_severity:Slight,|216321
+first_point_of_impact:Front,sex_of_driver:Male,age_band_of_driver:Youth,age_of_vehicle:<19,|205605
+accident_severity:Serious,light_conditions:Daylight,weather_conditions:Fine no high winds,road_surface_conditions:Dry,|204787
+time:morning rush,age_of_vehicle:<49,casualty_severity:Slight,|280881
+day_of_week:Tuesday,light_conditions:Daylight,weather_conditions:Fine no high winds,road_surface_conditions:Dry,|213418
+accident_severity:Slight,casualty_class:Driver or rider,age_band_of_casualty:Youth,casualty_type:Car occupant,|266416
+first_point_of_impact:Offside,age_of_vehicle:<100,casualty_severity:Slight,|235959
+age_band_of_driver:36 - 45,age_of_vehicle:<9,casualty_type:Car occupant,|212138
+day_of_week:Thursday,light_conditions:Daylight,weather_conditions:Fine no high winds,road_surface_conditions:Dry,|215199
+day_of_week:Thursday,vehicle_type:Car,age_of_vehicle:<100,casualty_type:Car occupant,|203628
+day_of_week:Wednesday,light_conditions:Daylight,weather_conditions:Fine no high winds,road_surface_conditions:Dry,|214605
+day_of_week:Monday,light_conditions:Daylight,weather_conditions:Fine no high winds,road_surface_conditions:Dry,|202991
+time:morning rush,vehicle_type:Car,age_of_vehicle:<100,casualty_type:Car occupant,|209264
+age_band_of_driver:Senior,age_of_vehicle:<49,driver_home_area_type:Urban area,|210741
+day_of_week:Wednesday,vehicle_type:Car,age_of_vehicle:<100,casualty_type:Car occupant,|202178
+day_of_week:Saturday,vehicle_type:Car,age_of_vehicle:<100,casualty_type:Car occupant,|215789
+time:night,road_type:Single carriageway,speed_limit:>20,|200043
+time:morning rush,age_of_vehicle:<49,casualty_type:Car occupant,|209250
+age_of_vehicle:<3,sex_of_casualty:Male,casualty_severity:Slight,|267236
+day_of_week:Monday,vehicle_type:Car,casualty_severity:Slight,casualty_type:Car occupant,|213137
+accident_severity:Slight,first_point_of_impact:Offside,casualty_severity:Slight,|303150
+day_of_week:Friday,age_of_vehicle:<49,casualty_class:Driver or rider,|210103
+first_point_of_impact:Nearside,sex_of_casualty:Male,|215185
+day_of_week:Monday,vehicle_type:Car,casualty_type:Car occupant,|230654
+accident_severity:Serious,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Serious,|210165
+accident_severity:Slight,journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,age_of_vehicle:<100,casualty_severity:Slight,|213521
+age_of_vehicle:6-7,driver_home_area_type:Urban area,|214142
+day_of_week:Tuesday,vehicle_type:Car,casualty_severity:Slight,casualty_type:Car occupant,|216902
+age_band_of_driver:21 - 25,age_of_vehicle:<49,age_band_of_casualty:21 - 25,|212837
+day_of_week:Sunday,weather_conditions:Fine no high winds,age_of_vehicle:<19,|200787
+day_of_week:Friday,vehicle_type:Car,age_of_vehicle:<100,casualty_severity:Slight,casualty_type:Car occupant,|215167
+day_of_week:Tuesday,vehicle_type:Car,casualty_type:Car occupant,|233936
+accident_severity:Serious,speed_limit:30,pedestrian_crossing_human_control:None within 50 metres,|211174
+day_of_week:Tuesday,light_conditions:Daylight,weather_conditions:Fine no high winds,casualty_severity:Slight,|221232
+day_of_week:Thursday,light_conditions:Daylight,weather_conditions:Fine no high winds,casualty_severity:Slight,|221330
+day_of_week:Wednesday,light_conditions:Daylight,weather_conditions:Fine no high winds,casualty_severity:Slight,|222464
+first_point_of_impact:Nearside,casualty_severity:Slight,|305556
+day_of_week:Monday,light_conditions:Daylight,weather_conditions:Fine no high winds,casualty_severity:Slight,|210664
+day_of_week:Thursday,vehicle_type:Car,casualty_severity:Slight,casualty_type:Car occupant,|219841
+accident_severity:Slight,first_point_of_impact:Back,sex_of_driver:Male,age_of_vehicle:<100,casualty_severity:Slight,|232400
+accident_severity:Slight,junction_detail:Crossroads,urban_or_rural_area:Urban,casualty_severity:Slight,|201328
+day_of_week:Saturday,speed_limit:30,pedestrian_crossing_human_control:None within 50 metres,|226489
+accident_severity:Slight,light_conditions:Darkness - lights lit,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|237555
+time:morning rush,vehicle_type:Car,casualty_severity:Slight,casualty_type:Car occupant,|230208
+day_of_week:Friday,vehicle_type:Car,age_of_vehicle:<100,casualty_type:Car occupant,|232711
+day_of_week:Wednesday,vehicle_type:Car,casualty_severity:Slight,casualty_type:Car occupant,|219355
+day_of_week:Saturday,vehicle_type:Car,casualty_severity:Slight,casualty_type:Car occupant,|227291
+accident_severity:Slight,age_band_of_driver:26 - 35,age_of_vehicle:<7,casualty_severity:Slight,|212939
+day_of_week:Thursday,vehicle_type:Car,casualty_type:Car occupant,|237816
+junction_location:Mid Junction - on roundabout or on main road,first_point_of_impact:Front,driver_home_area_type:Urban area,|219072
+casualty_class:Driver or rider,age_band_of_casualty:36 - 45,casualty_severity:Slight,casualty_type:Car occupant,|209147
+age_of_vehicle:6-7,casualty_severity:Slight,|267388
+time:morning rush,vehicle_type:Car,casualty_type:Car occupant,|245962
+time:morning rush,light_conditions:Daylight,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|223616
+day_of_week:Friday,light_conditions:Daylight,weather_conditions:Fine no high winds,road_surface_conditions:Dry,casualty_severity:Slight,|203114
+day_of_week:Wednesday,vehicle_type:Car,casualty_type:Car occupant,|236563
+day_of_week:Saturday,vehicle_type:Car,casualty_type:Car occupant,|250391
+age_of_vehicle:6-7,casualty_type:Car occupant,|207364
+day_of_week:Thursday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,weather_conditions:Fine no high winds,|208681
+day_of_week:Tuesday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,weather_conditions:Fine no high winds,|207774
+day_of_week:Friday,age_of_vehicle:<49,casualty_severity:Slight,casualty_type:Car occupant,|215153
+casualty_class:Driver or rider,age_band_of_casualty:36 - 45,casualty_type:Car occupant,|223001
+age_of_vehicle:4-5,driver_home_area_type:Urban area,|209340
+day_of_week:Friday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,weather_conditions:Fine no high winds,|223098
+accident_severity:Serious,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,weather_conditions:Fine no high winds,|204775
+day_of_week:Wednesday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,weather_conditions:Fine no high winds,|209471
+age_band_of_driver:16 - 20,driver_home_area_type:Urban area,|214205
+journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,age_of_vehicle:<9,|216304
+day_of_week:Friday,age_of_vehicle:<49,casualty_type:Car occupant,|232689
+day_of_week:Sunday,weather_conditions:Fine no high winds,casualty_severity:Slight,|221616
+time:morning other,light_conditions:Daylight,age_of_vehicle:<19,|201301
+day_of_week:Saturday,light_conditions:Daylight,age_of_vehicle:<19,|200742
+accident_severity:Slight,junction_detail:Crossroads,casualty_severity:Slight,|237621
+age_band_of_driver:21 - 25,age_of_vehicle:<49,age_band_of_casualty:Youth,casualty_severity:Slight,|206676
+day_of_week:Saturday,speed_limit:30,casualty_severity:Slight,|201068
+day_of_week:Sunday,pedestrian_crossing_human_control:None within 50 metres,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,weather_conditions:Fine no high winds,|221707
+driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:36 - 45,casualty_severity:Slight,|217002
+day_of_week:Monday,speed_limit:30,pedestrian_crossing_human_control:None within 50 metres,casualty_severity:Slight,|204955
+vehicle_type:Motorcycle,sex_of_driver:Male,age_of_vehicle:<49,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Motorcycle,|203300
+vehicle_type:Motorcycle,sex_of_driver:Male,age_of_vehicle:<49,casualty_class:Driver or rider,casualty_type:Motorcycle,|203300
+age_of_vehicle:4-5,casualty_severity:Slight,|263153
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_severity:Slight,|215728
+age_band_of_driver:46 - 55,age_of_vehicle:<49,age_band_of_casualty:46 - 55,|208024
+age_of_vehicle:4-5,casualty_type:Car,|202540
+day_of_week:Thursday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,casualty_severity:Slight,|222913
+vehicle_manoeuvre:Going ahead other,junction_location:Approaching junction or waiting/parked at junction approach,driver_home_area_type:Urban area,|214107
+day_of_week:Tuesday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,casualty_severity:Slight,|223028
+age_of_vehicle:<3,casualty_class:Driver or rider,sex_of_casualty:Male,|223077
+time:morning other,light_conditions:Daylight,casualty_severity:Slight,|234885
+day_of_week:Wednesday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,casualty_severity:Slight,|225097
+age_band_of_driver:Senior,age_of_vehicle:<49,age_band_of_casualty:Senior,casualty_severity:Slight,|211234
+day_of_week:Saturday,light_conditions:Daylight,casualty_severity:Slight,|228400
+journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Slight,|224444
+age_band_of_driver:21 - 25,age_of_vehicle:<49,casualty_severity:Slight,|246729
+day_of_week:Saturday,pedestrian_crossing_human_control:None within 50 metres,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,|221112
+age_of_vehicle:<3,sex_of_casualty:Female,casualty_severity:Slight,|217029
+time:morning other,pedestrian_crossing_human_control:None within 50 metres,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,|222291
+age_band_of_driver:21 - 25,age_of_vehicle:<49,casualty_type:Car occupant,|209559
+age_band_of_driver:Senior,age_of_vehicle:<49,age_band_of_casualty:Senior,casualty_type:Car occupant,|202800
+age_band_of_driver:46 - 55,age_of_vehicle:<49,age_band_of_casualty:Adult,casualty_severity:Slight,|208180
+vehicle_manoeuvre:Going ahead other,junction_location:Approaching junction or waiting/parked at junction approach,casualty_severity:Slight,|267661
+casualty_class:Driver or rider,age_band_of_casualty:46 - 55,casualty_severity:Slight,|220529
+driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|425251
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:26 - 35,casualty_severity:Slight,|251978
+time:morning rush,junction_control:Give way or uncontrolled,pedestrian_crossing_human_control:None within 50 metres,light_conditions:Daylight,|201569
+junction_location:Approaching junction or waiting/parked at junction approach,sex_of_driver:Male,age_band_of_driver:Adult,casualty_severity:Slight,|207937
+first_point_of_impact:Offside,driver_home_area_type:Urban area,casualty_severity:Slight,|221266
+driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:Adult,casualty_type:Car occupant,|450521
+journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,age_of_vehicle:<49,casualty_severity:Slight,|225964
+accident_severity:Slight,sex_of_driver:Male,age_band_of_driver:Youth,age_of_vehicle:<9,casualty_severity:Slight,|205299
+accident_severity:Slight,junction_control:Auto traffic signal,pedestrian_crossing_human_control:None within 50 metres,weather_conditions:Fine no high winds,casualty_severity:Slight,|202934
+day_of_week:Monday,pedestrian_crossing_human_control:None within 50 metres,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,light_conditions:Daylight,casualty_severity:Slight,|214576
+time:morning rush,age_of_vehicle:<100,driver_home_area_type:Urban area,|215043
+age_of_vehicle:4-5,driver_home_area_type:Urban area,|209340
+age_band_of_driver:Senior,age_of_vehicle:<49,casualty_severity:Slight,casualty_type:Car occupant,|203187
+age_band_of_driver:46 - 55,age_of_vehicle:<49,casualty_severity:Slight,|273894
+age_band_of_driver:26 - 35,age_of_vehicle:<9,casualty_class:Driver or rider,age_band_of_casualty:26 - 35,|219351
+age_band_of_driver:Senior,age_of_vehicle:<49,casualty_type:Car occupant,|229111
+age_band_of_driver:46 - 55,age_of_vehicle:<49,casualty_type:Car,|204838
+junction_location:Mid Junction - on roundabout or on main road,first_point_of_impact:Front,casualty_class:Driver or rider,|212439
+age_band_of_driver:16 - 20,casualty_class:Driver or rider,age_band_of_casualty:16 - 20,|223407
+casualty_class:Driver or rider,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|604356
+age_of_vehicle:<3,casualty_class:Driver or rider,age_band_of_casualty:Adult,|202576
+first_point_of_impact:Back,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_severity:Slight,|222016
+junction_detail:Crossroads,pedestrian_crossing_human_control:None within 50 metres,urban_or_rural_area:Urban,casualty_severity:Slight,|205322
+age_of_vehicle:<3,driver_home_area_type:Urban area,sex_of_casualty:Male,|218487
+accident_severity:Slight,casualty_class:Driver or rider,age_band_of_casualty:26 - 35,casualty_severity:Slight,casualty_type:Car occupant,|232611
+accident_severity:Slight,age_of_vehicle:6-7,casualty_severity:Slight,|254313
+age_of_vehicle:4-5,casualty_severity:Slight,|263153
+casualty_class:Driver or rider,age_band_of_casualty:Adult,casualty_type:Car occupant,|647090
+driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|718088
+age_of_vehicle:4-5,casualty_type:Car,|202540
+journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,age_of_vehicle:<100,casualty_severity:Slight,|225975
+accident_severity:Slight,casualty_class:Driver or rider,age_band_of_casualty:26 - 35,casualty_type:Car occupant,|232611
+day_of_week:Friday,vehicle_type:Car,driver_home_area_type:Urban area,|210665
+driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_type:Car occupant,|769130
+age_of_vehicle:<3,age_band_of_casualty:Adult,casualty_severity:Slight,|241718
+junction_location:Mid Junction - on roundabout or on main road,first_point_of_impact:Front,casualty_severity:Slight,|259623
+day_of_week:Monday,weather_conditions:Fine no high winds,vehicle_type:Car,|208809
+vehicle_type:Motorcycle,sex_of_driver:Male,age_of_vehicle:<49,sex_of_casualty:Male,casualty_type:Motorcycle,|206191
+vehicle_type:Motorcycle,sex_of_driver:Male,age_of_vehicle:<49,casualty_type:Motorcycle,|211681
+light_conditions:Darkness - lights lit,weather_conditions:Fine no high winds,road_surface_conditions:Dry,urban_or_rural_area:Urban,casualty_severity:Slight,|205752
+age_of_vehicle:<3,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|218281
+day_of_week:Sunday,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,vehicle_type:Car,|209846
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_severity:Slight,casualty_type:Car occupant,|213808
+junction_control:Auto traffic signal,pedestrian_crossing_human_control:None within 50 metres,weather_conditions:Fine no high winds,urban_or_rural_area:Urban,|205509
+age_of_vehicle:<3,casualty_class:Driver or rider,casualty_type:Car occupant,|233395
+first_point_of_impact:Front,sex_of_driver:Male,age_band_of_driver:Youth,sex_of_casualty:Male,age_band_of_casualty:Youth,|212683
+age_of_vehicle:<3,casualty_severity:Slight,casualty_type:Car occupant,|314791
+age_of_vehicle:<3,driver_home_area_type:Urban area,casualty_type:Car occupant,|227086
+age_of_vehicle:<3,casualty_type:Car occupant,|337624
+day_of_week:Friday,vehicle_type:Car,casualty_severity:Slight,casualty_type:Car occupant,|250575
+age_band_of_driver:16 - 20,sex_of_casualty:Male,|216501
+day_of_week:Saturday,weather_conditions:Fine no high winds,vehicle_type:Car,casualty_severity:Slight,|200153
+day_of_week:Friday,vehicle_type:Car,casualty_type:Car occupant,|271521
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:36 - 45,casualty_severity:Slight,|209810
+age_of_vehicle:4-5,driver_home_area_type:Urban area,|209340
+day_of_week:Friday,age_of_vehicle:<100,driver_home_area_type:Urban area,casualty_severity:Slight,|213145
+accident_severity:Slight,journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_severity:Slight,|204046
+casualty_class:Driver or rider,age_band_of_casualty:Senior,casualty_severity:Slight,|204568
+first_point_of_impact:Offside,casualty_class:Driver or rider,casualty_severity:Slight,|224587
+junction_control:Auto traffic signal,pedestrian_crossing_human_control:None within 50 metres,weather_conditions:Fine no high winds,casualty_severity:Slight,|209102
+age_band_of_driver:21 - 25,age_of_vehicle:<100,driver_home_area_type:Urban area,|203400
+age_band_of_driver:26 - 35,age_of_vehicle:<9,casualty_class:Driver or rider,age_band_of_casualty:26 - 35,|219351
+age_band_of_driver:16 - 20,casualty_class:Driver or rider,age_band_of_casualty:16 - 20,|223407
+age_of_vehicle:4-5,casualty_severity:Slight,|263153
+accident_severity:Slight,first_point_of_impact:Back,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_severity:Slight,|216375
+accident_severity:Slight,junction_location:Mid Junction - on roundabout or on main road,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Slight,|222455
+age_of_vehicle:4-5,casualty_type:Car,|202540
+accident_severity:Slight,age_band_of_driver:26 - 35,age_of_vehicle:<9,driver_home_area_type:Urban area,casualty_severity:Slight,|226842
+day_of_week:Saturday,weather_conditions:Fine no high winds,vehicle_type:Car,casualty_severity:Slight,|207675
+casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|1057050
+casualty_class:Driver or rider,casualty_type:Motorcycle,|257188
+day_of_week:Saturday,weather_conditions:Fine no high winds,vehicle_type:Car,casualty_type:Car,|201574
+age_band_of_driver:36 - 45,age_of_vehicle:<19,driver_home_area_type:Urban area,age_band_of_casualty:Adult,casualty_severity:Slight,|200891
+speed_limit:70,pedestrian_crossing_human_control:None within 50 metres,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,urban_or_rural_area:Rural,|200469
+accident_severity:Slight,casualty_class:Driver or rider,age_band_of_casualty:36 - 45,casualty_severity:Slight,casualty_type:Car occupant,|200441
+casualty_class:Driver or rider,casualty_type:Car occupant,|1147585
+accident_severity:Slight,casualty_class:Driver or rider,age_band_of_casualty:36 - 45,casualty_type:Car occupant,|200441
+casualty_class:Driver or rider,casualty_type:Cyclist,|232927
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:Adult,casualty_severity:Slight,casualty_type:Car occupant,|409343
+first_point_of_impact:Front,sex_of_driver:Male,age_band_of_driver:Youth,age_band_of_casualty:Youth,|236534
+time:morning rush,age_of_vehicle:<100,casualty_class:Driver or rider,casualty_severity:Slight,|201536
+age_band_of_driver:46 - 55,age_of_vehicle:<100,driver_home_area_type:Urban area,|219672
+age_band_of_driver:Senior,age_of_vehicle:<100,driver_home_area_type:Urban area,|210899
+accident_severity:Slight,junction_location:Mid Junction - on roundabout or on main road,sex_of_driver:Male,age_of_vehicle:<49,casualty_severity:Slight,|225379
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,age_band_of_casualty:Adult,casualty_type:Car occupant,|409343
+age_of_vehicle:<3,sex_of_casualty:Male,casualty_severity:Slight,|267236
+age_band_of_driver:26 - 35,age_of_vehicle:<9,age_band_of_casualty:26 - 35,casualty_severity:Slight,|227308
+first_point_of_impact:Offside,sex_of_casualty:Male,|218573
+age_band_of_driver:36 - 45,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_severity:Slight,|270842
+speed_limit:70,pedestrian_crossing_human_control:None within 50 metres,pedestrian_crossing_physical_facilities:No physical crossing facilities within 50 metres,casualty_severity:Slight,|203495
+age_band_of_driver:16 - 20,sex_of_casualty:Male,|216501
+time:morning rush,age_of_vehicle:<100,casualty_severity:Slight,|280914
+age_band_of_driver:36 - 45,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_type:Car,|204110
+age_of_vehicle:4-5,driver_home_area_type:Urban area,|209340
+time:morning rush,age_of_vehicle:<100,casualty_type:Car occupant,|209264
+first_point_of_impact:Front,sex_of_driver:Male,age_band_of_driver:Youth,casualty_severity:Slight,|222042
+age_band_of_driver:16 - 20,age_band_of_casualty:16 - 20,casualty_severity:Slight,|250852
+first_point_of_impact:Offside,casualty_severity:Slight,casualty_type:Car occupant,|203292
+first_point_of_impact:Offside,casualty_type:Car occupant,|221951
+accident_severity:Serious,weather_conditions:Fine no high winds,vehicle_type:Car,|204984
+age_band_of_driver:26 - 35,age_of_vehicle:<9,age_band_of_casualty:Adult,casualty_severity:Slight,|243766
+day_of_week:Friday,age_of_vehicle:<100,casualty_class:Driver or rider,|210152
+accident_severity:Slight,time:night,speed_limit:>20,pedestrian_crossing_human_control:None within 50 metres,casualty_severity:Slight,|206781
+accident_severity:Slight,junction_location:Mid Junction - on roundabout or on main road,sex_of_driver:Male,age_of_vehicle:<100,casualty_severity:Slight,|225448
+journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_severity:Slight,|214786
+age_of_vehicle:4-5,casualty_severity:Slight,|263153
+accident_severity:Slight,weather_conditions:Raining no high winds,road_surface_conditions:Wet or damp,vehicle_type:Car,casualty_severity:Slight,|213980
+age_of_vehicle:2-3,driver_home_area_type:Urban area,|202601
+age_of_vehicle:4-5,casualty_type:Car,|202540
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_severity:Slight,casualty_type:Car occupant,|689060
+age_band_of_driver:26 - 35,age_of_vehicle:<9,age_band_of_casualty:Adult,casualty_type:Car,|200332
+age_band_of_driver:21 - 25,age_of_vehicle:<100,age_band_of_casualty:21 - 25,|212843
+age_band_of_driver:16 - 20,age_band_of_casualty:Youth,casualty_severity:Slight,|261009
+accident_severity:Slight,driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_type:Car occupant,|689060
+accident_severity:Serious,light_conditions:Daylight,road_surface_conditions:Dry,|210953
+age_band_of_driver:16 - 20,age_band_of_casualty:Youth,casualty_type:Car occupant,|205542
+accident_severity:Slight,casualty_class:Driver or rider,age_band_of_casualty:46 - 55,casualty_severity:Slight,|211312
+accident_severity:Slight,sex_of_driver:Female,age_band_of_driver:Adult,age_of_vehicle:<7,casualty_severity:Slight,|221111
+age_of_vehicle:2-3,casualty_severity:Slight,|258690
+sex_of_driver:Male,age_band_of_driver:Youth,age_of_vehicle:<9,sex_of_casualty:Male,|217239
+accident_severity:Slight,time:night,speed_limit:>20,casualty_severity:Slight,|207879
+age_of_vehicle:<3,casualty_class:Driver or rider,sex_of_casualty:Male,|223077
+day_of_week:Friday,age_of_vehicle:<100,casualty_severity:Slight,casualty_type:Car occupant,|215167
+first_point_of_impact:Back,sex_of_driver:Male,casualty_class:Driver or rider,sex_of_casualty:Male,|201084
+age_band_of_driver:Senior,age_of_vehicle:<100,age_band_of_casualty:Senior,casualty_severity:Slight,|211403
+day_of_week:Monday,weather_conditions:Fine no high winds,sex_of_driver:Male,|200708
+day_of_week:Friday,age_of_vehicle:<100,casualty_type:Car occupant,|232711
+accident_severity:Serious,vehicle_type:Car,age_of_vehicle:<19,|211799
+age_band_of_driver:21 - 25,age_of_vehicle:<100,age_band_of_casualty:Youth,casualty_severity:Slight,|206682
+accident_severity:Slight,journey_purpose_of_driver:Journey as part of work,sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Slight,|211854
+accident_severity:Slight,weather_conditions:Raining no high winds,road_surface_conditions:Wet or damp,vehicle_type:Car,casualty_severity:Slight,|220346
+age_band_of_driver:26 - 35,age_of_vehicle:<9,casualty_severity:Slight,casualty_type:Car occupant,|221228
+age_band_of_driver:Senior,age_of_vehicle:<100,age_band_of_casualty:Senior,casualty_type:Car occupant,|202870
+age_of_vehicle:<3,sex_of_casualty:Female,casualty_severity:Slight,|217029
+age_band_of_driver:16 - 20,casualty_severity:Slight,casualty_type:Car occupant,|200522
+driver_home_area_type:Urban area,casualty_class:Passenger,sex_of_casualty:Female,casualty_severity:Slight,casualty_type:Car occupant,|202689
+age_band_of_driver:26 - 35,age_of_vehicle:<9,casualty_type:Car occupant,|234631
+age_band_of_driver:16 - 20,casualty_type:Car occupant,|222368
+age_band_of_driver:26 - 35,age_of_vehicle:<9,age_band_of_casualty:26 - 35,casualty_severity:Slight,|227308
+day_of_week:Wednesday,light_conditions:Daylight,road_surface_conditions:Dry,|222384
+day_of_week:Tuesday,light_conditions:Daylight,road_surface_conditions:Dry,|221476
+day_of_week:Thursday,light_conditions:Daylight,road_surface_conditions:Dry,|223740
+sex_of_driver:Female,age_band_of_driver:Adult,age_of_vehicle:<7,sex_of_casualty:Female,|210944
+driver_home_area_type:Urban area,casualty_class:Passenger,sex_of_casualty:Female,casualty_type:Car occupant,|217046
+day_of_week:Monday,light_conditions:Daylight,road_surface_conditions:Dry,|210568
+age_band_of_driver:46 - 55,age_of_vehicle:<100,age_band_of_casualty:46 - 55,|208140
+accident_severity:Slight,first_point_of_impact:Back,sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Slight,|227103
