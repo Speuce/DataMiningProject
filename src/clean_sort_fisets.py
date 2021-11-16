@@ -18,4 +18,4 @@ def clean_sort_itemsets(filepath: str, output_filepath: str):
     print('done!')
 
 
-clean_sort_itemsets('output.txt', 'sorted_by_count.txt')
+clean_sort_itemsets('../result/output.txt', '../result/sorted_by_count.txt')
