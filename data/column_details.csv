@@ -1,0 +1,244 @@
+﻿code,column_name,value
+AB1,day_of_week,Sunday
+AB2,day_of_week,Monday
+AB3,day_of_week,Tuesday
+AB4,day_of_week,Wednesday
+AB5,day_of_week,Thursday
+AB6,day_of_week,Friday
+AB7,day_of_week,Saturday
+AC1,time,morning early
+AC2,time,morning rush
+AC3,time,morning other
+AC4,time,afternoon
+AC5,time,afternoon rush
+AC6,time,evening
+AC7,time,night
+AD1,road_type,Roundabout
+AD2,road_type,One way street
+AD3,road_type,Dual carriageway
+AD4,road_type,Single carriageway
+AD5,road_type,Slip road
+AD6,road_type,One way street/Slip road
+AE1,speed_limit,20
+AE2,speed_limit,30
+AE3,speed_limit,40
+AE4,speed_limit,50
+AE5,speed_limit,60
+AE6,speed_limit,70
+AF1,junction_detail,Not at junction or within 20 metres
+AF2,junction_detail,Roundabout
+AF3,junction_detail,Mini-roundabout
+AF4,junction_detail,T or staggered junction
+AF5,junction_detail,Slip road
+AF6,junction_detail,Crossroads
+AF7,junction_detail,More than 4 arms (not roundabout)
+AF8,junction_detail,Private drive or entrance
+AF9,junction_detail,Other junction
+AG1,junction_control,Not at junction or within 20 metres
+AG2,junction_control,Authorised person
+AG3,junction_control,Auto traffic signal
+AG4,junction_control,Stop sign
+AG5,junction_control,Give way or uncontrolled
+AH1,pedestrian_crossing_human_control,None within 50 metres
+AH2,pedestrian_crossing_human_control,Control by school crossing patrol
+AH3,pedestrian_crossing_human_control,Control by other authorised person
+AI1,pedestrian_crossing_physical_facilities,No physical crossing facilities within 50 metres
+AI2,pedestrian_crossing_physical_facilities,Zebra
+AI3,pedestrian_crossing_physical_facilities,"Pelican, puffin, toucan or similar non-junction pedestrian light crossing"
+AI4,pedestrian_crossing_physical_facilities,Pedestrian phase at traffic signal junction
+AI5,pedestrian_crossing_physical_facilities,Footbridge or subway
+AI6,pedestrian_crossing_physical_facilities,Central refuge
+AJ1,light_conditions,Daylight
+AJ2,light_conditions,Darkness - lights lit
+AJ3,light_conditions,Darkness - lights unlit
+AJ4,light_conditions,Darkness - no lighting
+AJ5,light_conditions,Darkness - lighting unknown
+AK1,weather_conditions,Fine no high winds
+AK2,weather_conditions,Raining no high winds
+AK3,weather_conditions,Snowing no high winds
+AK4,weather_conditions,Fine + high winds
+AK5,weather_conditions,Raining + high winds
+AK6,weather_conditions,Snowing + high winds
+AK7,weather_conditions,Fog or mist
+AK8,weather_conditions,Other
+AL1,road_surface_conditions,Dry
+AL2,road_surface_conditions,Wet or damp
+AL3,road_surface_conditions,Snow
+AL4,road_surface_conditions,Frost or ice
+AL5,road_surface_conditions,Flood over 3cm. deep
+AL6,road_surface_conditions,Oil or diesel
+AL7,road_surface_conditions,Mud
+AM1,special_conditions_at_site,Auto traffic signal - out
+AM2,special_conditions_at_site,Auto signal part defective
+AM3,special_conditions_at_site,Road sign or marking defective or obscured
+AM4,special_conditions_at_site,Roadworks
+AM6,special_conditions_at_site,Road surface defective
+AM7,special_conditions_at_site,Oil or diesel
+AM8,special_conditions_at_site,Mud
+AN1,carriageway_hazards,Vehicle load on road
+AN2,carriageway_hazards,Other object on road
+AN3,carriageway_hazards,Previous accident
+AN4,carriageway_hazards,Dog on road
+AN5,carriageway_hazards,Other animal on road
+AN6,carriageway_hazards,Pedestrian in carriageway - not injured
+AN7,carriageway_hazards,Any animal in carriageway (except ridden horse)
+AO1,urban_or_rural_area,Urban
+AO2,urban_or_rural_area,Rural
+AO3,urban_or_rural_area,Unallocated
+VA1,vehicle_type,Pedal cycle
+VA2,vehicle_type,Motorcycle 50cc and under
+VA3,vehicle_type,Motorcycle 125cc and under
+VA4,vehicle_type,Motorcycle over 125cc and up to 500cc
+VA5,vehicle_type,Motorcycle over 500cc
+VA6,vehicle_type,Taxi/Private hire car
+VA7,vehicle_type,Car
+VA7,vehicle_type,Minibus (8 - 16 passenger seats)
+VA9,vehicle_type,Bus or coach (17 or more pass seats)
+VA10,vehicle_type,Ridden horse
+VA11,vehicle_type,Agricultural vehicle
+VA12,vehicle_type,Tram
+VA13,vehicle_type,Van / Goods 3.5 tonnes mgw or under
+VA14,vehicle_type,Goods over 3.5t. and under 7.5t
+VA15,vehicle_type,Goods 7.5 tonnes mgw and over
+VA15,vehicle_type,Mobility scooter
+VA17,vehicle_type,Electric motorcycle
+VA18,vehicle_type,Other vehicle
+VA19,vehicle_type,Motorcycle - unknown cc
+VA20,vehicle_type,Goods vehicle - unknown weight
+VB1,vehicle_manoeuvre,Parked
+VB2,vehicle_manoeuvre,Waiting to go - held up
+VB3,vehicle_manoeuvre,Slowing or stopping
+VB4,vehicle_manoeuvre,Moving off
+VB5,vehicle_manoeuvre,U-turn
+VB6,vehicle_manoeuvre,Turning left
+VB7,vehicle_manoeuvre,Waiting to turn left
+VB8,vehicle_manoeuvre,Turning right
+VB9,vehicle_manoeuvre,Waiting to turn right
+VB10,vehicle_manoeuvre,Changing lane to left
+VB11,vehicle_manoeuvre,Changing lane to right
+VB12,vehicle_manoeuvre,Overtaking moving vehicle - offside
+VB13,vehicle_manoeuvre,Overtaking static vehicle - offside
+VB14,vehicle_manoeuvre,Overtaking - nearside
+VB16,vehicle_manoeuvre,Going ahead left-hand bend
+VB17,vehicle_manoeuvre,Going ahead right-hand bend
+VB18,vehicle_manoeuvre,Going ahead other
+VC1,vehicle_location_restricted_lane,Tram/Light rail track
+VC2,vehicle_location_restricted_lane,Bus lane
+VC3,vehicle_location_restricted_lane,Busway (including guided busway)
+VC4,vehicle_location_restricted_lane,Cycle lane (on main carriageway)
+VC5,vehicle_location_restricted_lane,Cycleway or shared use footway (not part of main carriageway)
+VC6,vehicle_location_restricted_lane,On lay-by or hard shoulder
+VC7,vehicle_location_restricted_lane,Entering lay-by or hard shoulder
+VC8,vehicle_location_restricted_lane,Leaving lay-by or hard shoulder
+VC9,vehicle_location_restricted_lane,Footway (pavement)
+VC10,vehicle_location_restricted_lane,Not on carriageway
+VD1,junction_location,Approaching junction or waiting/parked at junction approach
+VD2,junction_location,Cleared junction or waiting/parked at junction exit
+VD3,junction_location,Leaving roundabout
+VD4,junction_location,Entering roundabout
+VD5,junction_location,Leaving main road
+VD6,junction_location,Entering main road
+VD7,junction_location,Entering from slip road
+VD9,junction_location,Mid Junction - on roundabout or on main road
+VE1,hit_object_in_carriageway,Previous accident
+VE2,hit_object_in_carriageway,Road works
+VE3,hit_object_in_carriageway,Parked vehicle
+VE4,hit_object_in_carriageway,Bridge (roof)
+VE5,hit_object_in_carriageway,Bridge (side)
+VE6,hit_object_in_carriageway,Bollard or refuge
+VE7,hit_object_in_carriageway,Open door of vehicle
+VE8,hit_object_in_carriageway,Central island of roundabout
+VE9,hit_object_in_carriageway,Kerb
+VE10,hit_object_in_carriageway,Other object
+VE11,hit_object_in_carriageway,Any animal (except ridden horse)
+VF1,hit_object_off_carriageway,Road sign or traffic signal
+VF2,hit_object_off_carriageway,Lamp post
+VF3,hit_object_off_carriageway,Telegraph or electricity pole
+VF4,hit_object_off_carriageway,Tree
+VF5,hit_object_off_carriageway,Bus stop or bus shelter
+VF6,hit_object_off_carriageway,Central crash barrier
+VF7,hit_object_off_carriageway,Near/Offside crash barrier
+VF8,hit_object_off_carriageway,Submerged in water
+VF9,hit_object_off_carriageway,Entered ditch
+VF10,hit_object_off_carriageway,Other permanent object
+VF11,hit_object_off_carriageway,Wall or fence
+VG1,first_point_of_impact,Front
+VG2,first_point_of_impact,Back
+VG3,first_point_of_impact,Offside
+VG4,first_point_of_impact,Nearside
+VH1,journey_purpose_of_driver,Journey as part of work
+VH2,journey_purpose_of_driver,Commuting to/from work
+VH3,journey_purpose_of_driver,Taking pupil to/from school
+VH4,journey_purpose_of_driver,Pupil riding to/from school
+VH5,journey_purpose_of_driver,Other
+VI1,sex_of_driver,Male
+VI2,sex_of_driver,Female
+VI3,sex_of_driver,Not known
+VJ1,age_band_of_driver,0 - 5
+VJ2,age_band_of_driver,10-Jun
+VJ3,age_band_of_driver,15-Nov
+VJ4,age_band_of_driver,16 - 20
+VJ5,age_band_of_driver,21 - 25
+VJ6,age_band_of_driver,26 - 35
+VJ7,age_band_of_driver,36 - 45
+VJ8,age_band_of_driver,46 - 55
+VJ8,age_band_of_driver,56 - 65
+VJ10,age_band_of_driver,66 - 75
+VJ11,age_band_of_driver,Over 75
+VK1,age_of_vehicle,0-1
+VK2,age_of_vehicle,3-Feb
+VK3,age_of_vehicle,5-Apr
+VK4,age_of_vehicle,7-Jun
+VK5,age_of_vehicle,9-Aug
+VK6,age_of_vehicle,14-Oct
+VK7,age_of_vehicle,15-19
+VK8,age_of_vehicle,20-49
+VK9,age_of_vehicle,50-100
+VK10,age_of_vehicle,100+
+VL1,driver_home_area_type,Urban area
+VL2,driver_home_area_type,Small town
+VL3,driver_home_area_type,Rural
+CA1,casualty_class,Driver or rider
+CA2,casualty_class,Passenger
+CA3,casualty_class,Pedestrian
+CB1,sex_of_casualty,Male
+CB2,sex_of_casualty,Female
+CB3,sex_of_casualty,unknown (self reported)
+CC1,age_band_of_casualty,0 - 5
+CC2,age_band_of_casualty,10-Jun
+CC3,age_band_of_casualty,15-Nov
+CC4,age_band_of_casualty,16 - 20
+CC5,age_band_of_casualty,21 - 25
+CC6,age_band_of_casualty,26 - 35
+CC7,age_band_of_casualty,36 - 45
+CC8,age_band_of_casualty,46 - 55
+CC9,age_band_of_casualty,56 - 65
+CC10,age_band_of_casualty,66 - 75
+CC11,age_band_of_casualty,Over 75
+CD1,casualty_severity,Fatal
+CD2,casualty_severity,Serious
+CD3,casualty_severity,Slight
+CE1,casualty_type,Pedestrian
+CE2,casualty_type,Cyclist
+CE3,casualty_type,Motorcycle 50cc and under rider or passenger
+CE4,casualty_type,Motorcycle 125cc and under rider or passenger
+CE5,casualty_type,Motorcycle over 125cc and up to 500cc rider or passenger
+CE6,casualty_type,Motorcycle over 500cc rider or passenger
+CE7,casualty_type,Taxi/Private hire car occupant
+CE8,casualty_type,Car occupant
+CE9,casualty_type,Minibus (8 - 16 passenger seats) occupant
+CE10,casualty_type,Bus or coach occupant (17 or more pass seats)
+CE11,casualty_type,Horse rider
+CE12,casualty_type,Agricultural vehicle occupant
+CE13,casualty_type,Tram occupant
+CE14,casualty_type,Van / Goods vehicle (3.5 tonnes mgw or under) occupant
+CE15,casualty_type,Goods vehicle (over 3.5t. and under 7.5t.) occupant
+CE16,casualty_type,Goods vehicle (7.5 tonnes mgw and over) occupant
+CE17,casualty_type,Mobility scooter rider
+CE18,casualty_type,Electric motorcycle rider or passenger
+CE19,casualty_type,Other vehicle occupant
+CE20,casualty_type,Motorcycle - unknown cc rider or passenger
+CE21,casualty_type,Goods vehicle (unknown weight) occupant
+CF1,casualty_home_area_type,Urban area
+CF2,casualty_home_area_type,Small town
+CF3,casualty_home_area_type,Rural
