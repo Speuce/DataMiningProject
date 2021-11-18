@@ -9,7 +9,8 @@ from create_trees import create_trees
 from data_structs import TreeNode, Tree
 
 MINSUP = 826586
-THREAD= 0
+THREAD = 0
+
 
 def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
     global THREAD
@@ -69,8 +70,9 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
     threads = []
 
     for i, a in enumerate(L1):
-        # get_rec_maf_seq(a, MINSUP, blocks, MAFS, False)
-        if i > 5:
+        THREAD += 1
+        #get_rec_maf_seq(a, MINSUP, blocks, MAFS, False, None, THREAD)
+        if i > 7:
             THREAD += 1
             x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, False, None, THREAD))
             threads.append(x)
@@ -87,6 +89,7 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
 
 
 def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False, threads=None, thread_num=-1):
+    global THREAD
     set_a, sup_a = a
     cand = generated_set(set_a)
     # we've already pruned infrequent nodes from the tree, so we don't have to check if the dimensions are individually frequent
@@ -96,38 +99,18 @@ def get_rec_maf_seq(a, minsup, block_set, MAFS, stuff=False, threads=None, threa
         if sup >= minsup:
             freq.append((ax, sup))
 
+    print_tree_list(set_a, sup_a)
     if len(freq) == 0:
-        # TODO if for every set a' in MAFS a is not more specific than a' (double check) (not necessary)
-        # for aprime, _ in MAFS:
-        #     dim: TreeNode
-        #     onediff = False
-        #     for i, dim in enumerate(set_a):
-        #
-        #         if aprime[i] != dim:
-        #             onediff = True
-        #             if aprime[i] not in dim.tree.get_all_parents(dim):
-        #                 ## found one difference in a and a', break the loop
-        #                 break
-        #             else:
-        #                 print('yoooo')
-        #     else:
-        #         if onediff:
-        #             # no break executed, (a' and a are too similar),
-        #             print('ignored: -------')
-        #             print_tree_list_2(aprime)
-        #             print_tree_list_2(set_a)
-        #         break
-        # else:
-        print_tree_list(set_a, sup_a)
-        # MAFS.append(a)
+        print_tree_list_2(set_a, sup_a)
     else:
         for i, alpha in enumerate(freq):
             # #get the set of all tuples c in the block_set where c.DA is more specific than alpha
             # sigma_blockset = [] #??? TODO
             if stuff:
-                global THREAD
                 THREAD += 1
-                threads.append(threading.Thread(target=get_rec_maf_seq, args=(alpha, MINSUP, block_set, MAFS, False, THREAD)))
+                threads.append(
+                    threading.Thread(target=get_rec_maf_seq, args=(alpha, MINSUP, block_set, MAFS, False, THREAD))
+                )
             else:
                 get_rec_maf_seq(alpha, minsup, block_set, MAFS)
     if thread_num != -1:
@@ -195,17 +178,27 @@ def print_tree_list_2(lis: List[TreeNode], sup: int = -1):
     for node in lis:
         if node.index != 0:
             str_1 += node.verbose_name + ","
-    print(f'{str_1}|{sup}')
+    logger2.info(f'{str_1}|{sup}')
 
 
-logpath = "./log.log"
-logger = logging.getLogger('log')
+def setup_logger(name, log_file, level=logging.INFO):
+    """To setup as many loggers as you want"""
 
-logger.setLevel(logging.INFO)
-ch = logging.FileHandler(logpath, mode='w')
-ch.setFormatter(logging.Formatter('%(message)s'))
-logger.addHandler(ch)
+    handler = logging.FileHandler(log_file, mode='w')
+    handler.setFormatter(logging.Formatter('%(message)s'))
+
+    logger = logging.getLogger(name)
+    logger.setLevel(level)
+    logger.addHandler(handler)
+
+    return logger
+
+
+logger_path = './log_all_accidents'
+
+logger = setup_logger('logger1', f'{logger_path}.log')
+logger2 = setup_logger('logger2', f'{logger_path}_reduced.log')
 
 a = np.load("data_uint32.npy")
-trees, bit_index_table = create_trees()
+trees, bit_index_table = create_trees('../bitmap_column_details.csv')
 algorithm_one(a, trees, bit_index_table)
