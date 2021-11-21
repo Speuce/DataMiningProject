@@ -199,6 +199,6 @@ logger_path = './log_all_accidents'
 logger = setup_logger('logger1', f'{logger_path}.log')
 logger2 = setup_logger('logger2', f'{logger_path}_reduced.log')
 
-a = np.load("data_uint32.npy")
+a = np.load("bitmap_sample_result.npy")
 trees, bit_index_table = create_trees('../bitmap_column_details.csv')
 algorithm_one(a, trees, bit_index_table)
