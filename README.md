@@ -45,7 +45,5 @@ Finally, the resultant log file should by run through `python clean_sort_fisets.
 ## Approximate Runtimes
 
 On a modern-day 2.6Ghz 6 core intel i7 processor:
-
-With the full dataset containing 2,755,286 entries, and using a minsup of 30%, the algorithm finished in approximately 4 hours.
-
-On the other hand, using a subset of the data (filtered to only include fatal accidents) with 49,191 entries, using a minsup of 15%, the algorithm finished in approximately 45 minutes.
+- With the full dataset containing 2,755,286 entries, and using a minsup of 30%, the algorithm finished in approximately 4 hours.
+- Using a subset of the data (filtered to only include fatal accidents) with 49,191 entries, using a minsup of 15%, the algorithm finished in approximately 45 minutes.
