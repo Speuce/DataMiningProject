@@ -443,6 +443,7 @@ light_conditions:Daylight,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_casu
 light_conditions:Daylight,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|7856
 light_conditions:Daylight,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|9436
 light_conditions:Daylight,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,|7484
+light_conditions:Daylight,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,|7545
 light_conditions:Daylight,urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,|7376
 light_conditions:Daylight,urban_or_rural_area:Urban,|7423
 light_conditions:Daylight,vehicle_manoeuvre:Going ahead other,age_band_of_driver:Adult,|8477
@@ -463,27 +464,36 @@ light_conditions:Daylight,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male
 light_conditions:Daylight,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,driver_home_area_type:Urban area,|7385
 light_conditions:Daylight,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,sex_of_casualty:Male,|9967
 light_conditions:Daylight,vehicle_type:Car,age_band_of_driver:Adult,|7987
+light_conditions:Daylight,vehicle_type:Car,age_band_of_driver:Adult,|8106
 light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|8195
 light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Fatal,|7490
+light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Fatal,|7565
 light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|13403
 light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,|8296
+light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,|8416
 light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|7807
 light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<7,|7724
+light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<7,|7820
 light_conditions:Daylight,vehicle_type:Car,age_of_vehicle:<9,casualty_type:Car occupant,|9731
 light_conditions:Daylight,vehicle_type:Car,casualty_class:Driver or rider,casualty_type:Car occupant,|9704
 light_conditions:Daylight,vehicle_type:Car,casualty_severity:Fatal,|8756
+light_conditions:Daylight,vehicle_type:Car,casualty_severity:Fatal,|8850
 light_conditions:Daylight,vehicle_type:Car,casualty_type:Car occupant,|15736
 light_conditions:Daylight,vehicle_type:Car,driver_home_area_type:Urban area,casualty_type:Car occupant,|8106
 light_conditions:Daylight,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_type:Car occupant,|8677
 light_conditions:Daylight,vehicle_type:Car,first_point_of_impact:Front,casualty_type:Car occupant,|10137
 light_conditions:Daylight,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,|8006
+light_conditions:Daylight,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,|8109
 light_conditions:Daylight,vehicle_type:Car,sex_of_casualty:Male,casualty_type:Car occupant,|9363
 light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|9251
 light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,|7699
+light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,|7794
 light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<9,|7381
+light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<9,|7491
 light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|11050
 light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|8548
 light_conditions:Daylight,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,|8165
+light_conditions:Daylight,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,|8258
 light_conditions:Daylight,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,casualty_type:Car occupant,|8315
 road_surface_conditions:Wet or damp,age_band_of_driver:Adult,|7728
 road_surface_conditions:Wet or damp,age_of_vehicle:<19,casualty_type:Car occupant,|9086
@@ -511,8 +521,11 @@ road_surface_conditions:Wet or damp,vehicle_manoeuvre:Going ahead other,|8892
 road_surface_conditions:Wet or damp,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|9086
 road_surface_conditions:Wet or damp,vehicle_type:Car,casualty_type:Car occupant,|10631
 road_surface_conditions:Wet or damp,vehicle_type:Car,first_point_of_impact:Front,|7833
+road_surface_conditions:Wet or damp,vehicle_type:Car,first_point_of_impact:Front,|7987
 road_surface_conditions:Wet or damp,vehicle_type:Car,sex_of_casualty:Male,|8033
+road_surface_conditions:Wet or damp,vehicle_type:Car,sex_of_casualty:Male,|8202
 road_surface_conditions:Wet or damp,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,|7677
+road_surface_conditions:Wet or damp,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,|7850
 road_surface_conditions:Wet or damp,vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|8035
 road_surface_conditions:Wet or damp,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,|7453
 road_type:Dual carriageway,age_of_vehicle:<19,|8361
@@ -739,9 +752,12 @@ road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,age_of_v
 road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,casualty_class:Driver or rider,casualty_type:Car occupant,|7699
 road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,casualty_type:Car occupant,|12292
 road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,|8081
+road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,|8146
 road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,first_point_of_impact:Front,casualty_type:Car occupant,|8438
 road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,sex_of_casualty:Male,|8062
+road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,sex_of_casualty:Male,|8147
 road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,|7920
+road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,|8013
 road_type:Single carriageway,light_conditions:Daylight,vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|8506
 road_type:Single carriageway,road_surface_conditions:Wet or damp,age_of_vehicle:<19,|10068
 road_type:Single carriageway,road_surface_conditions:Wet or damp,casualty_type:Car occupant,|8514
@@ -752,6 +768,7 @@ road_type:Single carriageway,road_surface_conditions:Wet or damp,sex_of_driver:M
 road_type:Single carriageway,road_surface_conditions:Wet or damp,urban_or_rural_area:Rural,age_of_vehicle:<19,|7520
 road_type:Single carriageway,road_surface_conditions:Wet or damp,urban_or_rural_area:Rural,vehicle_type:Car,|7412
 road_type:Single carriageway,road_surface_conditions:Wet or damp,vehicle_type:Car,age_of_vehicle:<19,|8159
+road_type:Single carriageway,road_surface_conditions:Wet or damp,vehicle_type:Car,age_of_vehicle:<19,|8279
 road_type:Single carriageway,road_surface_conditions:Wet or damp,vehicle_type:Car,casualty_type:Car occupant,|8514
 road_type:Single carriageway,sex_of_casualty:Female,casualty_type:Car occupant,|7764
 road_type:Single carriageway,sex_of_casualty:Male,age_band_of_casualty:Adult,|11276
@@ -916,6 +933,7 @@ road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural,vehicle_ma
 road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,|7750
 road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|11585
 road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,|7616
+road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,|7681
 road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<9,casualty_type:Car occupant,|8129
 road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,casualty_class:Driver or rider,casualty_type:Car occupant,|8327
 road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,casualty_type:Car occupant,|13672
@@ -1043,9 +1061,11 @@ road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_manoeuvre:Going a
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_band_of_driver:Adult,casualty_type:Car occupant,|7627
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|9132
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Fatal,|7993
+road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Fatal,|8060
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|15181
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|9583
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<7,|7726
+road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<7,|7829
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<9,casualty_type:Car occupant,|10551
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,casualty_class:Driver or rider,casualty_type:Car occupant,|10813
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|7825
@@ -1061,6 +1081,7 @@ road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,first_po
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|7526
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,casualty_type:Car occupant,|8963
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,sex_of_casualty:Male,|7572
+road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,sex_of_casualty:Male,|7679
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_casualty:Male,casualty_type:Car occupant,|11442
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|11119
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|8846
@@ -1072,6 +1093,7 @@ road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_d
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,casualty_type:Car occupant,|7389
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,casualty_type:Car occupant,|8723
 road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,|7403
+road_type:Single carriageway,urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,|7520
 road_type:Single carriageway,urban_or_rural_area:Urban,age_of_vehicle:<19,|8404
 road_type:Single carriageway,urban_or_rural_area:Urban,driver_home_area_type:Urban area,|8077
 road_type:Single carriageway,urban_or_rural_area:Urban,sex_of_casualty:Male,|7480
@@ -1115,10 +1137,12 @@ road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,sex_of_driver:M
 road_type:Single carriageway,vehicle_type:Car,age_band_of_casualty:Adult,casualty_type:Car occupant,|7745
 road_type:Single carriageway,vehicle_type:Car,age_band_of_casualty:Youth,casualty_type:Car occupant,|7705
 road_type:Single carriageway,vehicle_type:Car,age_band_of_driver:Adult,age_band_of_casualty:Adult,|7594
+road_type:Single carriageway,vehicle_type:Car,age_band_of_driver:Adult,age_band_of_casualty:Adult,|7782
 road_type:Single carriageway,vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<19,casualty_type:Car occupant,|7767
 road_type:Single carriageway,vehicle_type:Car,age_band_of_driver:Adult,casualty_type:Car occupant,|9174
 road_type:Single carriageway,vehicle_type:Car,age_band_of_driver:Youth,casualty_type:Car occupant,|7435
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,age_band_of_casualty:Adult,|7373
+road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,age_band_of_casualty:Adult,|7546
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|11136
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|8008
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,casualty_class:Passenger,casualty_type:Car occupant,|7711
@@ -1126,15 +1150,21 @@ road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,casualty_severi
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|18847
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_type:Car occupant,|9671
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,sex_of_casualty:Male,|7476
+road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,sex_of_casualty:Male,|7690
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Female,|7809
+road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Female,|7893
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,casualty_severity:Fatal,|7611
+road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,casualty_severity:Fatal,|7762
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|12045
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<5,|7444
+road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<5,|7595
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<7,casualty_type:Car occupant,|8886
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<9,casualty_class:Driver or rider,casualty_type:Car occupant,|7740
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<9,casualty_severity:Fatal,|7596
+road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<9,casualty_severity:Fatal,|7767
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<9,casualty_type:Car occupant,|13041
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<9,driver_home_area_type:Urban area,|8142
+road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<9,driver_home_area_type:Urban area,|8382
 road_type:Single carriageway,vehicle_type:Car,age_of_vehicle:<9,sex_of_casualty:Male,casualty_type:Car occupant,|8026
 road_type:Single carriageway,vehicle_type:Car,casualty_class:Driver or rider,casualty_type:Car occupant,|13099
 road_type:Single carriageway,vehicle_type:Car,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|9552
@@ -1143,32 +1173,42 @@ road_type:Single carriageway,vehicle_type:Car,casualty_severity:Fatal,casualty_t
 road_type:Single carriageway,vehicle_type:Car,casualty_type:Car occupant,|22049
 road_type:Single carriageway,vehicle_type:Car,driver_home_area_type:Urban area,casualty_type:Car occupant,|10998
 road_type:Single carriageway,vehicle_type:Car,driver_home_area_type:Urban area,sex_of_casualty:Male,|8571
+road_type:Single carriageway,vehicle_type:Car,driver_home_area_type:Urban area,sex_of_casualty:Male,|8831
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_band_of_driver:Adult,|7700
+road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_band_of_driver:Adult,|7913
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|7563
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_severity:Fatal,|7380
+road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_severity:Fatal,|7521
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_type:Car occupant,|12557
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,driver_home_area_type:Urban area,|7855
+road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,driver_home_area_type:Urban area,|8045
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|7881
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<7,|7472
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<9,casualty_type:Car occupant,|8840
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,casualty_class:Driver or rider,casualty_type:Car occupant,|8877
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,casualty_severity:Fatal,|8611
+road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,casualty_severity:Fatal,|8775
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,casualty_type:Car occupant,|14675
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,driver_home_area_type:Urban area,|8862
+road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,driver_home_area_type:Urban area,|9104
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,sex_of_casualty:Male,casualty_type:Car occupant,|9328
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|9195
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car,|7378
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,|8339
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<9,|7436
+road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<9,|7637
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,casualty_type:Car occupant,|10853
 road_type:Single carriageway,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|8649
 road_type:Single carriageway,vehicle_type:Car,sex_of_casualty:Female,casualty_type:Car occupant,|7764
 road_type:Single carriageway,vehicle_type:Car,sex_of_casualty:Male,casualty_severity:Fatal,|9005
+road_type:Single carriageway,vehicle_type:Car,sex_of_casualty:Male,casualty_severity:Fatal,|9186
 road_type:Single carriageway,vehicle_type:Car,sex_of_casualty:Male,casualty_type:Car occupant,|14282
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,|7613
+road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,|7910
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|8008
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|8008
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Fatal,|8434
+road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Fatal,|8629
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|13944
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_type:Car,|7497
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,driver_home_area_type:Urban area,|8727
@@ -1183,21 +1223,30 @@ road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,casualty_severi
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|16505
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_type:Car occupant,|8436
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,driver_home_area_type:Urban area,sex_of_casualty:Male,|7728
+road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,driver_home_area_type:Urban area,sex_of_casualty:Male,|7986
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Fatal,|8060
+road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Fatal,|8237
 road_type:Single carriageway,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|13276
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,casualty_type:Car occupant,|9617
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,sex_of_casualty:Male,|7473
+road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,sex_of_casualty:Male,|7661
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<9,|8522
+road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<9,|8734
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,casualty_severity:Fatal,|7444
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,casualty_type:Car occupant,|11257
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,driver_home_area_type:Urban area,|7606
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,age_of_vehicle:<19,|9018
+road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,age_of_vehicle:<19,|9216
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,casualty_type:Car occupant,|8371
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male,|7576
+road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male,|7813
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_casualty:Male,|8880
+road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_casualty:Male,|9109
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,age_of_vehicle:<19,|8586
+road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,age_of_vehicle:<19,|8822
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,casualty_type:Car occupant,|8298
 road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,sex_of_casualty:Male,|7842
+road_type:Single carriageway,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,sex_of_casualty:Male,|8069
 sex_of_casualty:Female,casualty_type:Car occupant,|10035
 sex_of_casualty:Male,age_band_of_casualty:Adult,casualty_severity:Fatal,|9676
 sex_of_casualty:Male,age_band_of_casualty:Youth,|10105
@@ -1443,11 +1492,13 @@ speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,casualty_type:Car occu
 speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_type:Car occupant,|8181
 speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,casualty_type:Car occupant,|9639
 speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,|7421
+speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,|7510
 speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_casualty:Male,casualty_type:Car occupant,|9005
 speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|8720
 speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|10436
 speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|8357
 speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,|7372
+speed_limit:60,urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,|7458
 speed_limit:60,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,|8550
 speed_limit:60,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,|8216
 speed_limit:60,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,|8373
@@ -1460,12 +1511,15 @@ speed_limit:60,vehicle_type:Car,casualty_type:Car occupant,|14412
 speed_limit:60,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_type:Car occupant,|8357
 speed_limit:60,vehicle_type:Car,first_point_of_impact:Front,casualty_type:Car occupant,|9845
 speed_limit:60,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,|7625
+speed_limit:60,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,|7717
 speed_limit:60,vehicle_type:Car,sex_of_casualty:Male,casualty_type:Car occupant,|9209
 speed_limit:60,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|8916
 speed_limit:60,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,|7403
+speed_limit:60,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,|7475
 speed_limit:60,vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|10678
 speed_limit:60,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|8553
 speed_limit:60,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,|7601
+speed_limit:60,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,|7690
 time:afternoon,age_of_vehicle:<19,|8493
 time:afternoon,light_conditions:Daylight,age_of_vehicle:<19,|8404
 time:afternoon,light_conditions:Daylight,sex_of_driver:Male,|8120
@@ -1699,6 +1753,7 @@ urban_or_rural_area:Rural,vehicle_type:Car,age_band_of_driver:Adult,age_band_of_
 urban_or_rural_area:Rural,vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<19,casualty_type:Car occupant,|8687
 urban_or_rural_area:Rural,vehicle_type:Car,age_band_of_driver:Adult,casualty_type:Car occupant,|10319
 urban_or_rural_area:Rural,vehicle_type:Car,age_band_of_driver:Youth,|7439
+urban_or_rural_area:Rural,vehicle_type:Car,age_band_of_driver:Youth,|7443
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,age_band_of_casualty:Adult,casualty_type:Car,|7414
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,age_band_of_casualty:Adult,|7816
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|11691
@@ -1708,6 +1763,7 @@ urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,casualty_severity:
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|19570
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_type:Car occupant,|9682
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Female,|7535
+urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Female,|7581
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|12399
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<5,|7466
 urban_or_rural_area:Rural,vehicle_type:Car,age_of_vehicle:<7,casualty_type:Car occupant,|9430
@@ -1723,15 +1779,19 @@ urban_or_rural_area:Rural,vehicle_type:Car,casualty_severity:Fatal,casualty_type
 urban_or_rural_area:Rural,vehicle_type:Car,casualty_type:Car occupant,|23031
 urban_or_rural_area:Rural,vehicle_type:Car,driver_home_area_type:Urban area,casualty_type:Car occupant,|11013
 urban_or_rural_area:Rural,vehicle_type:Car,driver_home_area_type:Urban area,sex_of_casualty:Male,|7646
+urban_or_rural_area:Rural,vehicle_type:Car,driver_home_area_type:Urban area,sex_of_casualty:Male,|7788
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,age_band_of_driver:Adult,|7590
+urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,age_band_of_driver:Adult,|7706
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|7750
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_type:Car occupant,|12748
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|7999
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<9,casualty_type:Car occupant,|9130
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,casualty_class:Driver or rider,casualty_type:Car occupant,|9147
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,casualty_severity:Fatal,|7570
+urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,casualty_severity:Fatal,|7650
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,casualty_type:Car occupant,|14973
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,driver_home_area_type:Urban area,|7612
+urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,driver_home_area_type:Urban area,|7742
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_casualty:Male,casualty_type:Car occupant,|9533
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|9359
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car,|7447
@@ -1740,11 +1800,13 @@ urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_dr
 urban_or_rural_area:Rural,vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|8837
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_casualty:Female,casualty_type:Car occupant,|8217
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_casualty:Male,casualty_severity:Fatal,|8371
+urban_or_rural_area:Rural,vehicle_type:Car,sex_of_casualty:Male,casualty_severity:Fatal,|8463
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_casualty:Male,casualty_type:Car occupant,|14813
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,casualty_type:Car occupant,|7371
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|8421
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|8421
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Fatal,|7795
+urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_severity:Fatal,|7889
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|14439
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_type:Car,|7415
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,driver_home_area_type:Urban area,|7782
@@ -1757,6 +1819,7 @@ urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,casualty_severity:
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|17220
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_type:Car occupant,|8414
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Fatal,|7736
+urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Fatal,|7828
 urban_or_rural_area:Rural,vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|13738
 urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,casualty_type:Car occupant,|10290
 urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<9,casualty_type:Car occupant,|7409
@@ -1768,6 +1831,7 @@ urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,s
 urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|7516
 urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,casualty_type:Car occupant,|9040
 urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,sex_of_casualty:Male,|7798
+urban_or_rural_area:Rural,vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,sex_of_casualty:Male,|7925
 urban_or_rural_area:Urban,age_of_vehicle:<19,casualty_severity:Fatal,|7467
 urban_or_rural_area:Urban,age_of_vehicle:<19,driver_home_area_type:Urban area,|8916
 urban_or_rural_area:Urban,age_of_vehicle:<19,sex_of_casualty:Male,|7978
@@ -1785,6 +1849,7 @@ urban_or_rural_area:Urban,sex_of_driver:Male,sex_of_casualty:Male,|9299
 urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,|7564
 urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,|7934
 urban_or_rural_area:Urban,vehicle_type:Car,age_of_vehicle:<19,|7615
+urban_or_rural_area:Urban,vehicle_type:Car,age_of_vehicle:<19,|7901
 vehicle_manoeuvre:Going ahead other,age_band_of_casualty:Adult,|12307
 vehicle_manoeuvre:Going ahead other,age_band_of_driver:Adult,age_band_of_casualty:Adult,|10911
 vehicle_manoeuvre:Going ahead other,age_band_of_driver:Adult,age_of_vehicle:<19,age_band_of_casualty:Adult,|8625
@@ -1888,25 +1953,32 @@ vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,sex_of_casualty:Male,casu
 vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|9394
 vehicle_type:Car,age_band_of_casualty:Adult,casualty_type:Car occupant,|10590
 vehicle_type:Car,age_band_of_casualty:Senior,|8451
+vehicle_type:Car,age_band_of_casualty:Senior,|8587
 vehicle_type:Car,age_band_of_casualty:Youth,casualty_type:Car occupant,|9737
 vehicle_type:Car,age_band_of_driver:Adult,age_band_of_casualty:Adult,casualty_type:Car occupant,|9721
 vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<19,age_band_of_casualty:Adult,casualty_type:Car occupant,|8211
 vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<19,casualty_type:Car occupant,|10623
 vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<19,driver_home_area_type:Urban area,|7513
+vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<19,driver_home_area_type:Urban area,|7786
 vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<19,sex_of_casualty:Male,|7999
+vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<19,sex_of_casualty:Male,|8266
 vehicle_type:Car,age_band_of_driver:Adult,age_of_vehicle:<9,casualty_type:Car occupant,|7444
 vehicle_type:Car,age_band_of_driver:Adult,casualty_class:Driver or rider,age_band_of_casualty:Adult,casualty_type:Car occupant,|7782
 vehicle_type:Car,age_band_of_driver:Adult,casualty_class:Driver or rider,casualty_type:Car occupant,|7782
 vehicle_type:Car,age_band_of_driver:Adult,casualty_severity:Fatal,|7494
 vehicle_type:Car,age_band_of_driver:Adult,casualty_type:Car occupant,|12519
 vehicle_type:Car,age_band_of_driver:Adult,driver_home_area_type:Urban area,|8563
+vehicle_type:Car,age_band_of_driver:Adult,driver_home_area_type:Urban area,|8892
 vehicle_type:Car,age_band_of_driver:Adult,sex_of_casualty:Male,casualty_type:Car occupant,|8038
 vehicle_type:Car,age_band_of_driver:Senior,|7518
+vehicle_type:Car,age_band_of_driver:Senior,|7653
 vehicle_type:Car,age_band_of_driver:Youth,age_band_of_casualty:Youth,casualty_type:Car occupant,|8435
 vehicle_type:Car,age_band_of_driver:Youth,age_of_vehicle:<19,age_band_of_casualty:Youth,|7513
+vehicle_type:Car,age_band_of_driver:Youth,age_of_vehicle:<19,age_band_of_casualty:Youth,|7525
 vehicle_type:Car,age_band_of_driver:Youth,age_of_vehicle:<19,casualty_type:Car occupant,|8062
 vehicle_type:Car,age_band_of_driver:Youth,casualty_type:Car occupant,|9355
 vehicle_type:Car,age_band_of_driver:Youth,sex_of_casualty:Male,|7641
+vehicle_type:Car,age_band_of_driver:Youth,sex_of_casualty:Male,|7657
 vehicle_type:Car,age_of_vehicle:10-19,casualty_type:Car occupant,|7465
 vehicle_type:Car,age_of_vehicle:<19,age_band_of_casualty:Adult,casualty_type:Car occupant,|8952
 vehicle_type:Car,age_of_vehicle:<19,age_band_of_casualty:Senior,|7378
@@ -1920,6 +1992,7 @@ vehicle_type:Car,age_of_vehicle:<19,casualty_severity:Slight,casualty_type:Car o
 vehicle_type:Car,age_of_vehicle:<19,casualty_type:Car occupant,|24626
 vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_type:Car occupant,|7737
 vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_severity:Fatal,|8471
+vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_severity:Fatal,|8703
 vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_type:Car occupant,|13580
 vehicle_type:Car,age_of_vehicle:<19,driver_home_area_type:Urban area,sex_of_casualty:Male,casualty_type:Car occupant,|8848
 vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Female,casualty_type:Car occupant,|8790
@@ -1928,7 +2001,9 @@ vehicle_type:Car,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occup
 vehicle_type:Car,age_of_vehicle:<5,casualty_type:Car occupant,|8420
 vehicle_type:Car,age_of_vehicle:<7,casualty_type:Car occupant,|11698
 vehicle_type:Car,age_of_vehicle:<7,driver_home_area_type:Urban area,|7883
+vehicle_type:Car,age_of_vehicle:<7,driver_home_area_type:Urban area,|8156
 vehicle_type:Car,age_of_vehicle:<7,sex_of_casualty:Male,|8404
+vehicle_type:Car,age_of_vehicle:<7,sex_of_casualty:Male,|8657
 vehicle_type:Car,age_of_vehicle:<9,age_band_of_casualty:Adult,|7417
 vehicle_type:Car,age_of_vehicle:<9,casualty_class:Driver or rider,casualty_type:Car occupant,|10146
 vehicle_type:Car,age_of_vehicle:<9,casualty_severity:Fatal,casualty_type:Car occupant,|7502
@@ -1936,6 +2011,7 @@ vehicle_type:Car,age_of_vehicle:<9,casualty_type:Car occupant,|17161
 vehicle_type:Car,age_of_vehicle:<9,driver_home_area_type:Urban area,casualty_type:Car occupant,|9484
 vehicle_type:Car,age_of_vehicle:<9,driver_home_area_type:Urban area,sex_of_casualty:Male,|7565
 vehicle_type:Car,age_of_vehicle:<9,sex_of_casualty:Female,|7496
+vehicle_type:Car,age_of_vehicle:<9,sex_of_casualty:Female,|7604
 vehicle_type:Car,age_of_vehicle:<9,sex_of_casualty:Male,casualty_type:Car occupant,|10681
 vehicle_type:Car,casualty_class:Driver or rider,age_band_of_casualty:Adult,casualty_type:Car occupant,|7782
 vehicle_type:Car,casualty_class:Driver or rider,casualty_severity:Fatal,casualty_type:Car occupant,|9085
@@ -1947,58 +2023,75 @@ vehicle_type:Car,casualty_severity:Slight,casualty_type:Car occupant,|8737
 vehicle_type:Car,casualty_type:Car occupant,|28806
 vehicle_type:Car,driver_home_area_type:Urban area,casualty_class:Driver or rider,casualty_type:Car occupant,|8850
 vehicle_type:Car,driver_home_area_type:Urban area,casualty_severity:Fatal,|9612
+vehicle_type:Car,driver_home_area_type:Urban area,casualty_severity:Fatal,|9886
 vehicle_type:Car,driver_home_area_type:Urban area,casualty_type:Car occupant,|15457
 vehicle_type:Car,driver_home_area_type:Urban area,sex_of_casualty:Male,casualty_type:Car occupant,|10183
 vehicle_type:Car,first_point_of_impact:Front,age_band_of_casualty:Adult,|8177
+vehicle_type:Car,first_point_of_impact:Front,age_band_of_casualty:Adult,|8385
 vehicle_type:Car,first_point_of_impact:Front,age_band_of_driver:Adult,age_of_vehicle:<19,|8587
+vehicle_type:Car,first_point_of_impact:Front,age_band_of_driver:Adult,age_of_vehicle:<19,|8812
 vehicle_type:Car,first_point_of_impact:Front,age_band_of_driver:Adult,casualty_type:Car occupant,|8254
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|9410
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_severity:Fatal,|9447
+vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_severity:Fatal,|9643
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,casualty_type:Car occupant,|15638
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_type:Car occupant,|8430
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|9963
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<7,casualty_type:Car occupant,|7667
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<9,casualty_type:Car occupant,|11086
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<9,driver_home_area_type:Urban area,|7557
+vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<9,driver_home_area_type:Urban area,|7784
 vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<9,sex_of_casualty:Male,|8341
+vehicle_type:Car,first_point_of_impact:Front,age_of_vehicle:<9,sex_of_casualty:Male,|8554
 vehicle_type:Car,first_point_of_impact:Front,casualty_class:Driver or rider,casualty_type:Car occupant,|11037
 vehicle_type:Car,first_point_of_impact:Front,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|8117
 vehicle_type:Car,first_point_of_impact:Front,casualty_severity:Fatal,casualty_type:Car occupant,|7783
 vehicle_type:Car,first_point_of_impact:Front,casualty_type:Car occupant,|18256
 vehicle_type:Car,first_point_of_impact:Front,driver_home_area_type:Urban area,casualty_type:Car occupant,|9553
 vehicle_type:Car,first_point_of_impact:Front,driver_home_area_type:Urban area,sex_of_casualty:Male,|7810
+vehicle_type:Car,first_point_of_impact:Front,driver_home_area_type:Urban area,sex_of_casualty:Male,|8055
 vehicle_type:Car,first_point_of_impact:Front,sex_of_casualty:Female,|7676
+vehicle_type:Car,first_point_of_impact:Front,sex_of_casualty:Female,|7776
 vehicle_type:Car,first_point_of_impact:Front,sex_of_casualty:Male,casualty_severity:Fatal,|7521
+vehicle_type:Car,first_point_of_impact:Front,sex_of_casualty:Male,casualty_severity:Fatal,|7698
 vehicle_type:Car,first_point_of_impact:Front,sex_of_casualty:Male,casualty_type:Car occupant,|11776
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_band_of_driver:Adult,|7456
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|11607
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,driver_home_area_type:Urban area,|7976
+vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,driver_home_area_type:Urban area,|8229
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|9218
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<9,casualty_type:Car occupant,|7982
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<9,sex_of_casualty:Male,|7549
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,casualty_class:Driver or rider,casualty_type:Car occupant,|8117
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|8117
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,casualty_severity:Fatal,|8294
+vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,casualty_severity:Fatal,|8511
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,casualty_type:Car occupant,|13693
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_type:Car,|7490
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,driver_home_area_type:Urban area,|9107
 vehicle_type:Car,first_point_of_impact:Front,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|10947
 vehicle_type:Car,sex_of_casualty:Female,casualty_type:Car occupant,|10035
 vehicle_type:Car,sex_of_casualty:Male,age_band_of_casualty:Adult,|8120
+vehicle_type:Car,sex_of_casualty:Male,age_band_of_casualty:Adult,|8366
 vehicle_type:Car,sex_of_casualty:Male,age_band_of_casualty:Youth,|7580
+vehicle_type:Car,sex_of_casualty:Male,age_band_of_casualty:Youth,|7664
 vehicle_type:Car,sex_of_casualty:Male,casualty_severity:Fatal,casualty_type:Car occupant,|9162
 vehicle_type:Car,sex_of_casualty:Male,casualty_type:Car occupant,|18768
 vehicle_type:Car,sex_of_driver:Female,|8045
+vehicle_type:Car,sex_of_driver:Female,|8065
 vehicle_type:Car,sex_of_driver:Male,age_band_of_casualty:Adult,casualty_type:Car occupant,|7854
 vehicle_type:Car,sex_of_driver:Male,age_band_of_casualty:Youth,casualty_type:Car occupant,|7973
 vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,age_band_of_casualty:Adult,|7753
+vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,age_band_of_casualty:Adult,|7996
 vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,age_of_vehicle:<19,casualty_type:Car occupant,|7518
 vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,casualty_type:Car occupant,|9014
 vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,sex_of_casualty:Male,casualty_type:Car,|7555
 vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Adult,sex_of_casualty:Male,|8470
 vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Youth,age_of_vehicle:<19,|7373
+vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Youth,age_of_vehicle:<19,|7392
 vehicle_type:Car,sex_of_driver:Male,age_band_of_driver:Youth,casualty_type:Car occupant,|7657
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,age_band_of_casualty:Adult,|7480
+vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,age_band_of_casualty:Adult,|7721
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|10530
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|10530
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,casualty_class:Passenger,casualty_type:Car occupant,|7854
@@ -2011,9 +2104,12 @@ vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,casu
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|14653
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<7,casualty_type:Car occupant,|8294
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<7,sex_of_casualty:Male,|7387
+vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<7,sex_of_casualty:Male,|7639
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<9,casualty_severity:Fatal,|7437
+vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<9,casualty_severity:Fatal,|7678
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<9,casualty_type:Car occupant,|12427
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<9,driver_home_area_type:Urban area,|8519
+vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<9,driver_home_area_type:Urban area,|8849
 vehicle_type:Car,sex_of_driver:Male,age_of_vehicle:<9,sex_of_casualty:Male,casualty_type:Car occupant,|9803
 vehicle_type:Car,sex_of_driver:Male,casualty_class:Driver or rider,casualty_type:Car occupant,|12562
 vehicle_type:Car,sex_of_driver:Male,casualty_class:Driver or rider,sex_of_casualty:Male,casualty_type:Car occupant,|12562
@@ -2021,42 +2117,58 @@ vehicle_type:Car,sex_of_driver:Male,casualty_class:Passenger,casualty_type:Car o
 vehicle_type:Car,sex_of_driver:Male,casualty_severity:Fatal,casualty_type:Car occupant,|10248
 vehicle_type:Car,sex_of_driver:Male,casualty_type:Car occupant,|21760
 vehicle_type:Car,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_severity:Fatal,|7486
+vehicle_type:Car,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_severity:Fatal,|7754
 vehicle_type:Car,sex_of_driver:Male,driver_home_area_type:Urban area,casualty_type:Car occupant,|11927
 vehicle_type:Car,sex_of_driver:Male,driver_home_area_type:Urban area,sex_of_casualty:Male,casualty_type:Car occupant,|9491
 vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,age_band_of_casualty:Adult,|7518
+vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,age_band_of_casualty:Adult,|7761
 vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Fatal,casualty_type:Car occupant,|8703
 vehicle_type:Car,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|17440
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_band_of_casualty:Adult,|7485
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_band_of_driver:Adult,age_of_vehicle:<19,|7561
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_band_of_driver:Adult,age_of_vehicle:<19,|7806
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,casualty_class:Driver or rider,casualty_type:Car occupant,|7889
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,casualty_severity:Fatal,|8619
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,casualty_severity:Fatal,|8824
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,casualty_type:Car occupant,|13377
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,driver_home_area_type:Urban area,casualty_type:Car occupant,|7555
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|8505
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<7,|8135
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<7,|8371
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<9,casualty_type:Car occupant,|9533
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<9,sex_of_casualty:Male,|7380
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,age_of_vehicle:<9,sex_of_casualty:Male,|7605
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,casualty_class:Driver or rider,casualty_type:Car occupant,|9287
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,casualty_severity:Fatal,|10131
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,casualty_severity:Fatal,|10364
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,casualty_type:Car occupant,|15670
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,driver_home_area_type:Urban area,casualty_type:Car occupant,|8592
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,driver_home_area_type:Urban area,sex_of_casualty:Male,|7473
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,age_of_vehicle:<19,casualty_type:Car occupant,|9555
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,age_of_vehicle:<19,sex_of_casualty:Male,|7661
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,age_of_vehicle:<19,sex_of_casualty:Male,|7864
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,age_of_vehicle:<9,|8816
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,age_of_vehicle:<9,|9037
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,casualty_severity:Fatal,|7426
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,casualty_type:Car occupant,|11127
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,driver_home_area_type:Urban area,|7923
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,driver_home_area_type:Urban area,|8171
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_casualty:Male,|9070
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_casualty:Male,|9308
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,|8799
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male,age_of_vehicle:<19,|9051
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male,casualty_type:Car occupant,|8221
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male,sex_of_casualty:Male,|7967
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male,sex_of_casualty:Male,|8204
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_casualty:Male,casualty_type:Car occupant,|10113
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,age_of_vehicle:<19,casualty_type:Car occupant,|9956
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,age_of_vehicle:<19,driver_home_area_type:Urban area,|7591
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,age_of_vehicle:<19,sex_of_casualty:Male,casualty_type:Car occupant,|7868
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,age_of_vehicle:<9,|8527
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,age_of_vehicle:<9,|8811
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,casualty_severity:Fatal,|7669
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,casualty_severity:Fatal,|7895
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,casualty_type:Car occupant,|11832
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,driver_home_area_type:Urban area,|8430
+vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,driver_home_area_type:Urban area,|8737
 vehicle_type:Car,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male,sex_of_casualty:Male,casualty_type:Car occupant,|9394
