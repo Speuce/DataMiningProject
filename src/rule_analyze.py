@@ -30,6 +30,12 @@ class Rule:
             output.write(x + ",")
         output.write(" with confidence " + str(self.confidence) + "\n")
 
+def compare(first, second):
+    if first == second:
+        return True
+    else:
+        return False
+
 ruleList = list()
 singles = list()
 pre = list()
@@ -40,8 +46,8 @@ support = 0
 currLine = 0
 secondLine = 0
 
-output = open("./result/serious_accident_rules.txt",'w')
-input = open("./result/serious_accidents.txt",'r')
+output = open("./result/all_accident_rules.txt",'w')
+input = open("./result/all_accidents.txt",'r')
 lines = input.readlines()
 for line in reversed(lines):
     # start at last line
@@ -61,14 +67,20 @@ for line in reversed(lines):
         newLine = newLine.split(',')
         newSupport = newLine.pop()
         newSupport = newSupport[1:len(newSupport)-1]
-        if (newLine[0] == newRule.getPre()[0]):
-            result = True
-        else:
-            result = False
-        #output.write("comparing line [" + str(newRule.getPre()) + "] and [" + str(newLine) + "] the first elements match: " + str(result) + "\n")
+        preLength = len(newRule.getPre())
+        antiLength = len(newLine)
+        #result = True
+        #output.write("Precedent length is " + str(preLength) + " and anticedent length is " + str(len(newLine)) + "\n")
+        for x in range(0,preLength):
+            if ( antiLength >= preLength and compare(newLine[x],newRule.getPre()[x])):
+                result = True
+            else:
+                result = False
+                break
         if ( result ):
             antiRules = newLine
-            antiRules.pop(0)
+            for x in range(0,preLength):
+                antiRules.pop(0)
             newRule.addAnti(antiRules,int(newSupport))
             newRule.printRule()
 
