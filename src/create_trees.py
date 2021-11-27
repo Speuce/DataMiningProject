@@ -7,7 +7,7 @@ from numpy import ndarray
 from data_structs import Tree, create_basic_tree, TreeNode
 
 
-def create_trees(filepath: str) -> Tuple[List[Tree], ndarray]:
+def create_trees(filepath: str, ignore_casualty_severity: bool=False) -> Tuple[List[Tree], ndarray]:
     """
     Parses the bitmap_column_details for all data entries, and creates
     BASIC hierarchies by default. (one "ALL" parent, n children nodes)
@@ -19,6 +19,12 @@ def create_trees(filepath: str) -> Tuple[List[Tree], ndarray]:
                       'Not at junction or within 20 metres',
                       'Fine no high winds',
                       'Dry']
+    ignored_dimensions = ['accident_severity',
+                          'vehicle_type',
+                          'casualty_class'
+                          ]
+    if ignore_casualty_severity:
+        ignored_dimensions.append('casualty_severity')
     binary_index_table = np.empty(256, dtype=object)
     with open(filepath, newline='') as csvfile:
         next(csvfile)
@@ -27,36 +33,34 @@ def create_trees(filepath: str) -> Tuple[List[Tree], ndarray]:
         curr_tuples = []
         for i, row in enumerate(reader):
             # print(f"{i} : {row[1]}")
-            # TODO create special trees for number/time of day
-            if curr != row[1]:  # if we're already looking at that data type
-                # finish old tree
-                if curr_tuples:
-                    if curr == 'vehicle_type' or curr == 'casualty_type':
-                        trees.append(create_vehicle_type_tree(curr_tuples, curr, binary_index_table))
-                    elif curr == 'age_band_of_casualty' or curr == 'age_band_of_driver':
-                        trees.append(create_age_band_tree(curr_tuples, curr, binary_index_table))
-                    # elif curr == 'speed_limit':
-                    #     trees.append(create_speed_limit_tree(curr_tuples, curr, binary_index_table))
-                    elif curr == 'age_of_vehicle':
-                        trees.append(create_age_of_vehicle_tree(curr_tuples, curr, binary_index_table))
-                    else:
-                        trees.append(create_basic_tree(curr_tuples, curr, binary_index_table))
+            if row[1] not in ignored_dimensions:
+                if curr != row[1]:  # if we're already looking at that data type
+                    # finish old tree
+                    if curr_tuples:
+                        if curr == 'vehicle_type' or curr == 'casualty_type':
+                            trees.append(create_vehicle_type_tree(curr_tuples, curr, binary_index_table))
+                        elif curr == 'age_band_of_casualty' or curr == 'age_band_of_driver':
+                            trees.append(create_age_band_tree(curr_tuples, curr, binary_index_table))
+                        elif curr == 'age_of_vehicle':
+                            trees.append(create_age_of_vehicle_tree(curr_tuples, curr, binary_index_table))
+                        else:
+                            trees.append(create_basic_tree(curr_tuples, curr, binary_index_table))
 
-                # create new tree
-                curr = row[1]
-                curr_tuples = []
-            # add to tree
-            if row[2] not in ignored_values:
-                curr_tuples.append((i, row[2]))
+                    # create new tree
+                    curr = row[1]
+                    curr_tuples = []
+                # add to tree
+                if row[2] not in ignored_values:
+                    curr_tuples.append((i, row[2]))
     return trees, binary_index_table
 
 
 def create_vehicle_type_tree(tuples, name: str, binary_index_table) -> Tree:
     ret = Tree(branch_factor=6, verbose_name=name, levels=3)
     keywords_dict = {
-        'Motorcycle': ['otorcycle'],
-        'Car': ['Car', 'Taxi'],
-        'Van/Truck': ['Van', 'Goods'],
+        'Motorcycle Occupant': ['otorcycle'],
+        'Car/Taxi Occupant': ['Car', 'Taxi'],
+        'Van/Truck Occupant': ['Van', 'Goods'],
         'Public Transport': ['Bus', 'Minibus', 'Tram'],
         'Sidewalk User': ['Cyclist', 'Pedal', 'Pedestrian', 'Mobility'],
         'Other': ['Agri', 'orse', 'Other', ],
@@ -105,49 +109,30 @@ def add_to_tree(tree: Tree, item: Tuple[int, str], name: str, binary_index_table
 
 
 def create_age_of_vehicle_tree(tuples, name: str, binary_index_table) -> Tree:
-    ret = Tree(branch_factor=2, verbose_name=name, levels=7)
+    ret = Tree(branch_factor=3, verbose_name=name, levels=6)
 
     parent = ret.get_root_node()
-    # add_to_tree(ret, tuples[-1], name, binary_index_table, parent)
-    # parent = ret.add_child_node(set(), name + ":<100", parent)
-    # add_to_tree(ret, tuples[-2], name, binary_index_table, parent)
-    # parent = ret.add_child_node(set(), name + ":<49", parent)
-    add_to_tree(ret, tuples[-3], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":<19", parent)
-    parent_1 = ret.add_child_node(set(), name + ":<9", parent)
-
+    parent_1 = ret.add_child_node(set(), name + ":≤9", parent)
     parent_2 = ret.add_child_node(set(), name + ":10-19", parent)
+    parent_3 = ret.add_child_node(set(), name + ":20+", parent)
+
     add_to_tree(ret, tuples[-5], name, binary_index_table, parent_2)
     add_to_tree(ret, tuples[-4], name, binary_index_table, parent_2)
+
+    add_to_tree(ret, tuples[-3], name, binary_index_table, parent_3)
+    add_to_tree(ret, tuples[-2], name, binary_index_table, parent_3)
+    add_to_tree(ret, tuples[-1], name, binary_index_table, parent_3)
 
     parent = parent_1
 
     add_to_tree(ret, tuples[-6], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":<7", parent)
+    parent = ret.add_child_node(set(), name + ":≤7", parent)
     add_to_tree(ret, tuples[-7], name, binary_index_table, parent)
-    parent = ret.add_child_node(set(), name + ":<5", parent)
+    parent = ret.add_child_node(set(), name + ":≤5", parent)
     add_to_tree(ret, tuples[-8], name, binary_index_table, parent)
     parent = ret.add_child_node(set(), name + ":<3", parent)
     add_to_tree(ret, tuples[-9], name, binary_index_table, parent)
     add_to_tree(ret, tuples[-10], name, binary_index_table, parent)
 
     return ret
-
-
-# def create_speed_limit_tree(tuples, name: str, binary_index_table) -> Tree:
-#     ret = Tree(branch_factor=2, verbose_name=name, levels=6)
-#
-#     parent = ret.get_root_node()
-#     add_to_tree(ret, tuples[0], name, binary_index_table, parent)
-#     parent = ret.add_child_node(set(), name + ":>20", parent)
-#     add_to_tree(ret, tuples[1], name, binary_index_table, parent)
-#     parent = ret.add_child_node(set(), name + ":>30", parent)
-#     add_to_tree(ret, tuples[2], name, binary_index_table, parent)
-#     parent = ret.add_child_node(set(), name + ":>40", parent)
-#     add_to_tree(ret, tuples[3], name, binary_index_table, parent)
-#     parent = ret.add_child_node(set(), name + ":>50", parent)
-#     add_to_tree(ret, tuples[4], name, binary_index_table, parent)
-#     add_to_tree(ret, tuples[5], name, binary_index_table, parent)
-#
-#     return ret
 

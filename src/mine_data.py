@@ -8,7 +8,9 @@ from numpy import ndarray
 from create_trees import create_trees
 from data_structs import TreeNode, Tree
 
-MINSUP = 826586
+#MINSUP = 7370
+#MINSUP = 61878
+MINSUP = 413293
 THREAD = 0
 
 
@@ -194,11 +196,11 @@ def setup_logger(name, log_file, level=logging.INFO):
     return logger
 
 
-logger_path = './log_all_accidents'
+logger_path = './log_all_accidents3'
 
 logger = setup_logger('logger1', f'{logger_path}.log')
 logger2 = setup_logger('logger2', f'{logger_path}_reduced.log')
 
-a = np.load("bitmap_sample_result.npy")
-trees, bit_index_table = create_trees('../bitmap_column_details.csv')
+a = np.load("./data_uint32.npy")
+trees, bit_index_table = create_trees('../bitmap_column_details.csv', ignore_casualty_severity=True)
 algorithm_one(a, trees, bit_index_table)
