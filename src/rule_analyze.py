@@ -46,8 +46,8 @@ support = 0
 currLine = 0
 secondLine = 0
 
-output = open("./result/all_accident_rules.txt",'w')
-input = open("./result/all_accidents.txt",'r')
+output = open("./result/rules/Fatal_accident_rules.txt",'w')
+input = open("./result/fatal_accidents.txt",'r')
 lines = input.readlines()
 for line in reversed(lines):
     # start at last line
