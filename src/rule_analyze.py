@@ -69,8 +69,6 @@ for line in reversed(lines):
         newSupport = newSupport[1:len(newSupport)-1]
         preLength = len(newRule.getPre())
         antiLength = len(newLine)
-        #result = True
-        #output.write("Precedent length is " + str(preLength) + " and anticedent length is " + str(len(newLine)) + "\n")
         for x in range(0,preLength):
             if ( antiLength >= preLength and compare(newLine[x],newRule.getPre()[x])):
                 result = True
