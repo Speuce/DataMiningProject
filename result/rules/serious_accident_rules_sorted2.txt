@@ -1,0 +1,621 @@
+time:afternoon,road_type:Single carriageway, -> light_conditions:Daylight, with confidence 0.989395070948469
+time:afternoon, -> light_conditions:Daylight, with confidence 0.9893406713489564
+road_type:Single carriageway,speed_limit:60,light_conditions:Daylight, -> urban_or_rural_area:Rural, with confidence 0.979890648299368
+road_type:Single carriageway,speed_limit:60, -> urban_or_rural_area:Rural, with confidence 0.9774485314854358
+speed_limit:60,light_conditions:Daylight, -> urban_or_rural_area:Rural, with confidence 0.9744979491823363
+speed_limit:60, -> urban_or_rural_area:Rural, with confidence 0.9716033739314623
+road_type:Single carriageway,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled, with confidence 0.9216382893149215
+road_type:Single carriageway,speed_limit:30,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled, with confidence 0.9084303878619511
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled, with confidence 0.9022435759941658
+speed_limit:30,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled, with confidence 0.891282804184254
+speed_limit:30,junction_detail:T or staggered junction, -> urban_or_rural_area:Urban, with confidence 0.8799045696458065
+road_type:Single carriageway,speed_limit:30,junction_detail:T or staggered junction, -> urban_or_rural_area:Urban, with confidence 0.8733839085372369
+speed_limit:30,junction_detail:T or staggered junction,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban, with confidence 0.8722837650482504
+speed_limit:30,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban, with confidence 0.8632707291807413
+road_type:Single carriageway,speed_limit:30,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban, with confidence 0.8617415860571959
+speed_limit:30,junction_control:Give way or uncontrolled,light_conditions:Daylight, -> urban_or_rural_area:Urban, with confidence 0.8546051590441526
+speed_limit:30, -> urban_or_rural_area:Urban, with confidence 0.8457306224385848
+speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban, with confidence 0.8398122052529114
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban, with confidence 0.8374896707217635
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban, with confidence 0.8325383082301434
+time:evening, -> road_type:Single carriageway, with confidence 0.8017187591971275
+time:afternoon, -> road_type:Single carriageway, with confidence 0.7981085403772985
+sex_of_driver:Female, -> sex_of_casualty:Female, with confidence 0.7952042088935933
+time:afternoon, -> road_type:Single carriageway,light_conditions:Daylight, with confidence 0.7896446559311763
+speed_limit:30,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, with confidence 0.7774515201566037
+light_conditions:Darkness - lights lit, -> urban_or_rural_area:Urban, with confidence 0.7773001158748551
+time:afternoon, -> light_conditions:Daylight,casualty_severity:Serious, with confidence 0.742497243277073
+road_type:Single carriageway,speed_limit:60, -> urban_or_rural_area:Rural,sex_of_driver:Male, with confidence 0.7330083397123404
+speed_limit:60, -> urban_or_rural_area:Rural,sex_of_driver:Male, with confidence 0.7298869052121946
+road_type:Single carriageway,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,casualty_severity:Serious, with confidence 0.7248769463543562
+speed_limit:30,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.7173354952033509
+time:afternoon, -> light_conditions:Daylight,sex_of_driver:Male, with confidence 0.7156850083943455
+road_type:Single carriageway,speed_limit:30,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.7132726391435376
+speed_limit:60, -> light_conditions:Daylight, with confidence 0.7100764051743702
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> light_conditions:Daylight, with confidence 0.7094023735518508
+road_type:Single carriageway,speed_limit:60, -> light_conditions:Daylight, with confidence 0.7092280730026993
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,casualty_severity:Serious, with confidence 0.7089271159538415
+speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.7052212843417696
+junction_control:Give way or uncontrolled, -> light_conditions:Daylight, with confidence 0.7040492213475315
+speed_limit:30, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.7004417487806137
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.6985656875878067
+road_type:Single carriageway,junction_detail:T or staggered junction,junction_control:Give way or uncontrolled, -> light_conditions:Daylight, with confidence 0.698398844591295
+junction_detail:T or staggered junction,junction_control:Give way or uncontrolled, -> light_conditions:Daylight, with confidence 0.6964749289185154
+road_type:Single carriageway,speed_limit:60, -> light_conditions:Daylight,urban_or_rural_area:Rural, with confidence 0.6949659562467265
+road_type:Single carriageway,junction_detail:T or staggered junction, -> light_conditions:Daylight, with confidence 0.694932296554498
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.6934708016614405
+speed_limit:60, -> light_conditions:Daylight,urban_or_rural_area:Rural, with confidence 0.6919680006051895
+junction_detail:T or staggered junction, -> urban_or_rural_area:Urban, with confidence 0.6916648792415597
+junction_detail:T or staggered junction, -> light_conditions:Daylight, with confidence 0.6915276049933508
+road_type:Single carriageway,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,sex_of_driver:Male, with confidence 0.6905655679620017
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.690475681453768
+urban_or_rural_area:Rural,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6864009158643469
+road_type:Single carriageway,speed_limit:30,junction_control:Give way or uncontrolled, -> light_conditions:Daylight, with confidence 0.6852964110345409
+road_type:Single carriageway,junction_detail:T or staggered junction, -> urban_or_rural_area:Urban, with confidence 0.6837186141382414
+road_type:Single carriageway, -> light_conditions:Daylight, with confidence 0.6836495337905525
+speed_limit:30,junction_control:Give way or uncontrolled, -> light_conditions:Daylight, with confidence 0.683042832049723
+road_type:Single carriageway,speed_limit:60, -> urban_or_rural_area:Rural,casualty_type:Car/Taxi Occupant, with confidence 0.6820031425003021
+road_type:Single carriageway,light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6795532028711266
+road_type:Single carriageway,speed_limit:60, -> urban_or_rural_area:Rural,casualty_type:Car occupant, with confidence 0.6772491035816446
+junction_control:Give way or uncontrolled,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6771445244115931
+road_type:Single carriageway,speed_limit:60,urban_or_rural_area:Rural, -> first_point_of_impact:Front, with confidence 0.6769952084084703
+road_type:Single carriageway,speed_limit:60, -> first_point_of_impact:Front, with confidence 0.6765440554369284
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,sex_of_driver:Male, with confidence 0.674539916777487
+junction_detail:T or staggered junction,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban, with confidence 0.6734625954488831
+speed_limit:60, -> urban_or_rural_area:Rural,casualty_type:Car/Taxi Occupant, with confidence 0.6711740676299266
+speed_limit:30,urban_or_rural_area:Urban,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6706171396411023
+road_type:Single carriageway,speed_limit:30, -> light_conditions:Daylight, with confidence 0.6699829806329454
+speed_limit:60,urban_or_rural_area:Rural, -> first_point_of_impact:Front, with confidence 0.6695928914150016
+road_type:Single carriageway,speed_limit:30,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6693947203454761
+road_type:Single carriageway,junction_detail:T or staggered junction,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban, with confidence 0.6690980123229742
+vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6689874906623634
+speed_limit:30,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area, with confidence 0.6689005990181507
+road_type:Single carriageway,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6688232691882326
+road_type:Single carriageway,road_surface_conditions:Wet or damp, -> first_point_of_impact:Front, with confidence 0.6683283060803302
+speed_limit:30, -> light_conditions:Daylight, with confidence 0.6679419952398166
+speed_limit:60, -> first_point_of_impact:Front, with confidence 0.6678266132082609
+road_type:Single carriageway,urban_or_rural_area:Rural, -> first_point_of_impact:Front, with confidence 0.6675755495395137
+road_type:Single carriageway,speed_limit:30,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area, with confidence 0.6669617078670629
+speed_limit:60, -> urban_or_rural_area:Rural,casualty_type:Car occupant, with confidence 0.6665122172630304
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6662513913425306
+light_conditions:Daylight,urban_or_rural_area:Urban,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6623533388054657
+road_type:Single carriageway,speed_limit:60, -> urban_or_rural_area:Rural,first_point_of_impact:Front, with confidence 0.6617279722815358
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6612797575402063
+road_type:Single carriageway,speed_limit:60, -> urban_or_rural_area:Rural,casualty_severity:Serious, with confidence 0.6589581402844366
+urban_or_rural_area:Urban,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6587735934254493
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6586523323287301
+speed_limit:60, -> urban_or_rural_area:Rural,casualty_severity:Serious, with confidence 0.6583327029276042
+speed_limit:30,urban_or_rural_area:Urban,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.657805211397332
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6571937615741756
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6566011104379922
+speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6563048164276925
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Rural, -> first_point_of_impact:Front, with confidence 0.655843079473248
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front, with confidence 0.6553068262202311
+road_type:Single carriageway,urban_or_rural_area:Urban,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6522312613537635
+road_type:Single carriageway,speed_limit:60, -> urban_or_rural_area:Rural,sex_of_casualty:Male, with confidence 0.6519479473026872
+speed_limit:30,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban,sex_of_driver:Male, with confidence 0.6513534207089132
+speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area, with confidence 0.6509702494324691
+speed_limit:60, -> urban_or_rural_area:Rural,first_point_of_impact:Front, with confidence 0.6505787124593388
+speed_limit:60, -> urban_or_rural_area:Rural,sex_of_casualty:Male, with confidence 0.6499640668734398
+urban_or_rural_area:Urban,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6491565903492429
+speed_limit:30, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area, with confidence 0.6480374805766675
+junction_control:Give way or uncontrolled,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6468196848862089
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6467265317053167
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6459980770362812
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area, with confidence 0.644811644395073
+road_type:Single carriageway,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,light_conditions:Daylight, with confidence 0.6436711163886388
+road_surface_conditions:Wet or damp, -> first_point_of_impact:Front, with confidence 0.6429609476654782
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6422232887763334
+speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6415823784547985
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6412793779819757
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area, with confidence 0.6409460797994889
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.6398910067500017
+light_conditions:Daylight,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6386244923704969
+road_type:Single carriageway,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.638288860652266
+speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6378035902851109
+road_type:Single carriageway,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.637699992627
+junction_control:Give way or uncontrolled,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6371440496291096
+road_type:Single carriageway, -> first_point_of_impact:Front, with confidence 0.6368159050628034
+speed_limit:30,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.63604673753157
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.636035005667487
+junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6351532873395166
+urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.6349485582748893
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6336875147370903
+urban_or_rural_area:Rural, -> first_point_of_impact:Front, with confidence 0.6332714437383328
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban, with confidence 0.633081378920599
+road_type:Single carriageway,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6330273538302735
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6324790733317613
+speed_limit:30, -> urban_or_rural_area:Urban,sex_of_driver:Male, with confidence 0.6320058962430228
+junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.631900214739343
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6312281648748744
+speed_limit:30,junction_control:Give way or uncontrolled, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6309417646264018
+urban_or_rural_area:Urban,age_of_vehicle:≤9, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6301609392284909
+speed_limit:60, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6300400938043725
+speed_limit:30,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6297188532097361
+road_type:Single carriageway,junction_detail:T or staggered junction, -> first_point_of_impact:Front, with confidence 0.6296516193285198
+time:afternoon, -> light_conditions:Daylight,driver_home_area_type:Urban area, with confidence 0.6296156482520886
+speed_limit:60,urban_or_rural_area:Rural, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.629592502116809
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6290308879552003
+road_type:Single carriageway,speed_limit:30, -> vehicle_manoeuvre:Going ahead other, with confidence 0.6285454734503346
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,light_conditions:Daylight, with confidence 0.6283900304577238
+road_type:Single carriageway,speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6283346102946298
+road_type:Single carriageway,speed_limit:60, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6272813343539745
+junction_detail:T or staggered junction,junction_control:Give way or uncontrolled, -> first_point_of_impact:Front, with confidence 0.62721921624937
+speed_limit:30,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6268642847186731
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.626336754115731
+speed_limit:30, -> vehicle_manoeuvre:Going ahead other, with confidence 0.626175375674242
+speed_limit:30,urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6253148497117376
+road_type:Single carriageway,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,sex_of_casualty:Male, with confidence 0.6251891291440829
+junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban, with confidence 0.6251785245021309
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.6250220887082524
+speed_limit:30,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6248776101508642
+road_type:Single carriageway,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6242587886488776
+junction_detail:T or staggered junction, -> first_point_of_impact:Front, with confidence 0.6235682724893827
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban,sex_of_driver:Male, with confidence 0.6235272227785895
+speed_limit:30,urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6234298243179485
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> first_point_of_impact:Front, with confidence 0.6227677309974569
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.6221137993656426
+urban_or_rural_area:Rural, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6221061582662862
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6219631604053861
+speed_limit:30,urban_or_rural_area:Urban,first_point_of_impact:Front, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6219471239061888
+road_type:Single carriageway,urban_or_rural_area:Rural, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6218831362288053
+urban_or_rural_area:Rural,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6216579133460991
+road_type:Single carriageway,light_conditions:Daylight, -> first_point_of_impact:Front, with confidence 0.6215705635434843
+urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6215114837393619
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6209609440854172
+junction_control:Give way or uncontrolled,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6208811515269402
+road_type:Single carriageway,urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6207899364263493
+junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6206058390825604
+light_conditions:Daylight,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.6203462865971636
+speed_limit:30,light_conditions:Daylight,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6203215755664115
+junction_control:Give way or uncontrolled, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6201969767946711
+road_type:Single carriageway,urban_or_rural_area:Rural,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6201018675721562
+urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6200861626022687
+light_conditions:Daylight,urban_or_rural_area:Rural, -> first_point_of_impact:Front, with confidence 0.6197962975010662
+first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6189612067086917
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6188018758707298
+road_type:Single carriageway,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6183524605637007
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6183349270489528
+speed_limit:30,junction_control:Give way or uncontrolled, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6181146691888484
+road_type:Single carriageway,urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6177584827521295
+road_type:Single carriageway,urban_or_rural_area:Urban,first_point_of_impact:Front, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6177175320283667
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6176167177552464
+vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6175964407612082
+urban_or_rural_area:Rural,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6175515642887975
+urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6172398789166125
+speed_limit:30, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6171103714726993
+time:afternoon, -> light_conditions:Daylight,sex_of_casualty:Male, with confidence 0.617078767769687
+speed_limit:30,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6167263214780817
+junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other, with confidence 0.6166948416868461
+road_type:Single carriageway,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, with confidence 0.6166663474613602
+road_type:Single carriageway,urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6166354273347375
+road_type:Single carriageway,junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,driver_home_area_type:Urban area, with confidence 0.616513128914255
+urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6162839413461918
+light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6162710759264903
+road_type:Single carriageway,speed_limit:30,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6162535889019078
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> vehicle_manoeuvre:Going ahead other, with confidence 0.615766001241546
+speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,sex_of_driver:Male, with confidence 0.6155057174785463
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6154596402142614
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6153737409436296
+urban_or_rural_area:Urban,first_point_of_impact:Front, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6152800284573732
+speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6152355851885467
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6151737779033626
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6151545139669831
+speed_limit:30,light_conditions:Daylight, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6151051074267481
+speed_limit:30,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6149249289233155
+road_type:Single carriageway,speed_limit:30,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6146525585181077
+speed_limit:30,urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6142601264996175
+road_type:Single carriageway,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6141709061417091
+road_type:Single carriageway,speed_limit:30, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6136330055326624
+junction_detail:T or staggered junction,junction_control:Give way or uncontrolled, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6135259269120682
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6133030464991983
+road_type:Single carriageway,junction_detail:T or staggered junction, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6130465592860016
+road_type:Single carriageway,speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6129849550741798
+speed_limit:30,light_conditions:Daylight, -> vehicle_manoeuvre:Going ahead other, with confidence 0.6127787578277095
+road_type:Single carriageway,speed_limit:30, -> first_point_of_impact:Front, with confidence 0.6118380369172508
+speed_limit:60, -> urban_or_rural_area:Rural,sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6117141992586429
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Rural, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6112165024403721
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.611012186754664
+light_conditions:Daylight,urban_or_rural_area:Rural, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6108328092584159
+speed_limit:30,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6100985562702179
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,sex_of_casualty:Male, with confidence 0.60960919737463
+speed_limit:30,junction_control:Give way or uncontrolled, -> vehicle_manoeuvre:Going ahead other, with confidence 0.609251002116831
+road_type:Single carriageway,urban_or_rural_area:Urban, -> first_point_of_impact:Front, with confidence 0.6088639465386606
+junction_detail:T or staggered junction, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.608794131525889
+speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.6082103554504438
+road_type:Single carriageway, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6079956846728828
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, with confidence 0.6076273004161126
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,sex_of_driver:Male, with confidence 0.6074754141209527
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,driver_home_area_type:Urban area, with confidence 0.6068208142078847
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6067623599289198
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> first_point_of_impact:Front, with confidence 0.6066572136150081
+road_type:Single carriageway,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.6060329573103296
+light_conditions:Daylight,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6059749430112895
+road_type:Single carriageway,light_conditions:Daylight,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.605897287102858
+road_type:Single carriageway,speed_limit:30,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.6047498066939136
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.603511742269316
+junction_control:Give way or uncontrolled, -> first_point_of_impact:Front, with confidence 0.6022531220364933
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.6017872940188626
+road_type:Single carriageway,junction_detail:T or staggered junction, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6017849960737748
+road_type:Single carriageway,speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.6017796196977084
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.6015351274380609
+junction_control:Give way or uncontrolled,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.6015063269526285
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.6014280240509314
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> urban_or_rural_area:Urban, with confidence 0.6004819824571368
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5996695237082919
+speed_limit:30, -> first_point_of_impact:Front, with confidence 0.5993840867160837
+junction_detail:T or staggered junction,junction_control:Give way or uncontrolled, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5991099361930754
+road_surface_conditions:Wet or damp, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5990503067069977
+junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5990222506510714
+junction_detail:T or staggered junction, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5990219209815109
+urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5983521804834914
+speed_limit:30,urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5980745190962181
+speed_limit:30,junction_control:Give way or uncontrolled, -> first_point_of_impact:Front, with confidence 0.5977120208980768
+speed_limit:30,junction_control:Give way or uncontrolled, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5969373508084493
+urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.596869688945101
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5965768521434034
+road_type:Single carriageway,light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5965731714132874
+speed_limit:30, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5963655482895731
+road_type:Single carriageway,speed_limit:30, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5956669019826741
+road_type:Single carriageway,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5953868417337287
+speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5953293130983445
+speed_limit:30,light_conditions:Daylight, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5953065369720908
+junction_control:Give way or uncontrolled, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5951864081441449
+speed_limit:30,urban_or_rural_area:Urban, -> first_point_of_impact:Front, with confidence 0.5950098526269046
+light_conditions:Daylight, -> first_point_of_impact:Front, with confidence 0.5949302769955236
+light_conditions:Daylight, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5948622894622901
+speed_limit:30,age_of_vehicle:≤9, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5946903297881037
+speed_limit:30,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5943826149704421
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5942584296156567
+junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, -> first_point_of_impact:Front, with confidence 0.5941883309727235
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5937649065258729
+road_type:Single carriageway,speed_limit:30,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5929337605349307
+road_type:Single carriageway,light_conditions:Daylight, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5928140202801712
+speed_limit:30,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban,sex_of_casualty:Male, with confidence 0.5923163536459037
+urban_or_rural_area:Urban, -> first_point_of_impact:Front, with confidence 0.59187225421897
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5910533020666824
+speed_limit:30,urban_or_rural_area:Urban, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5907579584246898
+road_type:Single carriageway,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5907155496571554
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5902816349201163
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5900678157671658
+urban_or_rural_area:Urban, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5900241886056228
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> first_point_of_impact:Front, with confidence 0.5899467442088411
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Urban, -> first_point_of_impact:Front, with confidence 0.5886640749248984
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5879754569156479
+junction_control:Give way or uncontrolled, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5873884578910686
+road_type:Single carriageway,urban_or_rural_area:Urban, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5866217233752177
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> first_point_of_impact:Front, with confidence 0.5860630796569324
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.586018172100481
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5858999717434303
+speed_limit:30,urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.584976771087934
+junction_control:Give way or uncontrolled,urban_or_rural_area:Urban, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5848951432357107
+vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5840180933474757
+speed_limit:30,junction_control:Give way or uncontrolled, -> light_conditions:Daylight,urban_or_rural_area:Urban, with confidence 0.5837319281178219
+speed_limit:30,junction_control:Give way or uncontrolled, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5831103904877719
+speed_limit:30, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5820427477619157
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5802780125699843
+light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5800690305250997
+light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.579225639099343
+urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.579036401723252
+road_type:Single carriageway,speed_limit:30,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5779272470327272
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5777150458727056
+road_type:Single carriageway,light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5775707202567726
+road_type:Single carriageway,speed_limit:30, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5768580387778891
+road_type:Single carriageway, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5767126454496416
+speed_limit:30,light_conditions:Daylight, -> first_point_of_impact:Front, with confidence 0.5766395142076004
+speed_limit:30,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5766257567806765
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5764180950698004
+speed_limit:30,light_conditions:Daylight, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5762740453884161
+junction_detail:T or staggered junction, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5760628029685556
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5753095697062763
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5751899628909701
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5742075445807223
+road_type:Single carriageway, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5739570008476536
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5739428074080893
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5735981670124161
+junction_detail:T or staggered junction, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.5730856677105229
+speed_limit:30,urban_or_rural_area:Urban, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5730731869778801
+light_conditions:Daylight, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5729452557225823
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> first_point_of_impact:Front, with confidence 0.5728883346862944
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5727320398531726
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5718064605123295
+speed_limit:30,first_point_of_impact:Front, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.571597521910416
+road_type:Single carriageway,urban_or_rural_area:Urban, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5712327638947715
+light_conditions:Daylight,urban_or_rural_area:Urban, -> first_point_of_impact:Front, with confidence 0.5705436685400823
+speed_limit:30,junction_control:Give way or uncontrolled, -> light_conditions:Daylight,casualty_severity:Serious, with confidence 0.5704814664684953
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5704649852290774
+speed_limit:30, -> urban_or_rural_area:Urban,sex_of_casualty:Male, with confidence 0.5703910955463648
+speed_limit:30,urban_or_rural_area:Urban,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5696196112805431
+road_type:Single carriageway,light_conditions:Daylight, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5694814534272948
+first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5686618671970648
+road_type:Single carriageway,urban_or_rural_area:Urban,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5680043734696706
+light_conditions:Daylight, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5680036355438823
+road_type:Single carriageway,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5679262726344271
+speed_limit:30, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5678889478304548
+road_type:Single carriageway,speed_limit:30, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5678613058396678
+road_type:Single carriageway,speed_limit:30,first_point_of_impact:Front, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5677128520701591
+urban_or_rural_area:Urban, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5674450375929296
+urban_or_rural_area:Rural,first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.5673979198614301
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5670763709008414
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban,sex_of_casualty:Male, with confidence 0.5662742909053099
+speed_limit:30,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5661208074860687
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,first_point_of_impact:Front, with confidence 0.5659045086010897
+road_type:Single carriageway,speed_limit:30,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5657801308965177
+light_conditions:Daylight,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.565165613102291
+light_conditions:Daylight,urban_or_rural_area:Rural, -> age_of_vehicle:≤9, with confidence 0.5648587889170805
+road_type:Single carriageway,light_conditions:Daylight, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5647022223424545
+urban_or_rural_area:Urban,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.564480052801408
+speed_limit:30,junction_control:Give way or uncontrolled, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.564040895374499
+road_type:Single carriageway,light_conditions:Daylight,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5638401276657479
+road_surface_conditions:Wet or damp, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5634030113050679
+road_type:Single carriageway, -> speed_limit:30, with confidence 0.563251907220467
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.561874952925325
+urban_or_rural_area:Rural, -> age_of_vehicle:≤9, with confidence 0.5617713506523566
+speed_limit:30, -> light_conditions:Daylight,urban_or_rural_area:Urban, with confidence 0.56094584000338
+urban_or_rural_area:Urban,age_band_of_driver:Adult, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5604894789126704
+road_type:Single carriageway,light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.560434705778406
+junction_control:Give way or uncontrolled,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5585117332235487
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5580195822650054
+light_conditions:Daylight,urban_or_rural_area:Urban, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5578644478621091
+road_type:Single carriageway,speed_limit:30, -> light_conditions:Daylight,urban_or_rural_area:Urban, with confidence 0.5577864972391413
+road_surface_conditions:Wet or damp, -> age_of_vehicle:≤9, with confidence 0.5577420281528297
+vehicle_manoeuvre:Going ahead other,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.557542417562872
+speed_limit:30,light_conditions:Daylight, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.557220469065173
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5571846309667723
+age_band_of_driver:Adult, -> age_of_vehicle:≤9, with confidence 0.5571198054301817
+first_point_of_impact:Front,age_band_of_driver:Adult, -> age_of_vehicle:≤9, with confidence 0.5570456616699664
+speed_limit:30,first_point_of_impact:Front, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5561838673548508
+light_conditions:Daylight,age_band_of_driver:Adult, -> age_of_vehicle:≤9, with confidence 0.5560962995869275
+road_type:Single carriageway,speed_limit:30, -> light_conditions:Daylight,casualty_severity:Serious, with confidence 0.5560188909501842
+speed_limit:30, -> light_conditions:Daylight,casualty_severity:Serious, with confidence 0.5555612932301178
+speed_limit:30,vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5551221955844993
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5535498262622797
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5535008017103153
+road_type:Single carriageway,speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5518910635926726
+speed_limit:30, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5514442509283297
+road_type:Single carriageway,light_conditions:Daylight,age_band_of_driver:Adult, -> age_of_vehicle:≤9, with confidence 0.5511909236920343
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5510438072726952
+road_type:Single carriageway,urban_or_rural_area:Rural, -> age_of_vehicle:≤9, with confidence 0.5509449359464256
+road_type:Single carriageway,age_band_of_driver:Adult, -> age_of_vehicle:≤9, with confidence 0.5506539041836429
+junction_control:Give way or uncontrolled,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5502429824094425
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> light_conditions:Daylight,casualty_severity:Serious, with confidence 0.5495478948855609
+road_type:Single carriageway,speed_limit:30,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,casualty_severity:Serious, with confidence 0.5492616841958626
+junction_control:Give way or uncontrolled, -> light_conditions:Daylight,casualty_severity:Serious, with confidence 0.5492270603155742
+junction_detail:T or staggered junction, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5487881257775299
+vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5481120433844134
+junction_control:Give way or uncontrolled, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5468562549272763
+vehicle_manoeuvre:Going ahead other,age_band_of_driver:Adult, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5464161767269385
+first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.5462084322216896
+speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,sex_of_casualty:Male, with confidence 0.5461439525452795
+junction_detail:T or staggered junction, -> light_conditions:Daylight,casualty_severity:Serious, with confidence 0.5458195701600103
+road_type:Single carriageway,speed_limit:30, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5454953401958048
+light_conditions:Daylight,first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.5451248338455802
+urban_or_rural_area:Rural,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5441080433304384
+speed_limit:30,urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,casualty_severity:Serious, with confidence 0.5440494995069248
+speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.543128834787009
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,sex_of_casualty:Male, with confidence 0.5428006665141961
+light_conditions:Daylight, -> age_of_vehicle:≤9, with confidence 0.5424295881744632
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5423354054817745
+speed_limit:30,urban_or_rural_area:Urban,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.542076055922684
+light_conditions:Daylight,urban_or_rural_area:Rural, -> age_band_of_driver:Adult, with confidence 0.5419657508005696
+speed_limit:30,light_conditions:Daylight,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5417934158047726
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5417905473839659
+junction_detail:T or staggered junction, -> junction_control:Give way or uncontrolled,sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5405430912444769
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,casualty_severity:Serious, with confidence 0.5402815887724349
+light_conditions:Daylight,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5400650862782925
+speed_limit:30,light_conditions:Daylight, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5400504628100335
+road_surface_conditions:Wet or damp, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5399564019804992
+road_type:Single carriageway,light_conditions:Daylight,first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.5397794864355143
+road_type:Single carriageway,light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5396855812913682
+light_conditions:Daylight, -> age_band_of_driver:Adult, with confidence 0.5396814605153455
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5394333964646465
+road_type:Single carriageway,first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.5392523681140761
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5390768446106766
+road_type:Single carriageway,first_point_of_impact:Front,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5387393666735312
+junction_detail:T or staggered junction, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5386898888936553
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> age_band_of_driver:Adult, with confidence 0.5384187812661991
+light_conditions:Daylight,urban_or_rural_area:Urban,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5383557313603704
+road_type:Single carriageway,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5383538089660844
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5382620676843051
+vehicle_manoeuvre:Going ahead other,age_band_of_driver:Adult, -> age_of_vehicle:≤9, with confidence 0.5382232223507599
+speed_limit:30, -> urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, with confidence 0.5379242032326058
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5378181461757114
+speed_limit:30,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5376647886542144
+light_conditions:Daylight,urban_or_rural_area:Urban, -> age_band_of_driver:Adult, with confidence 0.5374671325400256
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.537413245319103
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5374023255247847
+road_type:Single carriageway,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5372488117087862
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,casualty_severity:Serious, with confidence 0.536850094317378
+sex_of_driver:Male,age_band_of_driver:Adult, -> age_of_vehicle:≤9, with confidence 0.5367402404363428
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.536520169625961
+urban_or_rural_area:Rural, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5362054130753091
+road_surface_conditions:Wet or damp, -> urban_or_rural_area:Rural, with confidence 0.5361457998884702
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, with confidence 0.5359021085408766
+junction_detail:T or staggered junction, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area, with confidence 0.5356955943545966
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,sex_of_casualty:Male, with confidence 0.5356048101862768
+vehicle_manoeuvre:Going ahead other,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5354420550528501
+road_type:Single carriageway,light_conditions:Daylight, -> age_of_vehicle:≤9, with confidence 0.5354046340506688
+sex_of_driver:Male,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5348620258596564
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> age_band_of_driver:Adult, with confidence 0.5347408735729181
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.534519880317098
+road_type:Single carriageway, -> age_of_vehicle:≤9, with confidence 0.5344933343607922
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5342568693436142
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5338320299217953
+first_point_of_impact:Front,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5335333179229621
+first_point_of_impact:Front,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5334744908247631
+age_band_of_driver:Adult,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5330411026775577
+speed_limit:30, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5325725176863818
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5322158154170606
+road_type:Single carriageway,light_conditions:Daylight,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5321923034994004
+speed_limit:30,light_conditions:Daylight,urban_or_rural_area:Urban, -> age_band_of_driver:Adult, with confidence 0.5320484387945535
+sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5311024170780486
+driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5308437551032809
+urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5304790466788624
+junction_control:Give way or uncontrolled, -> age_of_vehicle:≤9, with confidence 0.5300492441986677
+vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5299402022651493
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> age_of_vehicle:≤9, with confidence 0.5299095789771122
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.5293138681611295
+urban_or_rural_area:Urban,first_point_of_impact:Front, -> driver_home_area_type:Urban area,sex_of_casualty:Male, with confidence 0.5291806647958579
+road_type:Single carriageway,sex_of_driver:Male,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5285675713268805
+road_type:Single carriageway, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5283008399475996
+road_type:Single carriageway,urban_or_rural_area:Urban,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5281830143882834
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> age_of_vehicle:≤9, with confidence 0.5280547869621312
+road_type:Single carriageway,sex_of_driver:Male,age_band_of_driver:Adult, -> age_of_vehicle:≤9, with confidence 0.5279457367512417
+road_type:Single carriageway,light_conditions:Daylight, -> age_band_of_driver:Adult, with confidence 0.5277533556063537
+speed_limit:30, -> urban_or_rural_area:Urban,sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5272536933671961
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.526909926904032
+road_type:Single carriageway,speed_limit:30, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5268999031373643
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban,driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5268068712274192
+road_type:Single carriageway,age_band_of_driver:Adult, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5267517363126034
+light_conditions:Daylight,first_point_of_impact:Front,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5265355767281573
+road_type:Single carriageway,light_conditions:Daylight,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5265331788030478
+light_conditions:Daylight,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5264875819668138
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5264795405814703
+road_type:Single carriageway,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5262077744809994
+road_type:Single carriageway,light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> age_band_of_driver:Adult, with confidence 0.5259766700998826
+vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5257626277935462
+road_type:Single carriageway,urban_or_rural_area:Rural, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5257380085750185
+light_conditions:Daylight,first_point_of_impact:Front, -> age_band_of_driver:Adult, with confidence 0.5257095771106874
+first_point_of_impact:Front,age_band_of_driver:Adult, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.525674868797335
+road_type:Single carriageway,first_point_of_impact:Front,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5255941911333604
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,casualty_severity:Serious, with confidence 0.525435595938001
+light_conditions:Daylight,urban_or_rural_area:Urban, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5254328582464546
+light_conditions:Daylight,driver_home_area_type:Urban area, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5254197421623862
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5253174941751715
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5251876671747822
+urban_or_rural_area:Urban,first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.5251017746334137
+light_conditions:Daylight,first_point_of_impact:Front,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5250435840259478
+speed_limit:30,light_conditions:Daylight, -> age_band_of_driver:Adult, with confidence 0.5249608175256355
+urban_or_rural_area:Urban,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5249396671376589
+speed_limit:30, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5247844068783243
+light_conditions:Daylight,urban_or_rural_area:Rural, -> vehicle_manoeuvre:Going ahead other, with confidence 0.524617063879311
+urban_or_rural_area:Urban, -> age_of_vehicle:≤9, with confidence 0.5244389132438464
+first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5242700751617543
+road_type:Single carriageway, -> light_conditions:Daylight,casualty_severity:Serious, with confidence 0.5241365492794945
+road_type:Single carriageway, -> urban_or_rural_area:Urban, with confidence 0.5239793480773677
+age_band_of_driver:Adult, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.523911975865859
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5236325573469868
+vehicle_manoeuvre:Going ahead other, -> age_of_vehicle:≤9, with confidence 0.5233409960420803
+urban_or_rural_area:Rural, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.52271549403495
+road_type:Single carriageway,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5226048313016708
+speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, with confidence 0.5224587617635276
+speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5223322533261177
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5219884340183618
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> light_conditions:Daylight,sex_of_driver:Male, with confidence 0.521693981350664
+junction_control:Give way or uncontrolled, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.521691441106909
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, with confidence 0.52144934165387
+sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5211806309620665
+speed_limit:30, -> junction_control:Give way or uncontrolled, with confidence 0.521155588521104
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.5211429782424414
+vehicle_manoeuvre:Going ahead other, -> age_band_of_driver:Adult, with confidence 0.5208688438664625
+light_conditions:Daylight,urban_or_rural_area:Urban, -> age_of_vehicle:≤9, with confidence 0.5204362955980637
+junction_control:Give way or uncontrolled, -> light_conditions:Daylight,sex_of_driver:Male, with confidence 0.5202803834420666
+speed_limit:30,urban_or_rural_area:Urban,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5201295421457647
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban,sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5200483765931715
+junction_control:Give way or uncontrolled,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5197998342091854
+speed_limit:30,light_conditions:Daylight, -> vehicle_manoeuvre:Going ahead other,casualty_severity:Serious, with confidence 0.5196404349078948
+road_type:Single carriageway,urban_or_rural_area:Urban, -> age_of_vehicle:≤9, with confidence 0.5195479787284107
+road_type:Single carriageway,speed_limit:30, -> junction_control:Give way or uncontrolled, with confidence 0.5193479010359376
+urban_or_rural_area:Urban,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5190064146649495
+road_type:Single carriageway,light_conditions:Daylight,first_point_of_impact:Front, -> age_band_of_driver:Adult, with confidence 0.5189830262585231
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> age_band_of_driver:Adult, with confidence 0.5188273924265691
+light_conditions:Daylight,urban_or_rural_area:Rural, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5187691106629367
+junction_control:Give way or uncontrolled,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5187503327223917
+road_type:Single carriageway,light_conditions:Daylight,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5186669296969398
+speed_limit:30,urban_or_rural_area:Urban, -> age_of_vehicle:≤9, with confidence 0.5186256279315035
+speed_limit:30,first_point_of_impact:Front, -> age_of_vehicle:≤9, with confidence 0.5185739236679485
+road_type:Single carriageway,light_conditions:Daylight, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5185736249566036
+urban_or_rural_area:Rural, -> age_band_of_driver:Adult, with confidence 0.5185593309885731
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> age_of_vehicle:≤9, with confidence 0.5184271501464554
+urban_or_rural_area:Urban, -> age_band_of_driver:Adult, with confidence 0.5180665958631402
+speed_limit:30,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5179059892644181
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> age_of_vehicle:≤9, with confidence 0.5178943654148996
+road_type:Single carriageway,light_conditions:Daylight,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5175250253880749
+urban_or_rural_area:Rural,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5171645358270552
+urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,sex_of_casualty:Male, with confidence 0.5170466507904574
+urban_or_rural_area:Rural,first_point_of_impact:Front, -> sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5169915062332647
+speed_limit:30, -> age_of_vehicle:≤9, with confidence 0.5168648511621138
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,sex_of_casualty:Male, with confidence 0.5168619353489678
+road_type:Single carriageway,light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,casualty_severity:Serious, with confidence 0.5168507030108506
+junction_control:Give way or uncontrolled, -> age_band_of_driver:Adult, with confidence 0.5166813294791084
+road_type:Single carriageway,speed_limit:30, -> age_of_vehicle:≤9, with confidence 0.5166663930434021
+urban_or_rural_area:Urban,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5165887355703469
+speed_limit:30,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,sex_of_casualty:Male, with confidence 0.5165163331575587
+road_type:Single carriageway,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,sex_of_casualty:Male, with confidence 0.5164184196903384
+light_conditions:Daylight,first_point_of_impact:Front, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.516320724643783
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5160716043710826
+junction_control:Give way or uncontrolled, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.516064348799744
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,sex_of_driver:Male, with confidence 0.5158578300374131
+junction_control:Give way or uncontrolled, -> urban_or_rural_area:Urban,casualty_severity:Serious, with confidence 0.5155501982336071
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> urban_or_rural_area:Urban,sex_of_driver:Male,casualty_severity:Serious, with confidence 0.5151762668670565
+light_conditions:Daylight, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5149912510779602
+age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.514880381656182
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other, -> age_of_vehicle:≤9, with confidence 0.514879743452699
+road_type:Single carriageway,urban_or_rural_area:Urban,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5146433930969118
+speed_limit:30,urban_or_rural_area:Urban,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5140015449980687
+road_type:Single carriageway,speed_limit:30,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5139809666381523
+light_conditions:Daylight,age_band_of_driver:Adult, -> sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5139403663946002
+road_type:Single carriageway,urban_or_rural_area:Urban,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5136877023931758
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> age_band_of_driver:Adult, with confidence 0.5135949658099505
+road_type:Single carriageway,speed_limit:30,light_conditions:Daylight, -> age_of_vehicle:≤9, with confidence 0.5130198974090894
+light_conditions:Daylight,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5129880252940088
+light_conditions:Daylight,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5129126580515976
+speed_limit:30,urban_or_rural_area:Urban, -> age_band_of_driver:Adult, with confidence 0.5128583719574811
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5126259311521675
+vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5126016148144066
+speed_limit:30,light_conditions:Daylight, -> age_of_vehicle:≤9, with confidence 0.5124013409894366
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> age_band_of_driver:Adult, with confidence 0.5123415281162281
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5119454648205708
+light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5116820824771886
+urban_or_rural_area:Urban,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5115687126991028
+urban_or_rural_area:Rural,first_point_of_impact:Front, -> age_band_of_driver:Adult, with confidence 0.5115329302303407
+road_type:Single carriageway,light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> age_of_vehicle:≤9, with confidence 0.5112457783419962
+speed_limit:30,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5111520888139263
+road_type:Single carriageway,light_conditions:Daylight, -> urban_or_rural_area:Urban, with confidence 0.5102956360209745
+speed_limit:30,first_point_of_impact:Front, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5099742322543253
+speed_limit:30,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5097738114717988
+speed_limit:30,driver_home_area_type:Urban area,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5096261644553777
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5095846875089879
+road_type:Single carriageway,urban_or_rural_area:Rural, -> vehicle_manoeuvre:Going ahead other, with confidence 0.5089441846608205
+road_type:Single carriageway,urban_or_rural_area:Urban, -> age_band_of_driver:Adult, with confidence 0.5088357099157608
+road_type:Single carriageway,speed_limit:30,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5087006148974558
+road_type:Single carriageway,speed_limit:30, -> urban_or_rural_area:Urban,first_point_of_impact:Front, with confidence 0.5080691500714156
+road_type:Single carriageway,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5080539249522018
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> age_band_of_driver:Adult, with confidence 0.5077423000847697
+sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5076674240631676
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> age_band_of_driver:Adult, with confidence 0.5074067055679345
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other, -> age_band_of_driver:Adult, with confidence 0.5068359166221272
+road_type:Single carriageway,junction_control:Give way or uncontrolled, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5068027691438259
+first_point_of_impact:Front,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5063725387185576
+light_conditions:Daylight,urban_or_rural_area:Urban, -> driver_home_area_type:Urban area,sex_of_casualty:Male, with confidence 0.5063466976618922
+road_type:Single carriageway,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5057184471643619
+road_type:Single carriageway,light_conditions:Daylight,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5054412480937667
+vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5053549540031118
+speed_limit:30, -> age_band_of_driver:Adult, with confidence 0.5051944211025411
+vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,casualty_severity:Serious, with confidence 0.5051774873193864
+light_conditions:Daylight, -> urban_or_rural_area:Urban, with confidence 0.5048861566647463
+road_type:Single carriageway,light_conditions:Daylight,sex_of_driver:Male, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5048763346731437
+road_type:Single carriageway, -> age_band_of_driver:Adult, with confidence 0.5046127764506434
+first_point_of_impact:Front, -> age_band_of_driver:Adult, with confidence 0.5043167491451688
+vehicle_manoeuvre:Going ahead other, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5041869755962675
+road_type:Single carriageway,speed_limit:30,sex_of_driver:Male, -> age_band_of_driver:Adult, with confidence 0.5041201811554181
+sex_of_driver:Male,age_of_vehicle:≤9, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5039425823303957
+junction_control:Give way or uncontrolled, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5032619997029353
+speed_limit:30, -> urban_or_rural_area:Urban,first_point_of_impact:Front, with confidence 0.5032180530192426
+vehicle_manoeuvre:Going ahead other, -> first_point_of_impact:Front,sex_of_driver:Male, with confidence 0.5030643956433992
+urban_or_rural_area:Urban,driver_home_area_type:Urban area,casualty_severity:Serious, -> casualty_type:Sidewalk User, with confidence 0.5029885576633544
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,sex_of_driver:Male, -> age_of_vehicle:≤9, with confidence 0.5028329834047571
+vehicle_manoeuvre:Going ahead other,age_of_vehicle:≤9, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5027719727140098
+junction_control:Give way or uncontrolled,light_conditions:Daylight, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5027709934193978
+speed_limit:30, -> urban_or_rural_area:Urban,sex_of_driver:Male,sex_of_casualty:Male, with confidence 0.5026875789256257
+speed_limit:30,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5026504954067331
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> driver_home_area_type:Urban area,sex_of_casualty:Male, with confidence 0.5024365375676608
+road_type:Single carriageway,vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> age_band_of_driver:Adult, with confidence 0.5023299377651175
+road_type:Single carriageway,speed_limit:30,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5015584466501565
+speed_limit:30,vehicle_manoeuvre:Going ahead other, -> age_band_of_driver:Adult, with confidence 0.501446928463257
+vehicle_manoeuvre:Going ahead other,first_point_of_impact:Front, -> sex_of_driver:Male,driver_home_area_type:Urban area, with confidence 0.5013356365094543
+speed_limit:30, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5008144889844472
+urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.5006947790976761
+road_type:Single carriageway,urban_or_rural_area:Urban, -> sex_of_driver:Male,sex_of_casualty:Male,casualty_severity:Serious, with confidence 0.500441197232811
+first_point_of_impact:Front,age_band_of_driver:Adult, -> driver_home_area_type:Urban area,casualty_severity:Serious, with confidence 0.5002042676220106
+urban_or_rural_area:Urban,vehicle_manoeuvre:Going ahead other, -> age_of_vehicle:≤9, with confidence 0.5000073685451545
