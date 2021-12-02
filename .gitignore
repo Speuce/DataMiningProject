@@ -1,2 +1,4 @@
 .idea/*
 */__pycache__/*
+src/fatal_group_by_accident.npy
+src/serious_group_by_accident.npy

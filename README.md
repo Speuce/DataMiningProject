@@ -42,6 +42,8 @@ Running `mine_data` creates two log files. The first (`log_all_accidents.log`) t
 
 Finally, the resultant log file should by run through `python clean_sort_fisets.py` in order to remove duplicate entries and sort the frequent itemsets lexicographically. By default `clean_sort_fisets.py` runs on `src/log_all_accidents.log` and outputs the result in `result/all_accidents_sorted.txt`.
 
+Once the data has been obtained from the previous algorithms using the `rule_analyze.py` file the individual rules can be obtained.  At the moment this requires manual editing of the file input.  This can be set to the data output files such as `all_accidents.txt` which will then output a text file consisting of the rules generated plus their associated confidence values to `result\all_accident_rules.txt`.
+
 ## Approximate Runtimes
 
 On a modern-day 2.6Ghz 6 core intel i7 processor:
