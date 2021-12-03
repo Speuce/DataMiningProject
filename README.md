@@ -42,10 +42,10 @@ Running `mine_data` creates two log files. The first (`log_all_accidents.log`) t
 
 Finally, the resultant log file should by run through `python clean_sort_fisets.py` in order to remove duplicate entries and sort the frequent itemsets lexicographically. By default `clean_sort_fisets.py` runs on `src/log_all_accidents.log` and outputs the result in `result/all_accidents_sorted.txt`.
 
-Once the data has been obtained from the previous algorithms using the `rule_analyze.py` file the individual rules can be obtained.  At the moment this requires manual editing of the file input.  This can be set to the data output files such as `all_accidents.txt` which will then output a text file consisting of the rules generated plus their associated confidence values to `result\all_accident_rules.txt`.
-
+Once the data has been obtained from the previous algorithms using the `rule_analyze_other.py` file the individual rules can be obtained.  At the moment this requires manual editing of the file input.  This can be done by changing the `type` variable of the file to one of either "serious", "fatal", or "all".  This will generate all the association rules for the given data set and will output them to a file under `./result/rules/2/'dataset_accident_rules2.txt`.
 ## Approximate Runtimes
 
 On a modern-day 2.6Ghz 6 core intel i7 processor:
 - With the full dataset containing 2,755,286 entries, and using a minsup of 30%, the algorithm finished in approximately 4 hours.
 - Using a subset of the data (filtered to only include fatal accidents) with 49,191 entries, using a minsup of 15%, the algorithm finished in approximately 45 minutes.
+- Rule generation algorithm is trivial in its runtime, taking a matter of seconds.
