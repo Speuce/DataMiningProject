@@ -34,4 +34,5 @@ def clean_sort_itemsets(filepath: str, output_filepath: str, bycount: bool = Fal
             text_file.write(line)
     print('done!')
 
-
+clean_sort_itemsets(f'../result/log/log_all_accidents.log', f'../result/all_accidents.txt')
+clean_sort_itemsets(f'../result/log/log_all_accidents.log', f'../result/all_accidents_bycount.txt', True)

@@ -8,9 +8,14 @@ from numpy import ndarray
 from create_trees import create_trees
 from data_structs import TreeNode, Tree
 
-#MINSUP = 7370
-#MINSUP = 61878
+# MINSUP = 7370
+# MINSUP = 61878
 MINSUP = 413293
+output_path = './log_all_accidents'
+input_path = '../data/data_uint32.npy'
+column_detail_path = '../data/bitmap_column_details.csv'
+casualty_severity = True
+
 THREAD = 0
 
 
@@ -73,7 +78,7 @@ def algorithm_one(blocks: ndarray, trees: List[Tree], bit_index_table: ndarray):
 
     for i, a in enumerate(L1):
         THREAD += 1
-        #get_rec_maf_seq(a, MINSUP, blocks, MAFS, False, None, THREAD)
+        # get_rec_maf_seq(a, MINSUP, blocks, MAFS, False, None, THREAD)
         if i > 7:
             THREAD += 1
             x = threading.Thread(target=get_rec_maf_seq, args=(a, MINSUP, blocks, MAFS, False, None, THREAD))
@@ -196,11 +201,9 @@ def setup_logger(name, log_file, level=logging.INFO):
     return logger
 
 
-logger_path = './log_all_accidents3'
+logger = setup_logger('logger1', f'{output_path}.log')
+logger2 = setup_logger('logger2', f'{output_path}_reduced.log')
 
-logger = setup_logger('logger1', f'{logger_path}.log')
-logger2 = setup_logger('logger2', f'{logger_path}_reduced.log')
-
-a = np.load("./data_uint32.npy")
-trees, bit_index_table = create_trees('../bitmap_column_details.csv', ignore_casualty_severity=True)
+a = np.load(input_path)
+trees, bit_index_table = create_trees(column_detail_path, not casualty_severity)
 algorithm_one(a, trees, bit_index_table)

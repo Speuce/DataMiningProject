@@ -1,5 +1,7 @@
 import itertools
 
+input_file = '../result/all_accidents.txt'
+output_file = '../result/rules/2/all_accident_rules.txt'
 
 class Rule:
     def __init__(self, precedent, preSupport):
@@ -48,10 +50,8 @@ antiSupport = 0
 support = 0
 currLine = 0
 
-type = 'serious'
 
-with open(f'../result/{type}_accidents.txt', 'r') as inputFile, open(f'../result/rules/2/{type}_accident_rules2.txt',
-                                                               'w') as output:
+with open(input_file, 'r') as inputFile, open(output_file, 'w') as output:
     inp = inputFile.readlines()
     for line in inp:
         line = line.split('|')

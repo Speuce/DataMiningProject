@@ -1,14 +1,17 @@
 minconf = 0.5
 
+
 def clean_sort_rules(filepath: str, output_filepath: str, type: str):
     lines = []
+    allitems = set()
     with open(filepath) as f:
-        for line in f:
-            conf = float(line.split()[-1])
-            if conf < minconf:
-                continue
-            # part1 = line.split('->')[0]
-            # part2 = line.split('->')[1]
+        for line in f.readlines():
+            # conf = float(line.split()[-1])
+            # if conf < minconf:
+            #     continue
+            part1 = line.split('|')[0]
+            items = set([st.split(':')[0] for st in part1.strip(',').split(',')])
+            allitems = allitems.union(items)
             # ignore = False
             # oneRuleRight = len(part2.split(",")) == 2
             # if type == 'serious':
@@ -45,13 +48,12 @@ def clean_sort_rules(filepath: str, output_filepath: str, type: str):
             #     if 'casualty_severity:Slight' in part2:
             #         continue
             # if not ignore:
-            lines.append(line)
+            # lines.append(line)
     # lines = sorted(lines, key=lambda x: float(x.split()[-1]), reverse=True)
-
+    allitems = sorted(list(allitems))
     with open(output_filepath, "w") as text_file:
-        for line in lines:
-            text_file.write(line)
+        for line in allitems:
+            text_file.write(f'{line}\n')
     print('done!')
 
-for type in ['all', 'serious', 'Fatal']:
-    clean_sort_rules(f'../result/rules/2/{type}_accident_rules2.txt', f'../result/rules/2/cleaned_sorted/{type}_accident_rules_cleaned2.txt', type)
+clean_sort_rules(f'../result/all_accidents.txt', f'../keys.txt', "no")
